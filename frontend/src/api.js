@@ -9,7 +9,9 @@ async function request(path, options = {}) {
       ...options,
     });
   } catch {
-    throw new ApiError("Cannot reach the PocketLaw server. Is the backend running on port 5000?");
+    throw new ApiError(
+      "Cannot reach the PocketLaw server. It may be waking up (free hosting sleeps when idle). Please try again in 30 seconds."
+    );
   }
   if (!res.ok) {
     let data = {};

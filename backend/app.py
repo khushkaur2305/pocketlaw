@@ -13,10 +13,14 @@ from routes.survival import bp as survival_bp
 def create_app() -> Flask:
     app = Flask(__name__)
     app.config["JSON_SORT_KEYS"] = False
-    CORS(app, resources={r"/api/*": {"origins": "*"}})
+    CORS(app, resources={r"/api/*": {"origins": config.ALLOWED_ORIGINS}}, expose_headers=["Content-Disposition"])
 
     for bp in (match_bp, survival_bp, documents_bp, search_bp, stats_bp):
         app.register_blueprint(bp, url_prefix="/api")
+
+    @app.get("/")
+    def index():
+        return jsonify({"service": "PocketLaw API", "health": "/api/health"})
 
     @app.get("/api/health")
     def health():

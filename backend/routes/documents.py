@@ -64,6 +64,5 @@ def generate(template_id):
         headers={
             "Content-Disposition": f'attachment; filename="{filename}"',
             "X-Warnings": str(len(_warnings(t, values))),
-            "Access-Control-Expose-Headers": "Content-Disposition",
         },
     )

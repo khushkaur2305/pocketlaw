@@ -24,3 +24,7 @@ DISCLAIMER = (
 )
 
 PORT = int(os.environ.get("POCKETLAW_PORT", "5000"))
+
+# Comma-separated list of frontend origins allowed to call the API, e.g. "https://pocketlaw.vercel.app".
+_origins = os.environ.get("ALLOWED_ORIGINS", "*").strip()
+ALLOWED_ORIGINS = "*" if _origins in ("", "*") else [o.strip() for o in _origins.split(",") if o.strip()]

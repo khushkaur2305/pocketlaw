@@ -64,6 +64,29 @@ The tests cover retrieval relevance (13 everyday problems must surface the right
 
 > scikit-learn is pinned to 1.6.1 because newer wheels' DLLs are blocked by Windows Smart App Control on some machines.
 
+## Deployment (Vercel + Render, free tiers)
+
+The React frontend is hosted on **Vercel**, and the Flask API on **Render**. Both deploy automatically from GitHub on every push.
+
+1. **Push to GitHub:** create an empty repository on github.com, then from the project folder run:
+   ```bash
+   git remote add origin https://github.com/<your-username>/pocketlaw.git
+   ```
+   ```bash
+   git push -u origin main
+   ```
+2. **Backend on Render:** at dashboard.render.com, choose **New → Blueprint**, pick the repository, then click **Apply**. Render reads `render.yaml`, installs the requirements, builds the search index and starts the app with gunicorn. When it shows **Live**, copy the URL (for example `https://pocketlaw-api.onrender.com`) and check that `<url>/api/health` returns `"status": "ok"`.
+3. **Frontend on Vercel:** at vercel.com, choose **Add New → Project** and import the repository.
+   - Set **Root Directory** to `frontend`. The framework is detected as Vite.
+   - Under **Environment Variables**, add `VITE_API_BASE` = `https://<your-render-url>/api`.
+   - Click **Deploy**.
+4. **Optional hardening:** in Render → Environment, set `ALLOWED_ORIGINS` to your Vercel URL (for example `https://pocketlaw.vercel.app`) so only your site can call the API.
+
+Notes:
+- Render's free tier sleeps after about 15 minutes of inactivity. The first request after that takes around 30 to 60 seconds while it wakes up.
+- `frontend/vercel.json` rewrites all paths to `index.html`, so links such as `/guide/cyber_fraud` work when the page is refreshed.
+- DuckDuckGo sometimes blocks requests from cloud servers. If that happens, the optional web search shows "unavailable", and everything else keeps working.
+
 ## Extending the knowledge base
 
 - **Laws:** add entries to `backend/data/laws.json` (`act`, `ref`, `title`, `category`, `text`, `keywords`, optional `punishment`, `old_equivalent`, `related_judgments`).
