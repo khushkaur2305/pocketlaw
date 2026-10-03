@@ -1,0 +1,67 @@
+{
+  "id": "consumer_complaint",
+  "title": "Consumer Complaint to District Commission",
+  "description": "A complaint before the District Consumer Disputes Redressal Commission for a defective product, deficient service, refund refusal or unfair trade practice (claims up to Rs. 50 lakh).",
+  "forum": "District Consumer Disputes Redressal Commission",
+  "law": "Section 35, Consumer Protection Act, 2019",
+  "categories": ["consumer"],
+  "fields": [
+    {"name": "complainant_name", "label": "Your full name", "type": "text", "required": true, "group": "Your details"},
+    {"name": "complainant_address", "label": "Your address", "type": "textarea", "required": true, "rows": 2, "group": "Your details"},
+    {"name": "complainant_phone", "label": "Phone number", "type": "tel", "required": true, "group": "Your details"},
+    {"name": "complainant_email", "label": "Email (optional)", "type": "email", "group": "Your details"},
+    {"name": "district", "label": "District of the Commission", "type": "text", "required": true, "placeholder": "Where you live or work, or where the seller is", "group": "Your details"},
+    {"name": "op_name", "label": "Seller / company / service provider name", "type": "text", "required": true, "group": "Opposite party"},
+    {"name": "op_address", "label": "Their address", "type": "textarea", "required": true, "rows": 2, "group": "Opposite party"},
+    {"name": "product_service", "label": "Product or service", "type": "text", "required": true, "placeholder": "e.g. Samsung refrigerator model RT28", "group": "Purchase"},
+    {"name": "purchase_date", "label": "Date of purchase / booking", "type": "date", "required": true, "group": "Purchase"},
+    {"name": "amount_paid", "label": "Amount paid (Rs.)", "type": "number", "required": true, "group": "Purchase"},
+    {"name": "invoice_no", "label": "Invoice / order number (optional)", "type": "text", "group": "Purchase"},
+    {"name": "facts", "label": "What went wrong? (one point per line)", "type": "textarea", "required": true, "rows": 6, "group": "Complaint"},
+    {"name": "complaint_date", "label": "Date you first complained to the seller (optional)", "type": "date", "group": "Complaint"},
+    {"name": "notice_date", "label": "Date of legal notice, if sent (optional)", "type": "date", "group": "Complaint"},
+    {"name": "refund_amount", "label": "Refund / replacement value claimed (Rs.)", "type": "number", "required": true, "group": "Relief"},
+    {"name": "compensation_amount", "label": "Compensation for harassment and mental agony (Rs.)", "type": "number", "required": true, "group": "Relief"},
+    {"name": "litigation_cost", "label": "Litigation costs (Rs., optional)", "type": "number", "group": "Relief"},
+    {"name": "legal_provisions", "label": "Relevant provisions (optional)", "type": "textarea", "rows": 2, "group": "Relief"},
+    {"name": "enclosures", "label": "Documents attached (one per line)", "type": "textarea", "rows": 3, "placeholder": "Invoice\nWarranty card\nEmails with customer care\nPhotos of defect", "group": "Attachments"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Attachments"}
+  ],
+  "document": {
+    "court_heading": ["BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION", "{district}"],
+    "case_no": "Consumer Complaint No. ________ of {year}",
+    "parties": [
+      {"lines": ["{complainant_name}", "{complainant_address}", "Phone: {complainant_phone}", "[[Email: {complainant_email}]]"], "role": "...Complainant"},
+      {"versus": true},
+      {"lines": ["{op_name}", "{op_address}"], "role": "...Opposite Party"}
+    ],
+    "heading": "COMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019",
+    "intro": ["The Complainant respectfully submits as under:"],
+    "pre_facts": [
+      "The Complainant is a consumer within the meaning of Section 2(7) of the Consumer Protection Act, 2019, having purchased/availed {product_service} from the Opposite Party on {purchase_date} for a consideration of Rs. {amount_paid}[[ vide invoice/order no. {invoice_no}]], for personal use and not for any commercial purpose."
+    ],
+    "facts_field": "facts",
+    "paragraphs": [
+      {"if": "complaint_date", "text": "The Complainant raised the grievance with the Opposite Party on {complaint_date}, but the Opposite Party failed to redress it."},
+      {"if": "notice_date", "text": "The Complainant also sent a legal notice to the Opposite Party on {notice_date}, but the Opposite Party failed to comply with it."},
+      "The above acts and omissions of the Opposite Party amount to defect in goods, deficiency in service and/or unfair trade practice within the meaning of Sections 2(10), 2(11) and 2(47) of the Consumer Protection Act, 2019, which has caused the Complainant financial loss, harassment and mental agony.",
+      {"if": "legal_provisions", "text": "The relevant provisions of law also include: {legal_provisions}."},
+      "This Commission has territorial jurisdiction under Section 34(2) of the Act, as the Complainant resides or personally works for gain within its jurisdiction and/or the cause of action arose here. The value of the goods or services paid as consideration is within the pecuniary jurisdiction of this Commission.",
+      "The cause of action arose on {purchase_date} and subsequently when the Opposite Party failed to redress the grievance. The complaint is filed within the period of two years prescribed under Section 69 of the Act."
+    ],
+    "prayer_intro": "It is therefore most respectfully prayed that this Hon'ble Commission may be pleased to direct the Opposite Party to:",
+    "prayer": [
+      "refund / pay Rs. {refund_amount} to the Complainant, along with interest from the date of payment till realisation, or replace the goods / remove the defect;",
+      "pay Rs. {compensation_amount} as compensation for the harassment and mental agony suffered by the Complainant;",
+      "[[pay Rs. {litigation_cost} towards the costs of litigation;]]",
+      "discontinue the unfair trade practice; and",
+      "grant any other relief that this Hon'ble Commission deems fit and proper in the facts and circumstances of the case."
+    ],
+    "signoff": ["", "", "(Signature)", "{complainant_name}", "Complainant"],
+    "verification_heading": "VERIFICATION",
+    "verification": ["I, {complainant_name}, the Complainant above named, do hereby verify that the contents of paragraphs 1 to {para_count} of the above complaint are true and correct to my personal knowledge and belief, and nothing material has been concealed therefrom.", "Verified at {place} on {today}."],
+    "verification_signoff": ["", "(Signature)", "{complainant_name}", "Complainant"],
+    "enclosures_field": "enclosures",
+    "date_place": "bottom"
+  }
+}

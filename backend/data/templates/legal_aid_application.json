@@ -1,0 +1,50 @@
+{
+  "id": "legal_aid_application",
+  "title": "Application for Free Legal Aid (DLSA)",
+  "description": "An application to the District Legal Services Authority for a free lawyer, legal advice, drafting and court fee support.",
+  "forum": "District Legal Services Authority (DLSA)",
+  "law": "Sections 12-13, Legal Services Authorities Act, 1987",
+  "categories": ["legal_aid", "police_rights", "senior_citizens", "family", "caste_atrocities", "constitutional"],
+  "fields": [
+    {"name": "applicant_name", "label": "Your full name", "type": "text", "required": true, "group": "Your details"},
+    {"name": "applicant_age", "label": "Age", "type": "number", "required": true, "group": "Your details"},
+    {"name": "applicant_gender", "label": "Gender", "type": "select", "required": true, "options": ["Female", "Male", "Transgender", "Prefer not to say"], "group": "Your details"},
+    {"name": "applicant_address", "label": "Your address", "type": "textarea", "required": true, "rows": 2, "group": "Your details"},
+    {"name": "applicant_phone", "label": "Phone number", "type": "tel", "required": true, "group": "Your details"},
+    {"name": "district", "label": "District", "type": "text", "required": true, "group": "Your details"},
+    {"name": "eligibility", "label": "You are eligible as", "type": "select", "required": true, "options": ["a woman", "a child", "a member of a Scheduled Caste / Scheduled Tribe", "a person with disability", "a person in custody", "an industrial workman", "a victim of trafficking or begar", "a victim of a mass disaster, ethnic violence, caste atrocity, flood, drought or earthquake", "a person whose annual income is below the limit prescribed by the State"], "group": "Eligibility"},
+    {"name": "annual_income", "label": "Annual family income (Rs., optional)", "type": "number", "group": "Eligibility"},
+    {"name": "case_nature", "label": "Nature of your legal problem", "type": "text", "required": true, "placeholder": "e.g. domestic violence and maintenance", "group": "Your matter"},
+    {"name": "case_stage", "label": "Stage of the matter", "type": "select", "required": true, "options": ["not yet filed in any court (pre-litigation)", "pending in court", "I need legal advice only"], "group": "Your matter"},
+    {"name": "court_case_details", "label": "Court and case number, if pending (optional)", "type": "text", "group": "Your matter"},
+    {"name": "facts", "label": "Brief facts (one point per line)", "type": "textarea", "required": true, "rows": 5, "group": "Your matter"},
+    {"name": "enclosures", "label": "Documents attached (one per line)", "type": "textarea", "rows": 3, "placeholder": "Identity proof\nIncome certificate / affidavit\nCaste certificate (if applicable)\nCase papers", "group": "Attachments"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Attachments"}
+  ],
+  "document": {
+    "date_place": "top",
+    "to": ["To,", "The Secretary,", "District Legal Services Authority,", "{district}."],
+    "subject": "Application for free legal services under Section 12 of the Legal Services Authorities Act, 1987",
+    "salutation": "Respected Sir/Madam,",
+    "intro": ["I, {applicant_name}, aged {applicant_age} years ({applicant_gender}), residing at {applicant_address}, respectfully submit as follows:"],
+    "pre_facts": [
+      "I am entitled to free legal services under Section 12 of the Legal Services Authorities Act, 1987, as I am {eligibility}.[[ My annual family income is Rs. {annual_income}.]]",
+      "Nature of my legal problem: {case_nature}. Present stage: {case_stage}.[[ Case details: {court_case_details}.]]"
+    ],
+    "facts_heading": "Brief facts",
+    "facts_field": "facts",
+    "paragraphs": [
+      "I am unable to engage a lawyer at my own cost, and Article 39A of the Constitution of India guarantees free legal aid so that no citizen is denied justice by reason of economic or other disabilities."
+    ],
+    "prayer_intro": "I therefore request you to kindly:",
+    "prayer": [
+      "assign a panel lawyer to advise and represent me in the above matter;",
+      "provide assistance in drafting the necessary applications, petitions or replies;",
+      "bear the court fees and other expenses as permissible under the Regulations; and",
+      "refer the matter to Lok Adalat or mediation, if suitable."
+    ],
+    "closing": ["I declare that the information given above is true and correct to the best of my knowledge and belief, and I undertake to inform the Authority of any change in my financial circumstances."],
+    "signoff": ["Yours faithfully,", "", "", "(Signature / Thumb impression)", "{applicant_name}", "Phone: {applicant_phone}"],
+    "enclosures_field": "enclosures"
+  }
+}

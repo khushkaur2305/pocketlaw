@@ -1,0 +1,55 @@
+{
+  "id": "wage_claim",
+  "title": "Claim for Unpaid Wages (Labour Commissioner)",
+  "description": "An application to the Labour Commissioner / authority under the Code on Wages, 2019 for recovery of unpaid or delayed salary and final dues.",
+  "forum": "Labour Commissioner / Authority under the Code on Wages, 2019",
+  "law": "Sections 17 and 45, Code on Wages, 2019",
+  "categories": ["employment"],
+  "fields": [
+    {"name": "employee_name", "label": "Your full name", "type": "text", "required": true, "group": "Your details"},
+    {"name": "employee_address", "label": "Your address", "type": "textarea", "required": true, "rows": 2, "group": "Your details"},
+    {"name": "employee_phone", "label": "Phone number", "type": "tel", "required": true, "group": "Your details"},
+    {"name": "employee_email", "label": "Email (optional)", "type": "email", "group": "Your details"},
+    {"name": "labour_office", "label": "Labour office", "type": "text", "required": true, "placeholder": "e.g. Office of the Deputy Labour Commissioner, Ludhiana", "group": "Where to file"},
+    {"name": "employer_name", "label": "Employer / company name", "type": "text", "required": true, "group": "Employer"},
+    {"name": "employer_address", "label": "Employer address", "type": "textarea", "required": true, "rows": 2, "group": "Employer"},
+    {"name": "designation", "label": "Your designation", "type": "text", "required": true, "group": "Employment"},
+    {"name": "joining_date", "label": "Date of joining", "type": "date", "required": true, "group": "Employment"},
+    {"name": "leaving_date", "label": "Date of leaving (if left, optional)", "type": "date", "group": "Employment"},
+    {"name": "monthly_salary", "label": "Monthly salary (Rs.)", "type": "number", "required": true, "group": "Employment"},
+    {"name": "unpaid_period", "label": "Unpaid period", "type": "text", "required": true, "placeholder": "e.g. June 2026 to August 2026", "group": "Claim"},
+    {"name": "amount_due", "label": "Total amount due (Rs.)", "type": "number", "required": true, "group": "Claim"},
+    {"name": "facts", "label": "Other facts (one point per line)", "type": "textarea", "required": true, "rows": 5, "group": "Claim", "placeholder": "I requested payment by email on ...\nThe HR manager promised payment but did not pay..."},
+    {"name": "legal_provisions", "label": "Relevant provisions (optional)", "type": "textarea", "rows": 2, "group": "Claim"},
+    {"name": "enclosures", "label": "Documents attached (one per line)", "type": "textarea", "rows": 3, "placeholder": "Appointment letter\nSalary slips\nBank statements\nEmails requesting payment", "group": "Attachments"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Attachments"}
+  ],
+  "document": {
+    "date_place": "top",
+    "to": ["To,", "The {labour_office},", "(Authority under the Code on Wages, 2019)"],
+    "subject": "Claim for unpaid wages of Rs. {amount_due} against {employer_name}",
+    "salutation": "Respected Sir/Madam,",
+    "intro": ["I, {employee_name}, residing at {employee_address}, respectfully submit this claim against my employer, {employer_name}, {employer_address}, as follows:"],
+    "pre_facts": [
+      "I was employed with {employer_name} as {designation} from {joining_date}[[ to {leaving_date}]] at a monthly salary of Rs. {monthly_salary}.",
+      "The employer has failed to pay my wages for the period {unpaid_period}, amounting to a total of Rs. {amount_due} ({amount_due_words})."
+    ],
+    "facts_field": "facts",
+    "legal_basis_heading": "Legal basis",
+    "legal_basis": [
+      "Under Section 17 of the Code on Wages, 2019, monthly wages must be paid before the expiry of the seventh day of the succeeding month, and where an employee has been removed, dismissed, retrenched or has resigned, the wages payable must be paid within two working days.",
+      "Under Section 18 of the Code, no deductions other than those authorised may be made from wages. Under Section 45, an employee may file a claim before the authority for unpaid or delayed wages.",
+      {"if": "legal_provisions", "text": "The relevant provisions of law also include: {legal_provisions}."}
+    ],
+    "prayer_intro": "I therefore request you to kindly:",
+    "prayer": [
+      "direct the employer to pay the unpaid wages of Rs. {amount_due};",
+      "award compensation for the delayed payment as permissible under the Code;",
+      {"if": "leaving_date", "text": "direct the employer to settle all final dues, including leave encashment, gratuity (if applicable) and the experience / relieving letter; and"},
+      "pass any other order that you deem fit in the interest of justice."
+    ],
+    "closing": ["I declare that the information given above is true and correct to the best of my knowledge and belief."],
+    "signoff": ["Yours faithfully,", "", "", "(Signature)", "{employee_name}", "Phone: {employee_phone}", "[[Email: {employee_email}]]"],
+    "enclosures_field": "enclosures"
+  }
+}

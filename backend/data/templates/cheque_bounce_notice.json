@@ -1,0 +1,49 @@
+{
+  "id": "cheque_bounce_notice",
+  "title": "Cheque Bounce Notice (Section 138)",
+  "description": "The mandatory demand notice to the drawer of a dishonoured cheque. It must be sent within 30 days of receiving the bank's return memo.",
+  "forum": "Sent to the drawer of the cheque",
+  "law": "Section 138, Negotiable Instruments Act, 1881",
+  "categories": ["cheque_bounce"],
+  "fields": [
+    {"name": "sender_name", "label": "Your full name (payee)", "type": "text", "required": true, "group": "From"},
+    {"name": "sender_address", "label": "Your address", "type": "textarea", "required": true, "rows": 2, "group": "From"},
+    {"name": "sender_phone", "label": "Phone number", "type": "tel", "required": true, "group": "From"},
+    {"name": "drawer_name", "label": "Name of the person who gave the cheque", "type": "text", "required": true, "group": "To"},
+    {"name": "drawer_address", "label": "Their address", "type": "textarea", "required": true, "rows": 2, "group": "To"},
+    {"name": "cheque_no", "label": "Cheque number", "type": "text", "required": true, "group": "Cheque"},
+    {"name": "cheque_date", "label": "Date on cheque", "type": "date", "required": true, "group": "Cheque"},
+    {"name": "cheque_amount", "label": "Cheque amount (Rs.)", "type": "number", "required": true, "group": "Cheque"},
+    {"name": "bank_name", "label": "Drawee bank and branch", "type": "text", "required": true, "placeholder": "e.g. State Bank of India, Model Town branch", "group": "Cheque"},
+    {"name": "debt_reason", "label": "Why was the cheque given? (debt or liability)", "type": "textarea", "required": true, "rows": 3, "placeholder": "e.g. repayment of a friendly loan of Rs. 2,00,000 given on 10.01.2026 by bank transfer", "group": "Cheque"},
+    {"name": "payee_bank", "label": "Your bank where you deposited it (optional)", "type": "text", "group": "Dishonour"},
+    {"name": "presentation_date", "label": "Date you deposited the cheque", "type": "date", "required": true, "group": "Dishonour"},
+    {"name": "return_memo_date", "label": "Date of bank's return memo", "type": "date", "required": true, "group": "Dishonour"},
+    {"name": "return_reason", "label": "Reason for return", "type": "select", "required": true, "options": ["Funds Insufficient", "Exceeds Arrangement", "Account Closed", "Payment Stopped by Drawer", "Signature Differs", "Refer to Drawer"], "group": "Dishonour"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Dishonour"}
+  ],
+  "checks": [
+    {"type": "max_days_since", "field": "return_memo_date", "days": 30, "message": "The return memo is more than 30 days old. Section 138(b) requires the notice within 30 days of receiving the information from the bank; consult a lawyer before relying on this notice."},
+    {"type": "max_days_between", "from": "cheque_date", "to": "presentation_date", "days": 90, "message": "The cheque appears to have been presented more than 3 months after its date, beyond its validity period."}
+  ],
+  "document": {
+    "date_place": "top",
+    "heading": "LEGAL NOTICE UNDER SECTION 138 OF THE NEGOTIABLE INSTRUMENTS ACT, 1881",
+    "mode_of_delivery": "By Registered Post A.D. / Speed Post / Email",
+    "to": ["To,", "{drawer_name},", "{drawer_address}."],
+    "subject": "Notice of dishonour of cheque no. {cheque_no} dated {cheque_date} for Rs. {cheque_amount}",
+    "salutation": "Sir/Madam,",
+    "intro": ["I, {sender_name}, residing at {sender_address}, hereby serve upon you the following notice:"],
+    "pre_facts": [
+      "You issued cheque no. {cheque_no} dated {cheque_date} for Rs. {cheque_amount} ({cheque_amount_words}), drawn on {bank_name}, in my favour, towards discharge of your legally enforceable debt or liability, namely: {debt_reason}.",
+      "I presented the said cheque for payment on {presentation_date}[[ through my bank, {payee_bank}]], within its period of validity. The cheque was returned unpaid with the remark \"{return_reason}\" by return memo dated {return_memo_date}.",
+      "The dishonour of the cheque for the above reason constitutes an offence punishable under Section 138 of the Negotiable Instruments Act, 1881. This notice is issued within 30 days of receipt of the information from the bank regarding the dishonour, as required by Section 138(b) of the Act."
+    ],
+    "paragraphs": [
+      "I therefore call upon you to pay the said sum of Rs. {cheque_amount} to me within 15 (fifteen) days of receipt of this notice.",
+      "Take notice that if you fail to make the payment within the said period, I shall be constrained to file a criminal complaint against you under Section 138 read with Section 142 of the Negotiable Instruments Act, 1881, which is punishable with imprisonment of up to two years, or fine of up to twice the amount of the cheque, or both, and to initiate civil proceedings for recovery of the amount with interest and costs, entirely at your risk as to costs and consequences.",
+      "A copy of this notice has been retained for record and further action."
+    ],
+    "signoff": ["", "", "(Signature)", "{sender_name}", "Phone: {sender_phone}"]
+  }
+}

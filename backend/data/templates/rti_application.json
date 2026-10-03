@@ -1,0 +1,42 @@
+{
+  "id": "rti_application",
+  "title": "RTI Application",
+  "description": "An application under Section 6(1) of the Right to Information Act to obtain information or copies of records from any public authority, such as the status of your file, pension or complaint.",
+  "forum": "Public Information Officer (PIO) of the public authority",
+  "law": "Section 6, Right to Information Act, 2005",
+  "categories": ["rti"],
+  "fields": [
+    {"name": "applicant_name", "label": "Your full name", "type": "text", "required": true, "group": "Your details"},
+    {"name": "applicant_address", "label": "Your address (for reply)", "type": "textarea", "required": true, "rows": 2, "group": "Your details"},
+    {"name": "applicant_phone", "label": "Phone number", "type": "tel", "required": true, "group": "Your details"},
+    {"name": "applicant_email", "label": "Email (optional)", "type": "email", "group": "Your details"},
+    {"name": "public_authority", "label": "Public authority / department", "type": "text", "required": true, "placeholder": "e.g. Office of the District Treasury Officer", "group": "Public authority"},
+    {"name": "pio_address", "label": "Office address", "type": "textarea", "required": true, "rows": 2, "group": "Public authority"},
+    {"name": "subject_matter", "label": "Subject matter", "type": "text", "required": true, "placeholder": "e.g. status of my pension application", "group": "Information"},
+    {"name": "facts", "label": "Information sought (one question per line)", "type": "textarea", "required": true, "rows": 6, "group": "Information", "help": "Ask for specific records: e.g. 'Certified copy of the file notings on my application no. 123 dated 01.04.2026'."},
+    {"name": "period", "label": "Period to which information relates (optional)", "type": "text", "placeholder": "e.g. 01.01.2026 to date", "group": "Information"},
+    {"name": "fee_mode", "label": "Application fee", "type": "select", "required": true, "options": ["Rs. 10 paid by Indian Postal Order", "Rs. 10 paid by Demand Draft", "Rs. 10 paid in cash / court fee stamp", "Rs. 10 paid online", "Exempt: applicant belongs to the Below Poverty Line category (copy of BPL card enclosed)"], "group": "Fee and delivery"},
+    {"name": "fee_details", "label": "IPO / DD / receipt number (optional)", "type": "text", "group": "Fee and delivery"},
+    {"name": "delivery", "label": "How do you want the information?", "type": "select", "required": true, "options": ["by post at the address given above", "by email", "by post and email", "through inspection of records followed by copies"], "group": "Fee and delivery"},
+    {"name": "life_liberty", "label": "The information concerns someone's life or liberty (48-hour reply)", "type": "checkbox", "group": "Fee and delivery"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Fee and delivery"}
+  ],
+  "document": {
+    "date_place": "top",
+    "to": ["To,", "The Public Information Officer,", "{public_authority},", "{pio_address}."],
+    "subject": "Application under Section 6(1) of the Right to Information Act, 2005 regarding {subject_matter}",
+    "salutation": "Sir/Madam,",
+    "intro": ["I, {applicant_name}, a citizen of India, request the following information under the Right to Information Act, 2005:"],
+    "facts_heading": "Particulars of information sought",
+    "facts_field": "facts",
+    "paragraphs": [
+      {"if": "period", "text": "Period to which the information relates: {period}."},
+      "Application fee: {fee_mode}[[ (Ref. No. {fee_details})]].",
+      "I request that the information be provided {delivery}. If any information is held by or more closely connected with another public authority, kindly transfer this application or the relevant part of it to that authority under Section 6(3) and inform me.",
+      {"if": "life_liberty", "text": "The information sought concerns the life or liberty of a person, and is therefore required to be provided within 48 hours under the proviso to Section 7(1) of the Act."},
+      "As required by Section 7(1), kindly provide the information within 30 days of receipt of this application. If the information is refused, kindly state the reasons, the provision relied upon, and the particulars of the First Appellate Authority, as required by Section 7(8)."
+    ],
+    "closing": ["I state that the information sought does not fall within the exemptions under Sections 8 and 9 of the Act, to the best of my knowledge."],
+    "signoff": ["Yours faithfully,", "", "", "(Signature)", "{applicant_name}", "{applicant_address}", "Phone: {applicant_phone}", "[[Email: {applicant_email}]]"]
+  }
+}

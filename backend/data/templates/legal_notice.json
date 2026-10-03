@@ -1,0 +1,41 @@
+{
+  "id": "legal_notice",
+  "title": "Legal Notice (General)",
+  "description": "A formal legal notice demanding that the other party do something (pay money, return a deposit, stop an action, compensate) within a fixed time before you take legal action.",
+  "forum": "Sent directly to the other party",
+  "law": "General civil and criminal law; prerequisite to many suits and complaints",
+  "categories": ["tenancy", "employment", "consumer", "cheque_bounce", "family", "senior_citizens", "workplace_harassment", "criminal", "banking"],
+  "fields": [
+    {"name": "sender_name", "label": "Your full name", "type": "text", "required": true, "group": "From"},
+    {"name": "sender_address", "label": "Your address", "type": "textarea", "required": true, "rows": 2, "group": "From"},
+    {"name": "sender_phone", "label": "Phone number", "type": "tel", "required": true, "group": "From"},
+    {"name": "sender_email", "label": "Email (optional)", "type": "email", "group": "From"},
+    {"name": "recipient_name", "label": "Recipient name", "type": "text", "required": true, "group": "To"},
+    {"name": "recipient_address", "label": "Recipient address", "type": "textarea", "required": true, "rows": 2, "group": "To"},
+    {"name": "subject", "label": "Notice regarding", "type": "text", "required": true, "placeholder": "e.g. refund of security deposit of Rs. 40,000", "group": "Notice"},
+    {"name": "facts", "label": "Facts (one point per line)", "type": "textarea", "required": true, "rows": 6, "group": "Notice"},
+    {"name": "legal_provisions", "label": "Relevant provisions (optional)", "type": "textarea", "rows": 2, "group": "Notice", "help": "Filled in automatically when you come from the Law Matcher."},
+    {"name": "demand", "label": "What do you want the recipient to do?", "type": "textarea", "required": true, "rows": 2, "placeholder": "e.g. refund the security deposit of Rs. 40,000 with interest at 9% per annum", "group": "Demand"},
+    {"name": "compliance_days", "label": "Days given to comply", "type": "number", "required": true, "default": 15, "group": "Demand"},
+    {"name": "consequence", "label": "Action you will take if they do not comply", "type": "select", "required": true, "options": ["initiate appropriate civil and/or criminal proceedings against you", "file a complaint before the appropriate Consumer Commission", "file a suit for recovery of the amount with interest and costs", "file a complaint before the appropriate authority and court"], "group": "Demand"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Demand"}
+  ],
+  "document": {
+    "date_place": "top",
+    "heading": "LEGAL NOTICE",
+    "mode_of_delivery": "By Registered Post A.D. / Speed Post / Email",
+    "to": ["To,", "{recipient_name},", "{recipient_address}."],
+    "subject": "Legal notice regarding {subject}",
+    "salutation": "Sir/Madam,",
+    "intro": ["I, {sender_name}, residing at {sender_address}, hereby serve upon you the following legal notice:"],
+    "facts_field": "facts",
+    "paragraphs": [
+      {"if": "legal_provisions", "text": "Your acts and omissions are in violation of law, including: {legal_provisions}."},
+      "Despite my requests, you have failed to resolve the matter, which has caused me financial loss, inconvenience and mental harassment.",
+      "I therefore call upon you to {demand} within {compliance_days} days of receipt of this notice.",
+      "Take notice that if you fail to comply within the said period, I shall be constrained to {consequence}, entirely at your risk as to costs and consequences, without any further notice to you.",
+      "A copy of this notice has been retained for record and further action."
+    ],
+    "signoff": ["", "", "(Signature)", "{sender_name}", "Phone: {sender_phone}", "[[Email: {sender_email}]]"]
+  }
+}

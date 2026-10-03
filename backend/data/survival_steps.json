@@ -1,0 +1,545 @@
+[
+  {
+    "id": "fir_refused",
+    "title": "Police are not registering my complaint (FIR)",
+    "icon": "shield",
+    "categories": ["police_rights", "criminal"],
+    "summary": "If you report a cognizable offence (such as theft, assault, cheating or threats), the police must register an FIR. Here is how to escalate if they refuse.",
+    "urgent": "If you or someone else is in immediate danger, call 112 first.",
+    "steps": [
+      {"title": "Write down what happened", "detail": "Write a short, dated complaint stating who, what, when, where and how, with names of witnesses and any proof. Keep a copy.", "why": "A written complaint creates a record that cannot later be denied."},
+      {"title": "Submit it at the police station and ask for an FIR", "detail": "Hand the complaint to the Station House Officer (SHO). You may file at any police station; a Zero FIR must be registered even if the incident happened elsewhere. Ask for a free copy of the FIR.", "why": "BNSS Section 173 makes registration mandatory when the information discloses a cognizable offence."},
+      {"title": "Get a receipt if the FIR is not registered", "detail": "If they refuse, ask them to stamp and sign a receiving copy of your complaint, or send it by registered post or email to the SHO. Note the officer's name and the time.", "why": "Proof that you approached the police is needed for the next steps."},
+      {"title": "Try e-FIR or the state police portal", "detail": "Many states allow online FIRs (e-FIR) for certain offences such as theft. Cyber offences can be reported at cybercrime.gov.in.", "why": "An electronic complaint must be signed within three days and is then registered as an FIR."},
+      {"title": "Send the complaint to the Superintendent of Police", "detail": "Send the substance of your complaint in writing, by registered post, to the SP or DCP of the district, enclosing proof that the station refused.", "why": "Under BNSS Section 173(4) the SP must investigate or direct an investigation."},
+      {"title": "Apply to the Magistrate", "detail": "If the SP also does not act, file an application with an affidavit before the Judicial Magistrate asking the court to direct the police to register the FIR and investigate. You may also file a private complaint.", "why": "BNSS Section 175(3) empowers the Magistrate to order an investigation."},
+      {"title": "Complain about the officer", "detail": "You can also complain to the State or District Police Complaints Authority or the State Human Rights Commission about the officer's refusal.", "why": "Officers who fail to register FIRs can face departmental action (Lalita Kumari)."}
+    ],
+    "dos": ["Keep copies of everything you submit", "Get the name and rank of the officer you met", "Stay calm and polite but firm", "Take a friend or relative with you"],
+    "donts": ["Do not sign a statement you have not read or that is wrong", "Do not accept a 'settlement' under pressure", "Do not pay any money to get an FIR registered"],
+    "rights": [
+      {"right": "Registration of an FIR is mandatory for a cognizable offence", "source": "BNSS Section 173; Lalita Kumari v. Govt. of U.P."},
+      {"right": "You can file a Zero FIR at any police station", "source": "BNSS Section 173(1)"},
+      {"right": "A free copy of the FIR must be given to you", "source": "BNSS Section 173(2)"},
+      {"right": "Escalate to the SP, then the Magistrate, if refused", "source": "BNSS Sections 173(4) and 175(3)"},
+      {"right": "You must be told the progress of the investigation within 90 days", "source": "BNSS Section 193(3)"}
+    ],
+    "documents": ["Written complaint (with copy)", "Identity proof", "Evidence: photos, videos, messages, medical report, bills", "Names and contacts of witnesses", "Postal receipts of complaints sent"],
+    "authorities": [
+      {"name": "Station House Officer (SHO)", "role": "Registers the FIR"},
+      {"name": "Superintendent of Police / DCP", "role": "Acts on written complaint under BNSS 173(4)"},
+      {"name": "Judicial Magistrate", "role": "Can order registration and investigation"},
+      {"name": "Police Complaints Authority / State Human Rights Commission", "role": "Complaints against police misconduct"}
+    ],
+    "helplines": [
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [{"name": "National Cyber Crime Portal", "url": "https://cybercrime.gov.in"}],
+    "templates": ["police_complaint", "sp_complaint"]
+  },
+  {
+    "id": "arrest_rights",
+    "title": "Police arrest or detention",
+    "icon": "handcuffs",
+    "categories": ["police_rights", "constitutional"],
+    "summary": "Whether you, a family member or a friend has been picked up by the police, these rights apply from the moment of arrest.",
+    "urgent": "Contact a lawyer or your District Legal Services Authority (15100) immediately; free legal aid is available to persons in custody.",
+    "steps": [
+      {"title": "Ask why and under which section", "detail": "Ask the officer for the grounds of arrest and the offence. Note the officer's name, rank and police station.", "why": "You have a right to know the grounds of arrest (BNSS Section 47, Article 22)."},
+      {"title": "Check the arrest memo", "detail": "An arrest memo must be prepared with the date and time, attested by a witness (family member or local person) and signed by the arrested person.", "why": "Required by D.K. Basu guidelines, now in BNSS Section 36."},
+      {"title": "Make sure family is informed", "detail": "The police must inform a relative or friend about the arrest and where the person is held.", "why": "BNSS Section 48."},
+      {"title": "Ask whether the offence is bailable", "detail": "For a bailable offence, the person has the right to be released on bail by the police station itself on furnishing bail.", "why": "BNSS Sections 47(2) and 478."},
+      {"title": "Contact a lawyer", "detail": "The arrested person may meet a lawyer during interrogation. If you cannot afford one, contact the DLSA legal aid clinic or the remand advocate at court.", "why": "BNSS Section 38 and Article 22(1); free legal aid under the LSA Act."},
+      {"title": "Ensure production before a Magistrate within 24 hours", "detail": "The person must be produced before a Magistrate within 24 hours (excluding travel time). Apply for bail at that hearing.", "why": "Article 22(2) and BNSS Section 58."},
+      {"title": "Report injuries or torture", "detail": "Ask for a medical examination and tell the Magistrate about any ill-treatment. Request preservation of CCTV footage.", "why": "BNSS Section 53; Paramvir Singh Saini directions on CCTV."},
+      {"title": "If arrest is feared, consider anticipatory bail", "detail": "If you fear arrest in a non-bailable case, a lawyer can apply to the Sessions Court or High Court for anticipatory bail.", "why": "BNSS Section 482."}
+    ],
+    "dos": ["Stay calm and do not resist", "Remember the officer's details", "Keep the FIR number and police station name", "Tell the Magistrate about any mistreatment"],
+    "donts": ["Do not sign blank papers", "Do not make a confession to the police; it is not admissible and you cannot be forced to self-incriminate", "Do not pay bribes"],
+    "rights": [
+      {"right": "To know the grounds of arrest", "source": "Article 22(1); BNSS Section 47"},
+      {"right": "To have a relative or friend informed", "source": "BNSS Section 48"},
+      {"right": "To meet a lawyer during interrogation", "source": "BNSS Section 38"},
+      {"right": "To be produced before a Magistrate within 24 hours", "source": "Article 22(2); BNSS Section 58"},
+      {"right": "To medical examination", "source": "BNSS Section 53"},
+      {"right": "Women may not be arrested after sunset and before sunrise except in exceptional cases with a Magistrate's permission", "source": "BNSS Section 43(5)"},
+      {"right": "To remain silent and not be forced to be a witness against yourself", "source": "Article 20(3)"},
+      {"right": "To free legal aid", "source": "Article 39A; Legal Services Authorities Act Section 12"}
+    ],
+    "documents": ["Arrest memo copy", "FIR copy (also check the state police website)", "Identity and address proof for bail", "Surety's identity and property or income documents", "Medical records of any injury"],
+    "authorities": [
+      {"name": "Judicial Magistrate", "role": "Hears remand and bail; record complaints of ill-treatment"},
+      {"name": "District Legal Services Authority (DLSA)", "role": "Free lawyer for persons in custody"},
+      {"name": "State Human Rights Commission", "role": "Complaints of custodial violence"},
+      {"name": "High Court", "role": "Habeas corpus for illegal detention (Article 226)"}
+    ],
+    "helplines": [
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [],
+    "templates": ["legal_aid_application"]
+  },
+  {
+    "id": "domestic_violence",
+    "title": "Domestic violence or dowry harassment",
+    "icon": "home",
+    "categories": ["domestic_violence", "women_safety", "family"],
+    "summary": "Physical, sexual, emotional or economic abuse by a husband, partner or in-laws is domestic violence. You can get protection, the right to stay in your home, and financial support.",
+    "urgent": "If you are in danger now, call 112 or the Women Helpline 181. Go to a safe place first.",
+    "steps": [
+      {"title": "Get to safety", "detail": "If you are hurt or threatened, call 112 or 181. Go to a trusted relative, friend or a One Stop Centre (Sakhi Centre), which offers shelter, medical help and legal help under one roof.", "why": "Your safety comes before paperwork."},
+      {"title": "Get medical treatment and a record", "detail": "Visit a government hospital for any injury and ask for a medico-legal report (MLC).", "why": "Medical records are strong evidence of physical abuse."},
+      {"title": "Preserve evidence", "detail": "Keep photos of injuries, threatening messages, call recordings, dowry demand messages, bank records and a diary of incidents with dates.", "why": "Courts rely on a consistent record of incidents."},
+      {"title": "Contact the Protection Officer", "detail": "Each district has a Protection Officer who will record a Domestic Incident Report (DIR), help you apply to the Magistrate, and arrange shelter, medical help and legal aid.", "why": "PWDVA Sections 8 and 9."},
+      {"title": "Apply to the Magistrate under Section 12", "detail": "File an application for protection orders, residence orders, monetary relief, custody of children and compensation. You can ask for urgent interim orders.", "why": "PWDVA Sections 12 and 18 to 23."},
+      {"title": "File a police complaint if there is cruelty or a dowry demand", "detail": "Cruelty by the husband or relatives (BNS Section 85) and dowry demands (Dowry Prohibition Act Section 4) are criminal offences. You can file an FIR at the women's cell or any police station.", "why": "Criminal law is a separate remedy from the civil DV Act reliefs; you can use both."},
+      {"title": "Claim maintenance", "detail": "You can claim maintenance for yourself and your children under the DV Act, BNSS Section 144 or your personal law.", "why": "Rajnesh v. Neha requires both sides to disclose their income and assets."},
+      {"title": "Get free legal aid", "detail": "All women are entitled to free legal services. Contact the DLSA or call 15100.", "why": "Legal Services Authorities Act Section 12."}
+    ],
+    "dos": ["Keep copies of your ID, marriage certificate, bank and property documents in a safe place", "Make a list of your stridhan (jewellery and gifts)", "Tell a trusted person about your situation", "Save helpline numbers"],
+    "donts": ["Do not leave your children behind if you fear for them; seek custody orders", "Do not sign any documents giving up rights to your home or stridhan", "Do not delete abusive messages"],
+    "rights": [
+      {"right": "To live in the shared household even if you do not own it", "source": "PWDVA Section 17; Satish Chander Ahuja v. Sneha Ahuja"},
+      {"right": "To protection orders stopping violence and contact", "source": "PWDVA Section 18"},
+      {"right": "To monetary relief, maintenance and compensation", "source": "PWDVA Sections 20 and 22"},
+      {"right": "To temporary custody of children", "source": "PWDVA Section 21"},
+      {"right": "To file against female relatives such as the mother-in-law", "source": "Hiral P. Harsora v. Kusum Harsora"},
+      {"right": "To get your stridhan and dowry back", "source": "Dowry Prohibition Act Section 6; BNS Section 316"},
+      {"right": "To free legal aid", "source": "Legal Services Authorities Act Section 12(c)"}
+    ],
+    "documents": ["Medical reports and photographs of injuries", "Messages, emails or recordings of threats or dowry demands", "Marriage certificate or wedding photos", "List of stridhan and gifts", "Income and property details of the husband, if known", "Children's birth certificates and school records"],
+    "authorities": [
+      {"name": "Protection Officer (District Women and Child Development Office)", "role": "Domestic Incident Report, help with application, shelter"},
+      {"name": "One Stop Centre (Sakhi)", "role": "Shelter, medical, police and legal help"},
+      {"name": "Judicial Magistrate", "role": "Orders under the DV Act"},
+      {"name": "Police (Women Cell / Mahila Thana)", "role": "FIR for cruelty and dowry offences"},
+      {"name": "State Commission for Women / National Commission for Women", "role": "Complaints and intervention"}
+    ],
+    "helplines": [
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "Women Helpline", "number": "181"},
+      {"name": "NCW WhatsApp Helpline", "number": "7827170170"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [{"name": "National Commission for Women complaints", "url": "https://ncwapps.nic.in"}],
+    "templates": ["dv_application", "police_complaint"]
+  },
+  {
+    "id": "workplace_harassment",
+    "title": "Sexual harassment at work",
+    "icon": "briefcase",
+    "categories": ["workplace_harassment", "women_safety"],
+    "summary": "Unwelcome sexual remarks, touching, requests for favours or a hostile environment at work is sexual harassment. The POSH Act gives you a complaint process with protection.",
+    "urgent": "If you face physical assault or threats, you can also call 112 and file a police complaint.",
+    "steps": [
+      {"title": "Record every incident", "detail": "Write down dates, times, places, what was said or done, and who saw it. Save emails, chats and messages.", "why": "A clear timeline strengthens your complaint."},
+      {"title": "Find the Internal Committee (IC/ICC)", "detail": "Every employer with 10 or more employees must have an Internal Committee. Its members' names should be displayed at the workplace or on the intranet.", "why": "POSH Act Section 4."},
+      {"title": "File a written complaint within 3 months", "detail": "Submit a written complaint to the Internal Committee within 3 months of the incident (or the last incident). The Committee can extend this by 3 more months. If there is no IC, or the complaint is against the employer, approach the Local Committee through the District Officer, or use the SHe-Box portal.", "why": "POSH Act Sections 6 and 9."},
+      {"title": "Ask for interim relief", "detail": "During the inquiry you may ask to be transferred, for the harasser to be transferred, or for paid leave of up to 3 months.", "why": "POSH Act Section 12."},
+      {"title": "Take part in the inquiry", "detail": "The Committee must finish its inquiry within 90 days, giving both sides a hearing. Conciliation happens only if you ask, and cannot involve a monetary settlement.", "why": "POSH Act Sections 10 and 11."},
+      {"title": "Follow up on action", "detail": "The employer must act on the Committee's recommendations within 60 days. You can appeal the findings within 90 days.", "why": "POSH Act Sections 13 and 18."},
+      {"title": "Consider a police complaint as well", "detail": "Sexual harassment, stalking and outraging modesty are also crimes under BNS Sections 74, 75 and 78. The employer must assist you if you wish to file.", "why": "POSH Act Section 19(g)."}
+    ],
+    "dos": ["Keep copies of your complaint and all replies", "Tell a trusted colleague or friend", "Note the names of any witnesses", "Ask for the Committee's written report"],
+    "donts": ["Do not resign before thinking it through; you are protected from retaliation", "Do not delete messages or emails", "Do not agree to a money settlement for withdrawing the complaint"],
+    "rights": [
+      {"right": "To a workplace free of sexual harassment", "source": "POSH Act Section 3; Vishaka v. State of Rajasthan"},
+      {"right": "To complain to the Internal or Local Committee", "source": "POSH Act Sections 4, 6 and 9"},
+      {"right": "To interim relief (transfer or leave) during the inquiry", "source": "POSH Act Section 12"},
+      {"right": "To confidentiality of your identity", "source": "POSH Act Section 16"},
+      {"right": "To compensation from the harasser if the complaint is proved", "source": "POSH Act Sections 13 and 15"},
+      {"right": "To file a criminal complaint", "source": "BNS Sections 74, 75, 78 and 79"}
+    ],
+    "documents": ["Written complaint (with a timeline)", "Screenshots of messages and emails", "Names of witnesses", "Appointment letter or ID card (proof of employment)"],
+    "authorities": [
+      {"name": "Internal Committee (IC/ICC)", "role": "Inquiry into complaints at your workplace"},
+      {"name": "Local Committee (through the District Officer)", "role": "Complaints where there is no IC or against the employer"},
+      {"name": "Police", "role": "Criminal offences"},
+      {"name": "State Commission for Women", "role": "Support and intervention"}
+    ],
+    "helplines": [
+      {"name": "Women Helpline", "number": "181"},
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [{"name": "SHe-Box (Sexual Harassment electronic Box)", "url": "https://shebox.wcd.gov.in"}],
+    "templates": ["police_complaint", "legal_notice"]
+  },
+  {
+    "id": "salary_unpaid",
+    "title": "Salary not paid or wrongful termination",
+    "icon": "wallet",
+    "categories": ["employment"],
+    "summary": "Employers must pay wages on time and full dues within two working days of exit. If you were not paid, or were fired without notice, here is how to claim.",
+    "urgent": null,
+    "steps": [
+      {"title": "Collect proof of employment and dues", "detail": "Gather your offer or appointment letter, ID card, salary slips, bank statements showing past salary credits, attendance records, and emails or chats about payment.", "why": "You must show that you worked and how much is owed."},
+      {"title": "Ask in writing", "detail": "Email HR or the employer asking for the unpaid salary by a specific date. Keep the email.", "why": "A written request shows the employer was told and refused."},
+      {"title": "Send a legal demand notice", "detail": "If unpaid, send a legal notice by registered post or email demanding payment within 15 days, failing which you will approach the authorities.", "why": "Many employers pay at this stage; it also forms part of your record."},
+      {"title": "File a claim with the Labour Department", "detail": "File a claim before the authority under the Code on Wages (usually the Labour Commissioner or Deputy Labour Commissioner of your district). Central-sphere establishments can be approached through the Samadhan portal.", "why": "Code on Wages Section 45 provides a quick remedy for wage claims."},
+      {"title": "For termination, raise an industrial dispute", "detail": "If you are a 'workman' and were dismissed or retrenched without notice or compensation, approach the conciliation officer and then the Labour Court.", "why": "Industrial Disputes Act Sections 2A and 25F (now the Industrial Relations Code)."},
+      {"title": "Consider a civil suit or other remedies", "detail": "Managerial employees not covered by labour law can file a civil suit for recovery, often after a legal notice. A bounced salary cheque gives a separate remedy under NI Act Section 138.", "why": "Different laws apply depending on your role and salary."}
+    ],
+    "dos": ["Keep copies of salary slips and bank statements", "Communicate in writing", "Note the deadline: claims should be filed as early as possible (generally within three years)"],
+    "donts": ["Do not sign a resignation or 'full and final settlement' you disagree with", "Do not hand over company property without a written acknowledgement", "Do not share your login credentials before you are paid"],
+    "rights": [
+      {"right": "Monthly wages must be paid before the 7th of the next month", "source": "Code on Wages Section 17"},
+      {"right": "Full dues within 2 working days of resignation, dismissal or removal", "source": "Code on Wages Section 17(2)"},
+      {"right": "No deductions beyond those authorised, and never more than 50%", "source": "Code on Wages Section 18"},
+      {"right": "At least the minimum wage and equal pay regardless of gender", "source": "Code on Wages Sections 3 and 5"},
+      {"right": "Notice and retrenchment compensation for workmen", "source": "Industrial Disputes Act Section 25F"},
+      {"right": "Gratuity after 5 years of continuous service", "source": "Payment of Gratuity Act Section 4"}
+    ],
+    "documents": ["Appointment or offer letter", "Salary slips and bank statements", "Attendance records or timesheets", "Termination or resignation letter", "Emails or chats about non-payment"],
+    "authorities": [
+      {"name": "Labour Commissioner / Deputy Labour Commissioner", "role": "Wage claims and conciliation"},
+      {"name": "Labour Court / Industrial Tribunal", "role": "Wrongful termination disputes"},
+      {"name": "Civil Court", "role": "Recovery suits for non-workmen"}
+    ],
+    "helplines": [{"name": "NALSA Legal Aid", "number": "15100"}],
+    "portals": [{"name": "Samadhan (Ministry of Labour)", "url": "https://samadhan.labour.gov.in"}],
+    "templates": ["wage_claim", "legal_notice"]
+  },
+  {
+    "id": "consumer_complaint",
+    "title": "Defective product, poor service or online shopping problem",
+    "icon": "cart",
+    "categories": ["consumer"],
+    "summary": "If a product is defective, a service is deficient, you were overcharged, or a refund is refused, you can file a consumer complaint without a lawyer.",
+    "urgent": null,
+    "steps": [
+      {"title": "Collect your proof of purchase", "detail": "Keep the bill or invoice, order confirmation, warranty card, payment proof and photos or videos of the defect.", "why": "These prove you are a consumer and what went wrong."},
+      {"title": "Complain to the seller or service provider", "detail": "Raise a complaint through customer care or email and note the ticket number. Give them a reasonable time to fix it.", "why": "A record of your complaint and their response is useful evidence."},
+      {"title": "Call the National Consumer Helpline", "detail": "Call 1915 or register a grievance at consumerhelpline.gov.in. Many companies resolve complaints at this pre-litigation stage.", "why": "It is free and often quick."},
+      {"title": "Send a legal notice", "detail": "Send a written notice demanding a refund, replacement or compensation within 15 days.", "why": "It shows you gave the opposite party an opportunity before going to the Commission."},
+      {"title": "File a complaint before the District Commission", "detail": "File online through the e-Jagriti portal or in person at the District Consumer Disputes Redressal Commission where you live or work. Claims up to Rs. 50 lakh go to the District Commission. A small fee applies, and none for claims up to Rs. 5 lakh.", "why": "Consumer Protection Act Sections 34 and 35."},
+      {"title": "Attend hearings or mediation", "detail": "The Commission may refer the matter to mediation. You can represent yourself.", "why": "Consumer Protection Act Section 37 and Chapter V."}
+    ],
+    "dos": ["File within 2 years of the problem", "Keep all communication in writing", "Claim compensation for mental agony and litigation costs too"],
+    "donts": ["Do not throw away the defective product or packaging", "Do not accept a partial refund if you are owed more", "Do not miss hearing dates"],
+    "rights": [
+      {"right": "To a refund, replacement, repair or compensation", "source": "Consumer Protection Act Section 39"},
+      {"right": "To refuse unfair contract terms and misleading advertisements", "source": "Consumer Protection Act Sections 2(46) and 2(47)"},
+      {"right": "To file a complaint where you live, not only where the seller is", "source": "Consumer Protection Act Section 34(2)"},
+      {"right": "To file without a lawyer and online", "source": "Consumer Protection Act Section 35"},
+      {"right": "Medical services for a fee are covered", "source": "Indian Medical Association v. V.P. Shantha"},
+      {"right": "Homebuyers can get a refund for inordinate delay in possession", "source": "Pioneer Urban Land v. Govindan Raghavan"}
+    ],
+    "documents": ["Bill or invoice", "Warranty card", "Order confirmation and payment receipt", "Photos or videos of the defect", "Complaint emails and ticket numbers", "Copy of legal notice and postal receipt"],
+    "authorities": [
+      {"name": "National Consumer Helpline", "role": "Pre-litigation grievance resolution"},
+      {"name": "District Consumer Disputes Redressal Commission", "role": "Complaints up to Rs. 50 lakh"},
+      {"name": "State Commission / National Commission", "role": "Higher-value complaints and appeals"},
+      {"name": "Central Consumer Protection Authority", "role": "Misleading advertisements and class-wide violations"}
+    ],
+    "helplines": [
+      {"name": "National Consumer Helpline", "number": "1915"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [
+      {"name": "National Consumer Helpline", "url": "https://consumerhelpline.gov.in"},
+      {"name": "e-Jagriti (consumer case filing)", "url": "https://e-jagriti.gov.in"}
+    ],
+    "templates": ["consumer_complaint", "legal_notice"]
+  },
+  {
+    "id": "cyber_fraud",
+    "title": "Online fraud, UPI scam or hacked account",
+    "icon": "phone",
+    "categories": ["cyber", "banking"],
+    "summary": "If money was taken through a fraudulent call, link, UPI request or a hacked account, speed matters. Reporting within hours improves the chance of freezing the money.",
+    "urgent": "Call 1930 immediately. The first few hours (the 'golden hour') are the best chance of blocking the money.",
+    "steps": [
+      {"title": "Call 1930 right away", "detail": "Report the fraud on the National Cyber Crime Helpline 1930 or at cybercrime.gov.in. Give the transaction ID, amount, time and the fraudster's account or UPI ID.", "why": "The helpline can alert banks to freeze the money in the recipient account."},
+      {"title": "Inform your bank and block your cards and UPI", "detail": "Call your bank's customer care, block your card, UPI and net banking, and file a written complaint. Note the complaint reference number.", "why": "Reporting within 3 working days can give you zero liability under RBI rules."},
+      {"title": "Secure your accounts", "detail": "Change passwords and PINs, log out of all devices, enable two-factor authentication, and uninstall any screen-sharing or remote-access app you were asked to install.", "why": "This prevents further losses."},
+      {"title": "Preserve evidence", "detail": "Take screenshots of messages, call logs, the fraud website or link, the transaction SMS and the bank statement. Do not delete anything.", "why": "Needed for the police complaint and the bank claim."},
+      {"title": "File a police complaint or FIR", "detail": "Complete the complaint on cybercrime.gov.in or file at your local cyber cell or police station under the IT Act and BNS (cheating by personation, identity theft).", "why": "IT Act Sections 66C and 66D; BNS Sections 318 and 319."},
+      {"title": "Escalate with the bank, then the RBI Ombudsman", "detail": "If the bank does not reverse the amount or reply within 30 days, file a complaint at cms.rbi.org.in.", "why": "RBI Integrated Ombudsman Scheme, 2021."},
+      {"title": "For hacked social media or morphed images", "detail": "Report the account or post to the platform's Grievance Officer. Platforms must remove intimate or morphed images within 24 hours of your complaint.", "why": "IT Rules, 2021."}
+    ],
+    "dos": ["Act within minutes or hours", "Keep the transaction IDs and complaint numbers", "Tell your family about common scams"],
+    "donts": ["Never share an OTP, PIN or CVV with anyone, including 'bank officials' or 'police'", "Do not approve unknown UPI 'collect' requests; you never need to enter a PIN to receive money", "Do not pay 'recovery agents' who promise to get your money back", "There is no such thing as a 'digital arrest'; real police do not ask for money on video calls"],
+    "rights": [
+      {"right": "Zero liability if reported within 3 working days for third-party fraud", "source": "RBI Customer Protection Circular, 2017"},
+      {"right": "Bank must credit the disputed amount (shadow reversal) within 10 working days", "source": "RBI Customer Protection Circular, 2017"},
+      {"right": "Free complaint to the RBI Ombudsman", "source": "Reserve Bank Integrated Ombudsman Scheme, 2021"},
+      {"right": "Identity theft and online cheating are criminal offences", "source": "IT Act Sections 66C and 66D"},
+      {"right": "Platforms must remove non-consensual intimate images within 24 hours", "source": "IT Rules, 2021, Rule 3(2)(b)"}
+    ],
+    "documents": ["Bank statement showing the fraudulent debit", "Transaction IDs / UTR numbers", "Screenshots of messages, links, call logs", "Acknowledgement number from 1930 or the cyber portal", "Bank complaint reference number"],
+    "authorities": [
+      {"name": "National Cyber Crime Helpline / Portal", "role": "Report and freeze funds"},
+      {"name": "Your bank", "role": "Block account and claim reversal"},
+      {"name": "Cyber Crime Cell / Police Station", "role": "FIR and investigation"},
+      {"name": "RBI Ombudsman", "role": "If the bank does not resolve within 30 days"}
+    ],
+    "helplines": [
+      {"name": "National Cyber Crime Helpline", "number": "1930"},
+      {"name": "Emergency Response", "number": "112"}
+    ],
+    "portals": [
+      {"name": "National Cyber Crime Reporting Portal", "url": "https://cybercrime.gov.in"},
+      {"name": "RBI Complaint Management System", "url": "https://cms.rbi.org.in"},
+      {"name": "Sanchar Saathi (report fraud calls, block lost phones)", "url": "https://sancharsaathi.gov.in"}
+    ],
+    "templates": ["police_complaint"]
+  },
+  {
+    "id": "cheque_bounce",
+    "title": "Cheque bounced or money not returned",
+    "icon": "cheque",
+    "categories": ["cheque_bounce"],
+    "summary": "A bounced cheque is a criminal offence if you follow the strict timelines. For money lent without a cheque, a legal notice and a recovery suit are the usual route.",
+    "urgent": "Deadlines are strict: send the notice within 30 days of the bank's return memo.",
+    "steps": [
+      {"title": "Collect the return memo", "detail": "Get the cheque return memo from your bank stating the reason (for example 'funds insufficient'). Keep the original cheque.", "why": "The memo starts the 30-day clock for the notice."},
+      {"title": "Send a demand notice within 30 days", "detail": "Send a written legal notice to the drawer by registered post (and email or WhatsApp if possible) demanding payment of the cheque amount within 15 days of receiving the notice.", "why": "NI Act Section 138(b)."},
+      {"title": "Wait 15 days from delivery of the notice", "detail": "Track the postal delivery. If the drawer pays, the matter ends.", "why": "The offence is complete only if payment is not made within 15 days."},
+      {"title": "File a complaint within one month", "detail": "File a complaint before the Magistrate's court in the area of your bank branch within 30 days after the 15-day period ends.", "why": "NI Act Section 142."},
+      {"title": "Ask for interim compensation", "detail": "Request the court to order interim compensation of up to 20% of the cheque amount.", "why": "NI Act Section 143A."},
+      {"title": "Consider settlement", "detail": "The case can be settled at any stage, including in Lok Adalat or mediation.", "why": "NI Act Section 147; Kanchan Mehta."},
+      {"title": "If there was no cheque", "detail": "For money lent without a cheque, send a legal notice and then file a civil recovery suit (a summary suit if there is a written acknowledgement) within three years.", "why": "Code of Civil Procedure Order XXXVII; Limitation Act."}
+    ],
+    "dos": ["Keep the original cheque and return memo safely", "Keep postal receipts and tracking printouts", "Calculate all deadlines carefully"],
+    "donts": ["Do not miss the 30-day notice window", "Do not present the cheque after its 3-month validity", "Do not accept a fresh post-dated cheque without written terms"],
+    "rights": [
+      {"right": "Criminal complaint for dishonour of cheque", "source": "NI Act Section 138"},
+      {"right": "To file in the court where your bank branch is", "source": "NI Act Section 142(2)"},
+      {"right": "Interim compensation up to 20%", "source": "NI Act Section 143A"},
+      {"right": "Fine up to twice the cheque amount", "source": "NI Act Section 138"}
+    ],
+    "documents": ["Original cheque", "Bank return memo", "Copy of legal notice", "Postal receipt and delivery proof", "Proof of the debt (agreement, messages, bank transfers)"],
+    "authorities": [
+      {"name": "Judicial Magistrate First Class", "role": "Cheque bounce complaints"},
+      {"name": "Lok Adalat", "role": "Settlement"},
+      {"name": "Civil Court", "role": "Money recovery suits"}
+    ],
+    "helplines": [{"name": "NALSA Legal Aid", "number": "15100"}],
+    "portals": [],
+    "templates": ["cheque_bounce_notice", "legal_notice"]
+  },
+  {
+    "id": "tenancy_dispute",
+    "title": "Landlord or tenant dispute",
+    "icon": "key",
+    "categories": ["tenancy"],
+    "summary": "Problems with eviction, the security deposit, rent increases or cutting of water or electricity. A landlord cannot evict you by force; due process is required.",
+    "urgent": "If you are being forcibly thrown out or locked out, call 112; forcible dispossession and trespass are offences.",
+    "steps": [
+      {"title": "Read your rent agreement", "detail": "Check the notice period, deposit terms, lock-in period, and rent increase clauses. Also check whether your State has a rent control or tenancy law.", "why": "The agreement and State law decide most rights."},
+      {"title": "Communicate in writing", "detail": "Raise the issue with the landlord or tenant by email or message and keep records. Pay rent through a bank or UPI so there is proof.", "why": "Written records are your evidence."},
+      {"title": "Document the property condition", "detail": "Take dated photos and videos when moving in and out, and get the keys handed over in writing.", "why": "This prevents unfair deductions from the deposit."},
+      {"title": "Send a legal notice", "detail": "For a withheld deposit or illegal actions, send a legal notice demanding the refund or compliance within 15 days.", "why": "This is often enough to resolve the dispute."},
+      {"title": "Approach the Rent Authority or Civil Court", "detail": "Depending on your State, approach the Rent Controller or Rent Authority, or file a civil suit for recovery of the deposit or for an injunction.", "why": "The Transfer of Property Act and State rent laws provide the remedies."},
+      {"title": "If dispossessed illegally", "detail": "File a police complaint for trespass or criminal intimidation, and a suit under Section 6 of the Specific Relief Act within 6 months to recover possession.", "why": "Even the owner cannot forcibly evict a person in settled possession (Rame Gowda)."}
+    ],
+    "dos": ["Get a registered or notarised rent agreement", "Keep rent receipts", "Give and ask for proper written notice"],
+    "donts": ["Landlords: do not cut off water or electricity or change locks to force eviction", "Tenants: do not stop paying rent during a dispute; deposit it in a way you can prove", "Do not leave belongings behind without an inventory"],
+    "rights": [
+      {"right": "No eviction without due process of law", "source": "Specific Relief Act Section 6; Rame Gowda v. M. Varadappa Naidu"},
+      {"right": "Written notice before termination of tenancy (15 days for monthly tenancies, unless agreed otherwise)", "source": "Transfer of Property Act Section 106"},
+      {"right": "Refund of the security deposit on vacating, after lawful deductions", "source": "Rent agreement; Model Tenancy Act Section 11 where adopted"},
+      {"right": "Essential services cannot be cut off", "source": "Model Tenancy Act Section 20 where adopted; State rent laws"},
+      {"right": "Landlord's entry with prior notice", "source": "Model Tenancy Act Section 17 where adopted"}
+    ],
+    "documents": ["Rent agreement", "Rent receipts or bank statements", "Deposit receipt", "Photos of the property condition", "Notices and messages exchanged"],
+    "authorities": [
+      {"name": "Rent Controller / Rent Authority", "role": "Tenancy disputes under State law"},
+      {"name": "Civil Court", "role": "Recovery of deposit, injunction, possession"},
+      {"name": "Police", "role": "Trespass, intimidation, forcible eviction"}
+    ],
+    "helplines": [
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [],
+    "templates": ["legal_notice"]
+  },
+  {
+    "id": "road_accident",
+    "title": "Road accident",
+    "icon": "car",
+    "categories": ["road_accident"],
+    "summary": "Whether you were injured, lost a family member, or want to help a victim, here is what to do and how to claim compensation.",
+    "urgent": "Call 112 or 108 for an ambulance. Hospitals must give emergency treatment without waiting for police formalities.",
+    "steps": [
+      {"title": "Get medical help immediately", "detail": "Call 108 or 112. Any hospital must give emergency care. Cashless treatment of up to Rs. 1.5 lakh for 7 days is available under the government scheme at designated hospitals.", "why": "Parmanand Katara v. Union of India; MV Act Section 162."},
+      {"title": "Note the details", "detail": "Note the vehicle number, make and colour, the time and place, and the names and phone numbers of witnesses. Take photos of the scene and vehicles.", "why": "Needed for the FIR and the compensation claim."},
+      {"title": "Make sure an FIR is registered", "detail": "The police will register an FIR and prepare a Detailed Accident Report (DAR). Get a copy of the FIR.", "why": "The DAR is treated as a claim application before the tribunal."},
+      {"title": "Keep medical and expense records", "detail": "Keep all hospital bills, prescriptions, discharge summaries, disability certificates, and proof of income lost.", "why": "Compensation is calculated from these."},
+      {"title": "File a claim before the MACT", "detail": "File a claim before the Motor Accident Claims Tribunal where the accident happened or where you live, within six months. Compensation covers medical costs, loss of income, pain and suffering, and, in death cases, loss of dependency.", "why": "MV Act Section 166; Sarla Verma and Pranay Sethi on computation."},
+      {"title": "For hit-and-run cases", "detail": "If the vehicle cannot be traced, apply to the Claims Enquiry Officer (SDM or Tehsildar) for fixed compensation: Rs. 2 lakh for death, Rs. 50,000 for grievous hurt.", "why": "MV Act Section 161."}
+    ],
+    "dos": ["Help victims; Good Samaritans are protected by law", "Keep the insurance details of the vehicles involved", "Get a lawyer or DLSA help for the claim"],
+    "donts": ["Do not move the vehicles before photos unless needed for safety", "Do not sign a settlement with the insurer without understanding the full claim", "Do not leave the scene if you were driving; inform the police within 24 hours"],
+    "rights": [
+      {"right": "To emergency treatment without police formalities", "source": "Parmanand Katara v. Union of India"},
+      {"right": "Good Samaritans cannot be harassed or forced to give their identity", "source": "MV Act Section 134A; Savelife Foundation"},
+      {"right": "Compensation of Rs. 5 lakh (death) or Rs. 2.5 lakh (grievous hurt) without proving fault", "source": "MV Act Section 164"},
+      {"right": "Hit-and-run compensation", "source": "MV Act Section 161"},
+      {"right": "Full compensation through the MACT", "source": "MV Act Section 166"}
+    ],
+    "documents": ["FIR and DAR copy", "Medical bills and records", "Disability certificate", "Income proof (salary slips, ITR)", "Death certificate and post-mortem report (fatal cases)", "Vehicle and insurance details"],
+    "authorities": [
+      {"name": "Police", "role": "FIR and Detailed Accident Report"},
+      {"name": "Motor Accident Claims Tribunal (MACT)", "role": "Compensation claims"},
+      {"name": "Claims Enquiry Officer (SDM / Tehsildar)", "role": "Hit-and-run compensation"}
+    ],
+    "helplines": [
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "Ambulance", "number": "108"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [],
+    "templates": ["police_complaint"]
+  },
+  {
+    "id": "senior_citizen",
+    "title": "Elderly parent neglected or property taken",
+    "icon": "elder",
+    "categories": ["senior_citizens"],
+    "summary": "Senior citizens and parents can claim maintenance from their children and can even cancel a property transfer if the children stop caring for them.",
+    "urgent": "Elder Line 14567 provides help, information and rescue for senior citizens.",
+    "steps": [
+      {"title": "Call Elder Line 14567", "detail": "The national helpline for senior citizens gives information, emotional support and help with abuse cases.", "why": "Immediate support and guidance."},
+      {"title": "Apply to the Maintenance Tribunal", "detail": "File a simple application before the Maintenance Tribunal (usually the SDM's office) against your children, grandchildren or heirs. No lawyer is needed.", "why": "Senior Citizens Act Sections 4 and 5."},
+      {"title": "Ask for interim maintenance", "detail": "The Tribunal can order interim maintenance while the case is pending and should decide within 90 days.", "why": "Senior Citizens Act Section 5."},
+      {"title": "Challenge a property transfer", "detail": "If you gifted or transferred property to a child on the understanding that they would care for you and they did not, ask the Tribunal to declare the transfer void.", "why": "Senior Citizens Act Section 23."},
+      {"title": "Report abuse or abandonment", "detail": "Physical abuse, threats or abandonment can be reported to the police.", "why": "Senior Citizens Act Section 24 and BNS."}
+    ],
+    "dos": ["Keep documents of your property and income in a safe place", "Tell a trusted friend or neighbour about any abuse", "Ask the Tribunal for a Maintenance Officer's help"],
+    "donts": ["Do not sign property papers under pressure", "Do not hand over bank passwords or cheque books"],
+    "rights": [
+      {"right": "To maintenance from children and heirs", "source": "Senior Citizens Act Section 4"},
+      {"right": "A simple, quick procedure without a lawyer", "source": "Senior Citizens Act Sections 5 and 17"},
+      {"right": "To cancel a property transfer if care is not provided", "source": "Senior Citizens Act Section 23"},
+      {"right": "Abandonment of a senior citizen is an offence", "source": "Senior Citizens Act Section 24"},
+      {"right": "Parents can also claim maintenance under criminal law", "source": "BNSS Section 144"}
+    ],
+    "documents": ["Age proof", "Details of children and their income", "Property documents and any gift deed", "Medical records and expenses"],
+    "authorities": [
+      {"name": "Maintenance Tribunal (SDM)", "role": "Maintenance and property transfer cases"},
+      {"name": "Police", "role": "Abuse and abandonment"},
+      {"name": "District Social Welfare Officer", "role": "Old age homes and support"}
+    ],
+    "helplines": [
+      {"name": "Elder Line", "number": "14567"},
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [],
+    "templates": ["legal_aid_application", "legal_notice"]
+  },
+  {
+    "id": "child_abuse",
+    "title": "Child abuse, child labour or child marriage",
+    "icon": "child",
+    "categories": ["child_protection"],
+    "summary": "Any person who knows of sexual abuse of a child must report it. Child labour and child marriage can also be stopped by the authorities.",
+    "urgent": "Call the Child Helpline 1098 or 112. Ensure the child is safe first.",
+    "steps": [
+      {"title": "Ensure the child is safe", "detail": "Remove the child from the abuser's reach and keep them with a trusted adult. Do not confront the abuser in front of the child.", "why": "The child's safety and wellbeing come first."},
+      {"title": "Report to 1098, the police or the Special Juvenile Police Unit", "detail": "Report sexual abuse to the police or SJPU. Reporting is mandatory under POCSO, and anyone reporting in good faith is protected.", "why": "POCSO Sections 19 and 21."},
+      {"title": "Get medical care", "detail": "Take the child for medical examination at a government hospital, preferably by a woman doctor for a girl child, in the presence of a parent or trusted person.", "why": "Medical examination is evidence and the child needs care."},
+      {"title": "Child-friendly statement", "detail": "The child's statement should be recorded at home or a place of their choice by a woman officer not in uniform. The child's identity must be kept confidential.", "why": "POCSO Sections 23 and 24."},
+      {"title": "Approach the Child Welfare Committee", "detail": "For care, counselling, shelter or rehabilitation, the child can be produced before the Child Welfare Committee (CWC).", "why": "Juvenile Justice Act."},
+      {"title": "Child labour or child marriage", "detail": "Report child labour to 1098, the police or the Labour Department, and an intended child marriage to the Child Marriage Prohibition Officer, the police or the Magistrate, who can stop it.", "why": "Child Labour Act; Prohibition of Child Marriage Act."}
+    ],
+    "dos": ["Believe and reassure the child", "Write down what the child said in their own words", "Seek counselling support"],
+    "donts": ["Do not blame or repeatedly question the child", "Do not share the child's identity on social media", "Do not try to settle the matter privately"],
+    "rights": [
+      {"right": "Mandatory reporting of sexual offences against children", "source": "POCSO Section 19"},
+      {"right": "Child-friendly statement recording and trial", "source": "POCSO Sections 24 and 33"},
+      {"right": "Identity of the child must not be disclosed", "source": "POCSO Section 23; Nipun Saxena"},
+      {"right": "Free and compulsory education; no corporal punishment", "source": "Article 21A; RTE Act Section 17"},
+      {"right": "No child below 14 may be employed", "source": "Child and Adolescent Labour Act Section 3"}
+    ],
+    "documents": ["Child's age proof", "Medical reports", "Notes of what the child disclosed", "Any messages, photos or other evidence"],
+    "authorities": [
+      {"name": "Special Juvenile Police Unit / Police", "role": "FIR under POCSO"},
+      {"name": "Child Welfare Committee", "role": "Care and protection"},
+      {"name": "District Child Protection Unit", "role": "Support and rehabilitation"},
+      {"name": "Child Marriage Prohibition Officer", "role": "Stopping child marriages"}
+    ],
+    "helplines": [
+      {"name": "Child Helpline", "number": "1098"},
+      {"name": "Emergency Response", "number": "112"}
+    ],
+    "portals": [{"name": "National Cyber Crime Portal (child abuse material)", "url": "https://cybercrime.gov.in"}],
+    "templates": ["police_complaint"]
+  },
+  {
+    "id": "rti_request",
+    "title": "Getting information from a government office",
+    "icon": "file",
+    "categories": ["rti"],
+    "summary": "Use the Right to Information Act to find the status of your file, application, pension, scholarship or complaint, or to get copies of government records.",
+    "urgent": null,
+    "steps": [
+      {"title": "Identify the public authority", "detail": "Find the department or office that holds the information and its Public Information Officer (PIO).", "why": "The application goes to the PIO of that authority."},
+      {"title": "Write clear questions", "detail": "Ask for specific information or documents (for example: the daily progress report of my application dated ..., copies of file notings). No reason needs to be given.", "why": "RTI Act Section 6(2)."},
+      {"title": "Pay the fee and submit", "detail": "Pay Rs. 10 for central authorities (State fees vary) and file online at rtionline.gov.in or by post. Applicants below the poverty line pay no fee.", "why": "RTI Act Section 6."},
+      {"title": "Wait 30 days", "detail": "The PIO must reply within 30 days, or 48 hours if the matter concerns life or liberty.", "why": "RTI Act Section 7."},
+      {"title": "File a first appeal", "detail": "If there is no reply or the reply is incomplete, file a first appeal within 30 days to the First Appellate Authority.", "why": "RTI Act Section 19(1)."},
+      {"title": "File a second appeal or complaint", "detail": "If still unsatisfied, file a second appeal within 90 days with the Central or State Information Commission, which can also penalise the PIO.", "why": "RTI Act Sections 19(3) and 20."}
+    ],
+    "dos": ["Keep questions short and specific", "Keep the receipt or registration number", "Track deadlines from the date of receipt"],
+    "donts": ["Do not ask 'why' questions or for opinions; ask for records", "Do not combine unrelated subjects in one application"],
+    "rights": [
+      {"right": "Access to information held by public authorities", "source": "RTI Act Section 3"},
+      {"right": "No need to give reasons", "source": "RTI Act Section 6(2)"},
+      {"right": "Reply within 30 days, or 48 hours for life and liberty", "source": "RTI Act Section 7"},
+      {"right": "Free information if the reply is late", "source": "RTI Act Section 7(6)"},
+      {"right": "Penalty on a PIO for delay or refusal", "source": "RTI Act Section 20"}
+    ],
+    "documents": ["Copy of your RTI application", "Fee payment proof", "Postal or online acknowledgement", "BPL certificate (if claiming exemption)"],
+    "authorities": [
+      {"name": "Public Information Officer (PIO)", "role": "Replies to RTI applications"},
+      {"name": "First Appellate Authority", "role": "First appeal"},
+      {"name": "Central / State Information Commission", "role": "Second appeal and complaints"}
+    ],
+    "helplines": [],
+    "portals": [{"name": "RTI Online (central government)", "url": "https://rtionline.gov.in"}],
+    "templates": ["rti_application"]
+  },
+  {
+    "id": "caste_atrocity",
+    "title": "Caste-based abuse or discrimination",
+    "icon": "scale",
+    "categories": ["caste_atrocities"],
+    "summary": "Insults, threats, violence, boycott or land grabbing targeting members of Scheduled Castes or Scheduled Tribes are serious offences with special protections for victims.",
+    "urgent": "If you are in danger, call 112.",
+    "steps": [
+      {"title": "File an FIR under the SC/ST (Prevention of Atrocities) Act", "detail": "Go to the police station and file an FIR. No preliminary enquiry is needed before registration.", "why": "SC/ST Act Section 18A."},
+      {"title": "Escalate if the FIR is refused", "detail": "Complain to the SP, the District Magistrate, or the State or National Commission for Scheduled Castes or Tribes. Wilful neglect of duty by a public servant is itself an offence.", "why": "SC/ST Act Section 4."},
+      {"title": "Claim relief and protection", "detail": "Victims are entitled to monetary relief, travel and maintenance expenses during investigation and trial, and protection.", "why": "SC/ST Act Section 15A and the Rules."},
+      {"title": "Get free legal aid", "detail": "Members of SC/ST communities are entitled to free legal services. Contact the DLSA.", "why": "Legal Services Authorities Act Section 12(a)."}
+    ],
+    "dos": ["Note the exact words used and witnesses present", "Record videos where safe", "Get medical treatment and a report for any injury"],
+    "donts": ["Do not accept pressure to compromise", "Do not miss court dates; you have a right to be informed of them"],
+    "rights": [
+      {"right": "FIR without preliminary enquiry", "source": "SC/ST Act Section 18A; Prathvi Raj Chauhan"},
+      {"right": "No anticipatory bail for the accused where a prima facie case exists", "source": "SC/ST Act Section 18"},
+      {"right": "Relief, rehabilitation and protection", "source": "SC/ST Act Section 15A"},
+      {"right": "Trial in Special Courts", "source": "SC/ST Act Section 14"},
+      {"right": "Untouchability is abolished", "source": "Article 17"}
+    ],
+    "documents": ["Caste certificate", "Medical report of injuries", "Evidence: videos, messages, witness names", "Land records (land dispossession)"],
+    "authorities": [
+      {"name": "Police / SP / DSP", "role": "FIR and investigation"},
+      {"name": "District Magistrate", "role": "Relief and monitoring"},
+      {"name": "National / State Commission for Scheduled Castes or Tribes", "role": "Complaints and intervention"},
+      {"name": "Special Court", "role": "Trial"}
+    ],
+    "helplines": [
+      {"name": "Emergency Response", "number": "112"},
+      {"name": "National Helpline Against Atrocities", "number": "14566"},
+      {"name": "NALSA Legal Aid", "number": "15100"}
+    ],
+    "portals": [],
+    "templates": ["police_complaint", "sp_complaint"]
+  }
+]

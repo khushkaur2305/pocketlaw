@@ -1,0 +1,56 @@
+{
+  "id": "sp_complaint",
+  "title": "Complaint to SP when Police Refuse to Register FIR",
+  "description": "A written complaint to the Superintendent of Police (or DCP) under Section 173(4) BNSS when the local police station refuses to register your FIR.",
+  "forum": "Superintendent of Police / Deputy Commissioner of Police",
+  "law": "Section 173(4), Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "categories": ["police_rights", "criminal", "caste_atrocities", "women_safety"],
+  "fields": [
+    {"name": "complainant_name", "label": "Your full name", "type": "text", "required": true, "group": "Your details"},
+    {"name": "complainant_address", "label": "Your address", "type": "textarea", "required": true, "rows": 2, "group": "Your details"},
+    {"name": "complainant_phone", "label": "Phone number", "type": "tel", "required": true, "group": "Your details"},
+    {"name": "complainant_email", "label": "Email (optional)", "type": "email", "group": "Your details"},
+    {"name": "sp_office", "label": "Addressed to", "type": "text", "required": true, "placeholder": "e.g. Senior Superintendent of Police, Ludhiana", "group": "Where to send"},
+    {"name": "district", "label": "District / City", "type": "text", "required": true, "group": "Where to send"},
+    {"name": "police_station", "label": "Police station that refused", "type": "text", "required": true, "group": "Refusal"},
+    {"name": "date_approached", "label": "Date you approached the police station", "type": "date", "required": true, "group": "Refusal"},
+    {"name": "officer_name", "label": "Officer you met (optional)", "type": "text", "placeholder": "Name and rank, if known", "group": "Refusal"},
+    {"name": "refusal_details", "label": "What did the police say or do?", "type": "textarea", "required": true, "rows": 3, "group": "Refusal"},
+    {"name": "incident_type", "label": "What kind of incident?", "type": "text", "required": true, "group": "Incident"},
+    {"name": "incident_date", "label": "Date of incident", "type": "date", "required": true, "group": "Incident"},
+    {"name": "incident_place", "label": "Place of incident", "type": "text", "required": true, "group": "Incident"},
+    {"name": "facts", "label": "What happened? (one point per line)", "type": "textarea", "required": true, "rows": 6, "group": "Incident"},
+    {"name": "legal_provisions", "label": "Relevant provisions (optional)", "type": "textarea", "rows": 2, "group": "Law"},
+    {"name": "enclosures", "label": "Documents attached (one per line, optional)", "type": "textarea", "rows": 3, "placeholder": "Copy of complaint submitted at police station\nPostal receipt", "group": "Attachments"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Attachments"}
+  ],
+  "document": {
+    "date_place": "top",
+    "mode_of_delivery": "By Registered Post A.D.",
+    "to": ["To,", "The {sp_office},", "District {district}."],
+    "subject": "Complaint under Section 173(4) of the Bharatiya Nagarik Suraksha Sanhita, 2023 against refusal by Police Station {police_station} to register an FIR regarding {incident_type}",
+    "salutation": "Respected Sir/Madam,",
+    "intro": ["I, {complainant_name}, residing at {complainant_address}, respectfully submit as follows:"],
+    "facts_heading": "Facts of the incident",
+    "facts_field": "facts",
+    "paragraphs": [
+      "The above incident took place on {incident_date} at {incident_place}, within the jurisdiction of Police Station {police_station}.",
+      "On {date_approached}, I approached Police Station {police_station}[[ and met {officer_name}]] with a written complaint and requested registration of an FIR. However, the officer in charge did not register the FIR. {refusal_details}"
+    ],
+    "legal_basis_heading": "Legal basis",
+    "legal_basis": [
+      "The information disclosed by me relates to cognizable offence(s). Registration of an FIR in such cases is mandatory under Section 173 of the BNSS, 2023, as held by the Supreme Court in Lalita Kumari v. Government of Uttar Pradesh, (2014) 2 SCC 1.",
+      "Under Section 173(4) of the BNSS, 2023, a person aggrieved by such refusal may send the substance of the information in writing and by post to the Superintendent of Police, who shall, if satisfied that it discloses a cognizable offence, investigate the case or direct an investigation.",
+      {"if": "legal_provisions", "text": "The relevant provisions of law include: {legal_provisions}."}
+    ],
+    "prayer_intro": "I therefore request you to kindly:",
+    "prayer": [
+      "direct the registration of an FIR on my complaint and a fair investigation, or investigate the case yourself;",
+      "take appropriate action against the officer(s) responsible for refusing to register the FIR; and",
+      "provide me a copy of the FIR and keep me informed of the progress of the investigation."
+    ],
+    "closing": ["I declare that the information given above is true and correct to the best of my knowledge and belief."],
+    "signoff": ["Yours faithfully,", "", "", "(Signature)", "{complainant_name}", "Phone: {complainant_phone}", "[[Email: {complainant_email}]]"],
+    "enclosures_field": "enclosures"
+  }
+}

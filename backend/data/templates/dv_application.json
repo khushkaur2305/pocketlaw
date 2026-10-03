@@ -1,0 +1,72 @@
+{
+  "id": "dv_application",
+  "title": "Domestic Violence Application to Magistrate",
+  "description": "An application by an aggrieved woman to the Magistrate under Section 12 of the Domestic Violence Act seeking protection, residence, monetary relief, custody and compensation.",
+  "forum": "Judicial Magistrate First Class / Metropolitan Magistrate",
+  "law": "Section 12, Protection of Women from Domestic Violence Act, 2005",
+  "categories": ["domestic_violence", "family", "women_safety"],
+  "fields": [
+    {"name": "aggrieved_name", "label": "Your full name", "type": "text", "required": true, "group": "Your details"},
+    {"name": "aggrieved_address", "label": "Your current address", "type": "textarea", "required": true, "rows": 2, "group": "Your details"},
+    {"name": "aggrieved_phone", "label": "Phone number", "type": "tel", "required": true, "group": "Your details"},
+    {"name": "magistrate_court", "label": "Court", "type": "text", "required": true, "placeholder": "e.g. Judicial Magistrate First Class, Ludhiana", "group": "Court"},
+    {"name": "respondent_names", "label": "Respondent(s): names and relationship to you", "type": "textarea", "required": true, "rows": 3, "placeholder": "1. Rahul Sharma (husband)\n2. Sunita Sharma (mother-in-law)", "group": "Respondents"},
+    {"name": "respondent_address", "label": "Respondents' address", "type": "textarea", "required": true, "rows": 2, "group": "Respondents"},
+    {"name": "relationship", "label": "Your relationship with Respondent No. 1", "type": "select", "required": true, "options": ["married to Respondent No. 1", "in a relationship in the nature of marriage with Respondent No. 1", "a family member living with the Respondents in a shared household"], "group": "Relationship"},
+    {"name": "marriage_date", "label": "Date of marriage (optional)", "type": "date", "group": "Relationship"},
+    {"name": "shared_household", "label": "Address of the shared household", "type": "textarea", "required": true, "rows": 2, "group": "Relationship"},
+    {"name": "children", "label": "Children, if any (name and age)", "type": "textarea", "rows": 2, "group": "Relationship"},
+    {"name": "facts", "label": "Incidents of violence (one per line, with dates if possible)", "type": "textarea", "required": true, "rows": 7, "group": "Incidents", "help": "Include physical, sexual, verbal, emotional and economic abuse and dowry demands."},
+    {"name": "dir_date", "label": "Date Domestic Incident Report was recorded (optional)", "type": "date", "group": "Incidents"},
+    {"name": "relief_protection", "label": "Protection order (stop violence and contact)", "type": "checkbox", "default": true, "group": "Reliefs sought"},
+    {"name": "relief_residence", "label": "Residence order (right to stay in the shared household)", "type": "checkbox", "default": true, "group": "Reliefs sought"},
+    {"name": "relief_monetary", "label": "Monetary relief and maintenance", "type": "checkbox", "default": true, "group": "Reliefs sought"},
+    {"name": "monetary_amount", "label": "Monthly maintenance sought (Rs., optional)", "type": "number", "group": "Reliefs sought"},
+    {"name": "relief_custody", "label": "Temporary custody of children", "type": "checkbox", "group": "Reliefs sought"},
+    {"name": "relief_compensation", "label": "Compensation for injuries and mental torture", "type": "checkbox", "default": true, "group": "Reliefs sought"},
+    {"name": "relief_interim", "label": "Urgent interim / ex parte orders", "type": "checkbox", "default": true, "group": "Reliefs sought"},
+    {"name": "stridhan", "label": "Stridhan / articles to be returned (optional)", "type": "textarea", "rows": 2, "group": "Reliefs sought"},
+    {"name": "enclosures", "label": "Documents attached (one per line)", "type": "textarea", "rows": 3, "placeholder": "Medical reports\nPhotographs\nMarriage certificate\nDomestic Incident Report", "group": "Attachments"},
+    {"name": "place", "label": "Place of signing", "type": "text", "required": true, "group": "Attachments"}
+  ],
+  "document": {
+    "court_heading": ["IN THE COURT OF THE {magistrate_court}"],
+    "case_no": "Criminal Misc. Application No. ________ of {year}",
+    "parties": [
+      {"lines": ["{aggrieved_name}", "{aggrieved_address}", "Phone: {aggrieved_phone}"], "role": "...Aggrieved Person / Applicant"},
+      {"versus": true},
+      {"lines": ["{respondent_names}", "{respondent_address}"], "role": "...Respondent(s)"}
+    ],
+    "heading": "APPLICATION UNDER SECTION 12 OF THE PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005",
+    "intro": ["The Applicant respectfully submits as under:"],
+    "pre_facts": [
+      "The Applicant is {relationship}[[, having been married on {marriage_date}]]. The Applicant and the Respondents lived together in a shared household at {shared_household}. The Applicant is therefore an 'aggrieved person' in a 'domestic relationship' with the Respondents within the meaning of Section 2 of the Act.",
+      {"if": "children", "text": "The following children were born from the relationship: {children}."},
+      "The Respondents have subjected the Applicant to domestic violence as defined in Section 3 of the Act, as detailed below."
+    ],
+    "facts_heading": "Incidents of domestic violence",
+    "facts_field": "facts",
+    "paragraphs": [
+      {"if": "dir_date", "text": "A Domestic Incident Report was recorded on {dir_date}, a copy of which is enclosed."},
+      "Under Section 17 of the Act, the Applicant has the right to reside in the shared household irrespective of any right, title or interest in it, and cannot be evicted except in accordance with the procedure established by law, as affirmed by the Supreme Court in Satish Chander Ahuja v. Sneha Ahuja, (2021) 1 SCC 414.",
+      "The Applicant apprehends further violence and is in urgent need of protection and relief. This Hon'ble Court has jurisdiction as the Applicant resides / the Respondents reside / the cause of action arose within its local limits, in terms of Section 27 of the Act."
+    ],
+    "prayer_intro": "It is therefore most respectfully prayed that this Hon'ble Court may be pleased to:",
+    "prayer": [
+      {"if": "relief_protection", "text": "pass a protection order under Section 18 prohibiting the Respondents from committing any act of domestic violence, from contacting or communicating with the Applicant, entering her place of work, and from alienating assets or operating joint bank accounts;"},
+      {"if": "relief_residence", "text": "pass a residence order under Section 19 restraining the Respondents from dispossessing the Applicant from the shared household or, in the alternative, directing them to provide alternate accommodation of the same standard;"},
+      {"if": "relief_monetary", "text": "direct the Respondents under Section 20 to pay monetary relief for the expenses and losses suffered by the Applicant, and maintenance[[ of Rs. {monetary_amount} per month]] for the Applicant and her children;"},
+      {"if": "relief_custody", "text": "grant temporary custody of the minor children to the Applicant under Section 21;"},
+      {"if": "relief_compensation", "text": "direct the Respondents to pay compensation and damages for injuries, including mental torture and emotional distress, under Section 22;"},
+      {"if": "stridhan", "text": "direct the Respondents to return the Applicant's stridhan, jewellery and articles, namely: {stridhan};"},
+      {"if": "relief_interim", "text": "pass interim and ex parte orders under Section 23 pending disposal of this application; and"},
+      "pass any other order that this Hon'ble Court deems fit and proper in the interest of justice."
+    ],
+    "signoff": ["", "", "(Signature)", "{aggrieved_name}", "Applicant / Aggrieved Person"],
+    "verification_heading": "VERIFICATION",
+    "verification": ["I, {aggrieved_name}, the Applicant above named, do hereby verify that the contents of paragraphs 1 to {para_count} of the above application are true and correct to my knowledge and belief, and nothing material has been concealed therefrom.", "Verified at {place} on {today}."],
+    "verification_signoff": ["", "(Signature)", "{aggrieved_name}", "Applicant"],
+    "enclosures_field": "enclosures",
+    "date_place": "bottom"
+  }
+}
