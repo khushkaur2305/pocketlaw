@@ -21,71 +21,94 @@ Police complaint / FIR request (BNSS s.173) · Complaint to SP on FIR refusal (B
 | ------------------ | ---------------------------------------------------------------- |
 | Frontend           | React 18, HTML5, CSS3, JavaScript (Vite)                         |
 | Data Visualization | Chart.js (react-chartjs-2)                                       |
-| Backend            | Python (Flask)                                                   |
-| RAG Engine         | TF-IDF Vectorizer (scikit-learn) + cosine similarity             |
-| Vector Index       | SciPy sparse matrix (unigrams + bigrams, max 15,000 features)    |
-| PDF Processing     | pdfplumber + pypdf (ingestion), ReportLab (generation)           |
-| Web Search         | DuckDuckGo HTML scraping (no API key required)                   |
+| Data pipeline      | Python (scikit-learn, SciPy, pdfplumber, pypdf)                  |
+| RAG Engine         | TF-IDF Vectorizer (scikit-learn) + cosine similarity (run in the browser) |
+| Vector Index       | SciPy sparse matrix exported as compact CSR JSON (unigrams + bigrams, max 15,000 features) |
+| PDF Generation     | jsPDF (in the browser)                                           |
+| Web Search         | DuckDuckGo HTML scraping via a Vercel serverless function (no API key required) |
+| Hosting            | Vercel (static site + one function), free tier, no environment variables |
 | Knowledge Base     | 161 provisions from 33 Acts / the Constitution, 49 Supreme Court judgment summaries, 14 guides; extendable with judgment PDFs |
 
-The index size grows as you add data. The Insights page shows the live chunk and feature counts.
+### How it fits together
+
+```
+backend/ (Python, run on your computer)              frontend/ (deployed to Vercel)
+  data/*.json, data/pdfs/  ──►  scikit-learn TF-IDF  ──►  public/data/*.json  ──►  browser engine (src/engine/)
+                                scripts/export_web.py      (index, laws, guides,    query expansion, TF-IDF,
+                                                            templates, stats)       cosine similarity, jsPDF
+                                                                                    api/websearch.js (DuckDuckGo)
+```
+
+Python fits the TF-IDF model and exports it. The browser repeats the same steps (query expansion, weighting and cosine similarity) on the visitor's device, so the site needs no server. Tests check that the browser and scikit-learn give identical results.
+
+The Flask app in `backend/` still works as an optional local API and as the reference implementation, but the deployed site does not use it.
 
 ## Running locally (Windows)
 
-Requirements: Python 3.10+ and Node.js 18+.
-
-**1. Backend** (http://127.0.0.1:5000)
-
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\pip install -r requirements.txt
-venv\Scripts\python app.py
-```
-
-The search index is built automatically on first start, and rebuilt whenever `data/*.json` or `data/pdfs/` changes.
-
-**2. Frontend** (http://localhost:5173, with `/api` proxied to the backend)
+Requirements: Node.js 18+ (and Python 3.10+ only if you change the legal data).
 
 ```bash
 cd frontend
-npm install
-npm run dev
+```
+```bash
+npm.cmd install
+```
+```bash
+npm.cmd run dev
 ```
 
-**Tests**
+Then open http://localhost:5173. (On Windows PowerShell, use `npm.cmd`, and don't chain commands with `&&`.)
+
+### After editing the legal data (laws, judgments, guides, templates, PDFs)
 
 ```bash
 cd backend
-venv\Scripts\python -m pytest -q
+```
+```bash
+python -m venv venv
+```
+```bash
+venv\Scripts\pip install -r requirements.txt
+```
+```bash
+venv\Scripts\python scripts\export_web.py
 ```
 
-The tests cover retrieval relevance (13 everyday problems must surface the right provision and guide), every API route, and rendering of all 9 PDF templates.
+This regenerates `frontend/public/data/`. Commit those files; Vercel only serves them and never runs Python.
+
+### Tests
+
+```bash
+cd backend
+```
+```bash
+venv\Scripts\python -m pytest -q
+```
+```bash
+cd ..\frontend
+```
+```bash
+npm.cmd test
+```
+
+- **Python (59 tests):** retrieval relevance (13 everyday problems must surface the right provision and guide), the Flask API, rendering of all 9 templates, and a check that the exported data is up to date.
+- **JavaScript (55 tests):** parity with scikit-learn (identical TF-IDF weights, top-3 laws, guide and confidence), the same relevance cases, and PDF generation for every template.
 
 > scikit-learn is pinned to 1.6.1 because newer wheels' DLLs are blocked by Windows Smart App Control on some machines.
 
-## Deployment (Vercel + Render, free tiers)
+## Deployment (Vercel only, free)
 
-The React frontend is hosted on **Vercel**, and the Flask API on **Render**. Both deploy automatically from GitHub on every push.
+1. Push the repository to GitHub.
+2. On vercel.com, choose **Add New → Project** and import the repository.
+3. Set **Root Directory** to `frontend`. The framework is detected as Vite.
+4. Click **Deploy**. No environment variables or API keys are needed.
 
-1. **Push to GitHub:** create an empty repository on github.com, then from the project folder run:
-   ```bash
-   git remote add origin https://github.com/<your-username>/pocketlaw.git
-   ```
-   ```bash
-   git push -u origin main
-   ```
-2. **Backend on Render:** at dashboard.render.com, choose **New → Blueprint**, pick the repository, then click **Apply**. Render reads `render.yaml`, installs the requirements, builds the search index and starts the app with gunicorn. When it shows **Live**, copy the URL (for example `https://pocketlaw-api.onrender.com`) and check that `<url>/api/health` returns `"status": "ok"`.
-3. **Frontend on Vercel:** at vercel.com, choose **Add New → Project** and import the repository.
-   - Set **Root Directory** to `frontend`. The framework is detected as Vite.
-   - Under **Environment Variables**, add `VITE_API_BASE` = `https://<your-render-url>/api`.
-   - Click **Deploy**.
-4. **Optional hardening:** in Render → Environment, set `ALLOWED_ORIGINS` to your Vercel URL (for example `https://pocketlaw.vercel.app`) so only your site can call the API.
+Every later push to GitHub redeploys automatically.
 
 Notes:
-- Render's free tier sleeps after about 15 minutes of inactivity. The first request after that takes around 30 to 60 seconds while it wakes up.
-- `frontend/vercel.json` rewrites all paths to `index.html`, so links such as `/guide/cyber_fraud` work when the page is refreshed.
-- DuckDuckGo sometimes blocks requests from cloud servers. If that happens, the optional web search shows "unavailable", and everything else keeps working.
+- `frontend/vercel.json` sends every page path to `index.html`, so links such as `/guide/cyber_fraud` work when refreshed. `/api`, `/data` and `/assets` are left alone.
+- `frontend/api/websearch.js` becomes a Vercel serverless function. DuckDuckGo sometimes blocks cloud servers; if so, only the optional web search shows "unavailable".
+- Searches and documents are processed in the visitor's browser and never sent to a server. Only the optional web search query goes to DuckDuckGo.
 
 ## Extending the knowledge base
 
@@ -95,7 +118,11 @@ Notes:
 - **Guides:** `backend/data/survival_steps.json`.
 - **Document templates:** add a JSON file in `backend/data/templates/`. It needs no code changes, because fields, the form, validation and the PDF layout are all driven by the template.
 
-## API
+After any of these changes, run `scripts/export_web.py` and commit `frontend/public/data/`.
+
+## Optional local Flask API
+
+Run with `venv\Scripts\python app.py` (http://127.0.0.1:5000). It serves the same features over HTTP:
 
 | Method | Path | Purpose |
 |--------|------|---------|

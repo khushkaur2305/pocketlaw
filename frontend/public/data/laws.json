@@ -1,0 +1,2838 @@
+[
+ {
+  "id": "bns_103",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 103",
+  "title": "Punishment for murder",
+  "category": "criminal",
+  "text": "Whoever commits murder is punished with death or imprisonment for life and fine. Section 103(2) specifically punishes murder by a group of five or more persons acting together on grounds of race, caste, community, sex, place of birth, language or personal belief (mob lynching).",
+  "punishment": "Death or life imprisonment, and fine",
+  "old_equivalent": "IPC Section 302",
+  "keywords": [
+   "murder",
+   "killing",
+   "killed",
+   "mob lynching",
+   "homicide"
+  ]
+ },
+ {
+  "id": "bns_106",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 106",
+  "title": "Causing death by negligence",
+  "category": "road_accident",
+  "text": "Causing the death of any person by a rash or negligent act not amounting to culpable homicide is punishable. A lower maximum applies to registered medical practitioners during a medical procedure. Section 106(2) provides a harsher punishment for a driver who causes death by rash or negligent driving and escapes without reporting to the police or a Magistrate; check its current enforcement status.",
+  "punishment": "Up to 5 years and fine (up to 2 years for medical practitioners)",
+  "old_equivalent": "IPC Section 304A",
+  "keywords": [
+   "death by negligence",
+   "rash driving",
+   "accident death",
+   "hit and run",
+   "negligent driving",
+   "medical negligence death"
+  ],
+  "related_judgments": [
+   "jacob_mathew"
+  ]
+ },
+ {
+  "id": "bns_108",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 108",
+  "title": "Abetment of suicide",
+  "category": "criminal",
+  "text": "If any person commits suicide, whoever abets (instigates, conspires or intentionally aids) the commission of that suicide is punishable.",
+  "punishment": "Up to 10 years and fine",
+  "old_equivalent": "IPC Section 306",
+  "keywords": [
+   "abetment of suicide",
+   "suicide",
+   "instigation",
+   "harassment leading to suicide"
+  ]
+ },
+ {
+  "id": "bns_80",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 80",
+  "title": "Dowry death",
+  "category": "domestic_violence",
+  "text": "Where a woman dies of burns or bodily injury, or otherwise than under normal circumstances, within seven years of marriage, and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or his relatives in connection with a demand for dowry, the death is a dowry death and the husband or relative is deemed to have caused it.",
+  "punishment": "Minimum 7 years, may extend to life imprisonment",
+  "old_equivalent": "IPC Section 304B",
+  "keywords": [
+   "dowry death",
+   "bride burning",
+   "dowry",
+   "death within seven years of marriage",
+   "in-laws"
+  ]
+ },
+ {
+  "id": "bns_85",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 85",
+  "title": "Cruelty to a woman by husband or his relatives",
+  "category": "domestic_violence",
+  "text": "A husband or relative of the husband who subjects a woman to cruelty is punishable. Under Section 86, cruelty means wilful conduct likely to drive the woman to suicide or to cause grave injury or danger to her life, limb or health (mental or physical), or harassment to coerce her or her relatives to meet an unlawful demand for property or valuable security such as dowry.",
+  "punishment": "Up to 3 years and fine",
+  "old_equivalent": "IPC Section 498A",
+  "keywords": [
+   "cruelty",
+   "husband",
+   "in-laws",
+   "matrimonial cruelty",
+   "dowry harassment",
+   "498a",
+   "mental torture",
+   "wife beating"
+  ],
+  "related_judgments": [
+   "arnesh_kumar",
+   "rajnesh_neha"
+  ]
+ },
+ {
+  "id": "bns_115",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 115",
+  "title": "Voluntarily causing hurt",
+  "category": "criminal",
+  "text": "Whoever does any act intending or knowing it is likely to cause bodily pain, disease or infirmity to another person voluntarily causes hurt and is punishable under Section 115(2).",
+  "punishment": "Up to 1 year, or fine up to Rs. 10,000, or both",
+  "old_equivalent": "IPC Section 323",
+  "keywords": [
+   "hurt",
+   "beating",
+   "slapped",
+   "physical assault",
+   "injury",
+   "fight"
+  ]
+ },
+ {
+  "id": "bns_117",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 117",
+  "title": "Voluntarily causing grievous hurt",
+  "category": "criminal",
+  "text": "Grievous hurt includes fracture or dislocation of a bone or tooth, permanent loss of sight or hearing, permanent disfiguration of the head or face, and any hurt which endangers life or causes severe bodily pain for 15 days. Voluntarily causing grievous hurt is punishable under Section 117(2).",
+  "punishment": "Up to 7 years and fine",
+  "old_equivalent": "IPC Section 325",
+  "keywords": [
+   "grievous hurt",
+   "fracture",
+   "serious injury",
+   "broken bone",
+   "severe beating"
+  ]
+ },
+ {
+  "id": "bns_124",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 124",
+  "title": "Acid attack",
+  "category": "women_safety",
+  "text": "Causing permanent or partial damage, deformity, burns, maiming or disfigurement by throwing acid or administering it is punishable; the fine is paid to the victim and must be just and reasonable to meet medical expenses. Attempting to throw acid is separately punishable under Section 124(2). Victims are entitled to free medical treatment in all hospitals.",
+  "punishment": "Minimum 10 years up to life and fine; attempt 5 to 7 years and fine",
+  "old_equivalent": "IPC Sections 326A and 326B",
+  "keywords": [
+   "acid attack",
+   "acid",
+   "disfigurement",
+   "burns",
+   "acid thrown"
+  ],
+  "related_judgments": [
+   "laxmi"
+  ]
+ },
+ {
+  "id": "bns_126",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 126",
+  "title": "Wrongful restraint",
+  "category": "criminal",
+  "text": "Voluntarily obstructing any person so as to prevent that person from proceeding in any direction in which they have a right to proceed is wrongful restraint.",
+  "punishment": "Simple imprisonment up to 1 month, or fine up to Rs. 5,000, or both",
+  "old_equivalent": "IPC Section 341",
+  "keywords": [
+   "wrongful restraint",
+   "blocked my way",
+   "stopped me",
+   "obstruct"
+  ]
+ },
+ {
+  "id": "bns_127",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 127",
+  "title": "Wrongful confinement",
+  "category": "criminal",
+  "text": "Wrongfully restraining a person so as to prevent them from proceeding beyond certain limits, for example locking someone in a room or house, is wrongful confinement. Longer confinement attracts higher punishment.",
+  "punishment": "Up to 1 year, or fine up to Rs. 5,000, or both (basic offence)",
+  "old_equivalent": "IPC Section 342",
+  "keywords": [
+   "wrongful confinement",
+   "locked in room",
+   "locked up",
+   "illegal detention",
+   "not allowed to leave house"
+  ]
+ },
+ {
+  "id": "bns_74",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 74",
+  "title": "Assault or criminal force to woman with intent to outrage her modesty",
+  "category": "women_safety",
+  "text": "Whoever assaults or uses criminal force on any woman, intending or knowing it to be likely that her modesty will be outraged, is punishable. This covers molestation, groping and unwanted physical touching.",
+  "punishment": "1 to 5 years and fine",
+  "old_equivalent": "IPC Section 354",
+  "keywords": [
+   "molestation",
+   "outraging modesty",
+   "groping",
+   "touched inappropriately",
+   "assault on woman"
+  ],
+  "related_judgments": [
+   "aparna_bhat"
+  ]
+ },
+ {
+  "id": "bns_75",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 75",
+  "title": "Sexual harassment",
+  "category": "women_safety",
+  "text": "A man commits sexual harassment by physical contact and advances involving unwelcome and explicit sexual overtures, a demand or request for sexual favours, showing pornography against the will of a woman, or making sexually coloured remarks.",
+  "punishment": "Up to 3 years or fine or both; up to 1 year for sexually coloured remarks",
+  "old_equivalent": "IPC Section 354A",
+  "keywords": [
+   "sexual harassment",
+   "sexual favours",
+   "sexually coloured remarks",
+   "lewd comments",
+   "pornography",
+   "unwelcome advances"
+  ],
+  "related_judgments": [
+   "vishaka"
+  ]
+ },
+ {
+  "id": "bns_77",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 77",
+  "title": "Voyeurism",
+  "category": "women_safety",
+  "text": "Watching or capturing the image of a woman engaging in a private act in circumstances where she would expect not to be observed, or disseminating such an image, is voyeurism. Consent to capture an image does not imply consent to share it.",
+  "punishment": "1 to 3 years and fine on first conviction; 3 to 7 years on subsequent conviction",
+  "old_equivalent": "IPC Section 354C",
+  "keywords": [
+   "voyeurism",
+   "hidden camera",
+   "secretly recorded",
+   "private photos shared",
+   "changing room camera"
+  ]
+ },
+ {
+  "id": "bns_78",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 78",
+  "title": "Stalking",
+  "category": "women_safety",
+  "text": "A man who follows a woman and contacts or attempts to contact her repeatedly despite a clear indication of disinterest, or monitors her use of the internet, email or any electronic communication, commits stalking.",
+  "punishment": "Up to 3 years and fine on first conviction; up to 5 years on subsequent conviction",
+  "old_equivalent": "IPC Section 354D",
+  "keywords": [
+   "stalking",
+   "following",
+   "repeated calls",
+   "repeated messages",
+   "cyber stalking",
+   "monitoring"
+  ]
+ },
+ {
+  "id": "bns_79",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 79",
+  "title": "Word, gesture or act intended to insult the modesty of a woman",
+  "category": "women_safety",
+  "text": "Uttering any word, making any sound or gesture, or exhibiting any object intending that it be heard or seen by a woman to insult her modesty, or intruding upon her privacy, is punishable. This covers eve-teasing and obscene comments.",
+  "punishment": "Up to 3 years and fine",
+  "old_equivalent": "IPC Section 509",
+  "keywords": [
+   "eve teasing",
+   "obscene gestures",
+   "catcalling",
+   "insult modesty",
+   "vulgar comments"
+  ]
+ },
+ {
+  "id": "bns_64",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Sections 63-64",
+  "title": "Rape and its punishment",
+  "category": "women_safety",
+  "text": "Section 63 defines rape, including sexual acts against a woman's will or without her free consent. Section 64 prescribes punishment, with enhanced punishment for police officers, public servants, relatives, persons in a position of trust and repeat offenders. The victim's identity must not be disclosed, and the victim has the right to free medical treatment and to have her statement recorded by a woman officer.",
+  "punishment": "Rigorous imprisonment of at least 10 years, up to life, and fine",
+  "old_equivalent": "IPC Sections 375 and 376",
+  "keywords": [
+   "rape",
+   "sexual assault",
+   "forced sex",
+   "without consent"
+  ],
+  "related_judgments": [
+   "nipun_saxena",
+   "independent_thought"
+  ]
+ },
+ {
+  "id": "bns_69",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 69",
+  "title": "Sexual intercourse by deceitful means",
+  "category": "women_safety",
+  "text": "Having sexual intercourse with a woman by deceitful means, or by making a promise to marry her without any intention of fulfilling it, where it does not amount to rape, is punishable. Deceitful means include false promises of employment or promotion, or marrying after suppressing identity.",
+  "punishment": "Up to 10 years and fine",
+  "keywords": [
+   "false promise of marriage",
+   "deceit",
+   "promise to marry",
+   "cheated in relationship",
+   "suppressed identity"
+  ]
+ },
+ {
+  "id": "bns_303",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 303",
+  "title": "Theft",
+  "category": "criminal",
+  "text": "Dishonestly taking any movable property out of the possession of a person without consent is theft. Repeat offenders face a minimum sentence. For a first-time theft of property worth less than Rs. 5,000 where the property is returned, community service may be ordered.",
+  "punishment": "Up to 3 years, or fine, or both; 1 to 5 years and fine on second conviction",
+  "old_equivalent": "IPC Sections 378 and 379",
+  "keywords": [
+   "theft",
+   "stolen",
+   "stole",
+   "mobile stolen",
+   "bike stolen",
+   "pickpocket"
+  ]
+ },
+ {
+  "id": "bns_304",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 304",
+  "title": "Snatching",
+  "category": "criminal",
+  "text": "Theft is snatching if, in order to commit theft, the offender suddenly, quickly or forcibly seizes or grabs movable property from a person, such as a chain, phone or bag.",
+  "punishment": "Up to 3 years and fine",
+  "keywords": [
+   "snatching",
+   "chain snatching",
+   "phone snatched",
+   "bag snatched"
+  ]
+ },
+ {
+  "id": "bns_308",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 308",
+  "title": "Extortion",
+  "category": "criminal",
+  "text": "Intentionally putting a person in fear of injury to themselves or another, and thereby dishonestly inducing them to deliver property or valuable security, is extortion. Blackmail demanding money under threat of exposing photos or information is covered.",
+  "punishment": "Up to 7 years, or fine, or both",
+  "old_equivalent": "IPC Sections 383 and 384",
+  "keywords": [
+   "extortion",
+   "blackmail",
+   "threat for money",
+   "hafta",
+   "ransom"
+  ]
+ },
+ {
+  "id": "bns_309",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 309",
+  "title": "Robbery",
+  "category": "criminal",
+  "text": "Theft or extortion becomes robbery when the offender causes or attempts to cause death, hurt or wrongful restraint, or fear of these, in committing it.",
+  "punishment": "Rigorous imprisonment up to 10 years and fine; up to 14 years on a highway between sunset and sunrise",
+  "old_equivalent": "IPC Sections 390 and 392",
+  "keywords": [
+   "robbery",
+   "robbed",
+   "looted",
+   "knife point",
+   "gun point"
+  ]
+ },
+ {
+  "id": "bns_316",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 316",
+  "title": "Criminal breach of trust",
+  "category": "cheque_bounce",
+  "text": "Whoever, being entrusted with property or dominion over it, dishonestly misappropriates it, converts it to their own use, or disposes of it in violation of the trust is guilty of criminal breach of trust. This applies, for example, when someone given money or goods for a purpose keeps it.",
+  "punishment": "Up to 5 years, or fine, or both",
+  "old_equivalent": "IPC Sections 405 and 406",
+  "keywords": [
+   "criminal breach of trust",
+   "misappropriation",
+   "entrusted money",
+   "kept my money",
+   "stridhan not returned"
+  ]
+ },
+ {
+  "id": "bns_318",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 318",
+  "title": "Cheating",
+  "category": "criminal",
+  "text": "Deceiving any person and fraudulently or dishonestly inducing them to deliver property, or to do or omit anything they would not otherwise do, which causes or is likely to cause damage to them, is cheating. Cheating that dishonestly induces delivery of property is punished more severely under Section 318(4).",
+  "punishment": "Up to 3 years (basic); up to 7 years and fine under Section 318(4)",
+  "old_equivalent": "IPC Sections 415, 417 and 420",
+  "keywords": [
+   "cheating",
+   "fraud",
+   "duped",
+   "420",
+   "fake promise",
+   "money taken by fraud",
+   "job fraud"
+  ]
+ },
+ {
+  "id": "bns_319",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 319",
+  "title": "Cheating by personation",
+  "category": "cyber",
+  "text": "Cheating by pretending to be some other person, or knowingly substituting one person for another, is cheating by personation. This covers frauds where callers pretend to be bank officials, police or relatives.",
+  "punishment": "Up to 5 years, or fine, or both",
+  "old_equivalent": "IPC Section 419",
+  "keywords": [
+   "personation",
+   "impersonation",
+   "pretending to be bank",
+   "fake officer",
+   "fake police call"
+  ]
+ },
+ {
+  "id": "bns_329",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 329",
+  "title": "Criminal trespass and house-trespass",
+  "category": "tenancy",
+  "text": "Entering property in another's possession with intent to commit an offence, intimidate, insult or annoy, or unlawfully remaining there, is criminal trespass. Doing so in a building used as a dwelling is house-trespass.",
+  "punishment": "Up to 3 months or fine up to Rs. 5,000 (trespass); up to 1 year or fine up to Rs. 5,000 (house-trespass)",
+  "old_equivalent": "IPC Sections 441, 447 and 448",
+  "keywords": [
+   "trespass",
+   "entered my house",
+   "forced entry",
+   "encroachment",
+   "landlord entered without permission"
+  ]
+ },
+ {
+  "id": "bns_324",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 324",
+  "title": "Mischief",
+  "category": "criminal",
+  "text": "Causing destruction of, or damage to, any property with intent or knowledge that it will cause wrongful loss or damage is mischief. Punishment increases with the value of the loss.",
+  "punishment": "Up to 6 months or fine (basic); higher for greater loss",
+  "old_equivalent": "IPC Sections 425 and 427",
+  "keywords": [
+   "mischief",
+   "damaged my property",
+   "vandalism",
+   "broke my car",
+   "property damage"
+  ]
+ },
+ {
+  "id": "bns_336",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 336",
+  "title": "Forgery",
+  "category": "criminal",
+  "text": "Making a false document or electronic record with intent to cause damage, support a false claim, cause a person to part with property, or commit fraud is forgery. Forgery for the purpose of cheating is punished more severely.",
+  "punishment": "Up to 2 years or fine (basic); up to 7 years and fine for forgery for cheating",
+  "old_equivalent": "IPC Sections 463, 465 and 468",
+  "keywords": [
+   "forgery",
+   "fake signature",
+   "fake document",
+   "forged papers",
+   "fabricated"
+  ]
+ },
+ {
+  "id": "bns_351",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 351",
+  "title": "Criminal intimidation",
+  "category": "criminal",
+  "text": "Threatening a person with injury to their person, reputation or property, or to anyone they are interested in, intending to cause alarm or to make them do something they are not legally bound to do, is criminal intimidation. Threats to cause death or grievous hurt carry a higher punishment.",
+  "punishment": "Up to 2 years, or fine, or both; up to 7 years for threats of death or grievous hurt",
+  "old_equivalent": "IPC Sections 503 and 506",
+  "keywords": [
+   "threat",
+   "threatening",
+   "death threat",
+   "intimidation",
+   "threatened to kill"
+  ]
+ },
+ {
+  "id": "bns_352",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 352",
+  "title": "Intentional insult to provoke breach of peace",
+  "category": "criminal",
+  "text": "Intentionally insulting a person in any manner, thereby giving provocation, intending or knowing it is likely to cause them to break the public peace or commit another offence, is punishable.",
+  "punishment": "Up to 2 years, or fine, or both",
+  "old_equivalent": "IPC Section 504",
+  "keywords": [
+   "insult",
+   "abuse",
+   "verbal abuse",
+   "provocation",
+   "gaali"
+  ]
+ },
+ {
+  "id": "bns_356",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 356",
+  "title": "Defamation",
+  "category": "criminal",
+  "text": "Making or publishing any imputation concerning a person by words, signs or visible representations, intending to harm or knowing it will harm their reputation, is defamation, subject to exceptions such as truth for the public good and fair comment.",
+  "punishment": "Simple imprisonment up to 2 years, or fine, or both, or community service",
+  "old_equivalent": "IPC Sections 499 and 500",
+  "keywords": [
+   "defamation",
+   "false rumours",
+   "damaged reputation",
+   "false allegations",
+   "defamatory post"
+  ]
+ },
+ {
+  "id": "bns_137",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 137",
+  "title": "Kidnapping",
+  "category": "child_protection",
+  "text": "Taking or enticing a child or a person of unsound mind out of the keeping of their lawful guardian without consent, or conveying a person beyond the limits of India without consent, is kidnapping.",
+  "punishment": "Up to 7 years and fine",
+  "old_equivalent": "IPC Sections 359 to 363",
+  "keywords": [
+   "kidnapping",
+   "abduction",
+   "child missing",
+   "taken away",
+   "child taken"
+  ]
+ },
+ {
+  "id": "bns_82",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 82",
+  "title": "Marrying again during lifetime of spouse (bigamy)",
+  "category": "family",
+  "text": "Whoever, having a living husband or wife, marries again where the second marriage is void because it takes place during the life of the spouse, is punishable. Concealing the former marriage attracts a higher punishment.",
+  "punishment": "Up to 7 years and fine; up to 10 years if the former marriage was concealed",
+  "old_equivalent": "IPC Sections 494 and 495",
+  "keywords": [
+   "bigamy",
+   "second marriage",
+   "husband married again",
+   "two wives"
+  ]
+ },
+ {
+  "id": "bns_281",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 281",
+  "title": "Rash driving or riding on a public way",
+  "category": "road_accident",
+  "text": "Driving any vehicle or riding on a public way in a manner so rash or negligent as to endanger human life or be likely to cause hurt or injury is punishable.",
+  "punishment": "Up to 6 months, or fine up to Rs. 1,000, or both",
+  "old_equivalent": "IPC Section 279",
+  "keywords": [
+   "rash driving",
+   "negligent driving",
+   "overspeeding",
+   "dangerous driving"
+  ]
+ },
+ {
+  "id": "bns_146",
+  "act": "Bharatiya Nyaya Sanhita, 2023",
+  "short_act": "BNS",
+  "ref": "Section 146",
+  "title": "Unlawful compulsory labour",
+  "category": "employment",
+  "text": "Unlawfully compelling any person to labour against their will is punishable.",
+  "punishment": "Up to 1 year, or fine, or both",
+  "old_equivalent": "IPC Section 374",
+  "keywords": [
+   "forced labour",
+   "compulsory labour",
+   "made to work against will"
+  ]
+ },
+ {
+  "id": "bnss_173",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 173",
+  "title": "Information in cognizable cases (FIR, Zero FIR, e-FIR)",
+  "category": "police_rights",
+  "text": "Every information relating to a cognizable offence must be recorded by the officer in charge of a police station, irrespective of the area where the offence was committed (Zero FIR). Information may be given orally or by electronic communication (e-FIR), which must be signed within three days. A copy of the FIR must be given to the informant free of cost. Statements of women victims of certain sexual offences are recorded by a woman officer. For offences punishable with 3 to 7 years, a preliminary enquiry of up to 14 days may be conducted.",
+  "old_equivalent": "CrPC Section 154",
+  "keywords": [
+   "fir",
+   "first information report",
+   "zero fir",
+   "e-fir",
+   "register complaint",
+   "police complaint",
+   "cognizable offence",
+   "copy of fir"
+  ],
+  "related_judgments": [
+   "lalita_kumari",
+   "youth_bar"
+  ]
+ },
+ {
+  "id": "bnss_173_4",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 173(4)",
+  "title": "Remedy when police refuse to register FIR",
+  "category": "police_rights",
+  "text": "Any person aggrieved by the refusal of an officer in charge of a police station to record information may send the substance of the information, in writing and by post, to the Superintendent of Police. If satisfied that it discloses a cognizable offence, the SP will investigate personally or direct an investigation. If this also fails, the person may apply to the Magistrate.",
+  "old_equivalent": "CrPC Section 154(3)",
+  "keywords": [
+   "police refused fir",
+   "fir not registered",
+   "superintendent of police",
+   "sp complaint",
+   "police not filing complaint",
+   "refusal to register"
+  ],
+  "related_judgments": [
+   "lalita_kumari",
+   "sakiri_vasu"
+  ]
+ },
+ {
+  "id": "bnss_175",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 175(3)",
+  "title": "Magistrate may order police investigation",
+  "category": "police_rights",
+  "text": "A Magistrate empowered to take cognizance may order the police to investigate a cognizable offence on an application supported by an affidavit, after the applicant has approached the Superintendent of Police under Section 173(4). Alternatively, a private complaint may be filed before the Magistrate under Section 223.",
+  "old_equivalent": "CrPC Sections 156(3) and 200",
+  "keywords": [
+   "magistrate",
+   "156(3)",
+   "court order fir",
+   "private complaint",
+   "application to magistrate"
+  ],
+  "related_judgments": [
+   "sakiri_vasu"
+  ]
+ },
+ {
+  "id": "bnss_193",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 193",
+  "title": "Victim to be informed of investigation progress",
+  "category": "police_rights",
+  "text": "The police must inform the informant or victim of the progress of the investigation within 90 days, by any means including electronic communication. On completion, a police report is filed before the Magistrate.",
+  "old_equivalent": "CrPC Section 173",
+  "keywords": [
+   "investigation status",
+   "case progress",
+   "chargesheet",
+   "police not updating",
+   "investigation delay"
+  ]
+ },
+ {
+  "id": "bnss_35",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 35",
+  "title": "When police may arrest without warrant; notice of appearance",
+  "category": "police_rights",
+  "text": "Police may arrest without warrant only in specified circumstances and must record reasons. For offences punishable with up to 7 years, where arrest is not necessary, the police must issue a notice of appearance under Section 35(3) instead of arresting. No arrest may be made for an offence punishable with less than 3 years without permission of an officer not below the rank of Deputy Superintendent of Police if the person is infirm or above 60 years of age.",
+  "old_equivalent": "CrPC Sections 41 and 41A",
+  "keywords": [
+   "arrest without warrant",
+   "notice of appearance",
+   "41a notice",
+   "unnecessary arrest",
+   "police arrest"
+  ],
+  "related_judgments": [
+   "arnesh_kumar",
+   "satender_antil"
+  ]
+ },
+ {
+  "id": "bnss_47",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 47",
+  "title": "Right to know grounds of arrest and right to bail",
+  "category": "police_rights",
+  "text": "Every person arrested without warrant must be told immediately the full particulars of the offence and the grounds of arrest. A person arrested for a bailable offence must be informed that they are entitled to be released on bail and may arrange sureties.",
+  "old_equivalent": "CrPC Section 50",
+  "keywords": [
+   "grounds of arrest",
+   "why arrested",
+   "right to bail",
+   "arrested person rights"
+  ],
+  "related_judgments": [
+   "dk_basu"
+  ]
+ },
+ {
+  "id": "bnss_48",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 48",
+  "title": "Duty to inform family of arrest",
+  "category": "police_rights",
+  "text": "The police must immediately inform a relative, friend or nominated person about the arrest and the place where the arrested person is held, and also inform the designated police officer in the district. An entry must be made in a register at the police station.",
+  "old_equivalent": "CrPC Section 50A",
+  "keywords": [
+   "inform family",
+   "arrest information",
+   "relative informed",
+   "where is he detained"
+  ],
+  "related_judgments": [
+   "dk_basu"
+  ]
+ },
+ {
+  "id": "bnss_38",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 38",
+  "title": "Right to meet an advocate during interrogation",
+  "category": "police_rights",
+  "text": "A person arrested and interrogated by the police is entitled to meet an advocate of their choice during interrogation, though not throughout the interrogation.",
+  "old_equivalent": "CrPC Section 41D",
+  "keywords": [
+   "right to lawyer",
+   "meet advocate",
+   "interrogation",
+   "legal help after arrest"
+  ]
+ },
+ {
+  "id": "bnss_58",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 58",
+  "title": "Production before Magistrate within 24 hours",
+  "category": "police_rights",
+  "text": "No person arrested without warrant may be detained in police custody for more than 24 hours, excluding the time needed for the journey, without a special order of a Magistrate.",
+  "old_equivalent": "CrPC Section 57",
+  "keywords": [
+   "24 hours",
+   "produced before magistrate",
+   "illegal detention",
+   "kept in lockup",
+   "custody beyond 24 hours"
+  ],
+  "related_judgments": [
+   "dk_basu",
+   "nilabati_behera"
+  ]
+ },
+ {
+  "id": "bnss_43",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 43",
+  "title": "Arrest of women",
+  "category": "police_rights",
+  "text": "Where a woman is to be arrested, she may be touched only by a female police officer, unless circumstances otherwise require. No woman may be arrested after sunset and before sunrise except in exceptional circumstances, and then only by a woman police officer with the prior permission of the Judicial Magistrate.",
+  "old_equivalent": "CrPC Section 46(4)",
+  "keywords": [
+   "arrest of woman",
+   "woman arrested at night",
+   "female police officer",
+   "lady constable"
+  ]
+ },
+ {
+  "id": "bnss_53",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 53",
+  "title": "Medical examination of arrested person",
+  "category": "police_rights",
+  "text": "An arrested person must be examined by a medical officer soon after arrest, and the injuries or marks of violence must be recorded. The arrested person or their nominee is entitled to a copy of the report.",
+  "old_equivalent": "CrPC Section 54",
+  "keywords": [
+   "medical examination",
+   "custodial violence",
+   "police beating",
+   "injury in custody"
+  ],
+  "related_judgments": [
+   "dk_basu",
+   "paramvir_saini"
+  ]
+ },
+ {
+  "id": "bnss_179",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 179",
+  "title": "Women, children and elderly need not go to the police station",
+  "category": "police_rights",
+  "text": "Police may require attendance of witnesses for questioning, but a male under 15 or above 60 years, a woman, or a mentally or physically disabled or acutely ill person cannot be required to attend anywhere other than their place of residence.",
+  "old_equivalent": "CrPC Section 160",
+  "keywords": [
+   "woman called to police station",
+   "questioning at home",
+   "summons to police station",
+   "witness attendance"
+  ]
+ },
+ {
+  "id": "bnss_478",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 478",
+  "title": "Bail in bailable offences",
+  "category": "police_rights",
+  "text": "A person accused of a bailable offence has a right to be released on bail, by the police or by the court. A person unable to furnish surety within a week is presumed indigent and may be released on a personal bond.",
+  "old_equivalent": "CrPC Section 436",
+  "keywords": [
+   "bail",
+   "bailable offence",
+   "right to bail",
+   "personal bond"
+  ],
+  "related_judgments": [
+   "satender_antil"
+  ]
+ },
+ {
+  "id": "bnss_480",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 480",
+  "title": "Bail in non-bailable offences",
+  "category": "police_rights",
+  "text": "In non-bailable offences, bail is at the discretion of the court, which considers the nature of the accusation, the evidence, and the risk of the accused fleeing or tampering with evidence. Special consideration applies to women, children, and sick or infirm persons.",
+  "old_equivalent": "CrPC Section 437",
+  "keywords": [
+   "non-bailable",
+   "regular bail",
+   "bail application"
+  ],
+  "related_judgments": [
+   "satender_antil"
+  ]
+ },
+ {
+  "id": "bnss_482",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 482",
+  "title": "Anticipatory bail",
+  "category": "police_rights",
+  "text": "A person who has reason to believe they may be arrested for a non-bailable offence may apply to the High Court or Court of Session for a direction that, in the event of arrest, they shall be released on bail.",
+  "old_equivalent": "CrPC Section 438",
+  "keywords": [
+   "anticipatory bail",
+   "fear of arrest",
+   "false case",
+   "pre-arrest bail"
+  ],
+  "related_judgments": [
+   "sushila_aggarwal"
+  ]
+ },
+ {
+  "id": "bnss_187",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 187",
+  "title": "Default bail when investigation is not completed in time",
+  "category": "police_rights",
+  "text": "If the investigation is not completed and a chargesheet is not filed within 60 days (or 90 days for offences punishable with death, life imprisonment, or at least 10 years), the accused is entitled to be released on bail if they apply and furnish bail.",
+  "old_equivalent": "CrPC Section 167(2)",
+  "keywords": [
+   "default bail",
+   "statutory bail",
+   "chargesheet not filed",
+   "60 days",
+   "90 days"
+  ]
+ },
+ {
+  "id": "bnss_144",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 144",
+  "title": "Maintenance of wives, children and parents",
+  "category": "family",
+  "text": "A Magistrate may order a person with sufficient means who neglects or refuses to maintain their wife (unable to maintain herself), minor children, or parents (unable to maintain themselves) to pay a monthly allowance. There is no upper limit on the amount, and interim maintenance may be ordered during the proceedings.",
+  "old_equivalent": "CrPC Section 125",
+  "keywords": [
+   "maintenance",
+   "wife maintenance",
+   "child maintenance",
+   "husband not paying",
+   "parents maintenance",
+   "monthly allowance"
+  ],
+  "related_judgments": [
+   "rajnesh_neha",
+   "shah_bano",
+   "danial_latifi"
+  ]
+ },
+ {
+  "id": "bnss_396",
+  "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "short_act": "BNSS",
+  "ref": "Section 396",
+  "title": "Victim compensation scheme",
+  "category": "legal_aid",
+  "text": "Every State Government must have a scheme to provide funds to compensate victims of crime. The victim or dependants may apply to the State or District Legal Services Authority, even where the offender is not traced or identified. Immediate first aid and medical benefits must be provided free.",
+  "old_equivalent": "CrPC Section 357A",
+  "keywords": [
+   "victim compensation",
+   "compensation for victim",
+   "crime victim",
+   "legal services authority"
+  ],
+  "related_judgments": [
+   "laxmi"
+  ]
+ },
+ {
+  "id": "cpa_2_7",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 2(7)",
+  "title": "Who is a consumer",
+  "category": "consumer",
+  "text": "A consumer is any person who buys goods or hires or avails of services for consideration, including through online, teleshopping, direct selling or multi-level marketing, but not a person who obtains goods for resale or commercial purpose.",
+  "keywords": [
+   "consumer",
+   "buyer",
+   "customer",
+   "online purchase",
+   "e-commerce"
+  ]
+ },
+ {
+  "id": "cpa_2_9",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 2(9)",
+  "title": "Consumer rights",
+  "category": "consumer",
+  "text": "Consumers have the right to be protected against hazardous goods and services, to be informed about quality, quantity, potency, purity, standard and price, to be assured access to goods at competitive prices, to be heard, to seek redressal against unfair or restrictive trade practices, and to consumer awareness.",
+  "keywords": [
+   "consumer rights",
+   "right to be informed",
+   "right to redressal",
+   "right to choose"
+  ]
+ },
+ {
+  "id": "cpa_2_10",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 2(10)",
+  "title": "Defect in goods",
+  "category": "consumer",
+  "text": "A defect means any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard of goods which is required by law, contract, or claimed by the trader.",
+  "keywords": [
+   "defective product",
+   "defect",
+   "faulty",
+   "broken product",
+   "manufacturing defect",
+   "not working"
+  ]
+ },
+ {
+  "id": "cpa_2_11",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 2(11)",
+  "title": "Deficiency in service",
+  "category": "consumer",
+  "text": "Deficiency means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance of a service, including any negligent act or omission, or deliberate withholding of relevant information, which causes loss or injury to the consumer. It covers banks, insurers, airlines, telecom, builders, courier, hospitals and other service providers.",
+  "keywords": [
+   "deficiency in service",
+   "poor service",
+   "insurance claim rejected",
+   "flight cancelled",
+   "builder delay",
+   "hospital negligence",
+   "courier lost"
+  ],
+  "related_judgments": [
+   "vp_shantha",
+   "lucknow_da",
+   "pioneer_urban"
+  ]
+ },
+ {
+  "id": "cpa_2_47",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 2(47)",
+  "title": "Unfair trade practice",
+  "category": "consumer",
+  "text": "Unfair trade practices include false or misleading representations about goods or services, misleading advertisements, not issuing a bill or cash memo, refusing to take back defective goods or withdraw deficient services and refund the price within the stipulated period or within 30 days, and disclosing a consumer's personal information without consent.",
+  "keywords": [
+   "unfair trade practice",
+   "misleading advertisement",
+   "no bill",
+   "refund refused",
+   "overcharging",
+   "fake offer"
+  ],
+  "related_judgments": [
+   "pioneer_urban"
+  ]
+ },
+ {
+  "id": "cpa_35",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 35",
+  "title": "Filing a complaint before the District Commission",
+  "category": "consumer",
+  "text": "A complaint about goods sold or services provided may be filed before the District Consumer Disputes Redressal Commission by the consumer, a recognised consumer association, or the Central or State Government. It can be filed electronically through the e-Jagriti (formerly e-Daakhil) portal. A lawyer is not mandatory.",
+  "keywords": [
+   "consumer complaint",
+   "consumer court",
+   "district commission",
+   "file complaint",
+   "e-daakhil",
+   "e-jagriti"
+  ]
+ },
+ {
+  "id": "cpa_34",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 34",
+  "title": "Jurisdiction of the District Commission",
+  "category": "consumer",
+  "text": "The District Commission hears complaints where the value of goods or services paid as consideration does not exceed Rs. 50 lakh (the State Commission hears up to Rs. 2 crore, and the National Commission above that, as revised by the 2021 Rules). A complaint can be filed where the complainant resides or personally works for gain, where the opposite party resides or has a branch, or where the cause of action arose.",
+  "keywords": [
+   "jurisdiction",
+   "where to file consumer complaint",
+   "pecuniary limit",
+   "50 lakh",
+   "consumer forum"
+  ]
+ },
+ {
+  "id": "cpa_36",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 36",
+  "title": "Admission of complaint within 21 days",
+  "category": "consumer",
+  "text": "The District Commission should decide whether to admit a complaint within 21 days of filing; if it does not decide within that period, the complaint is deemed admitted. Complaints should be decided within 3 months, or 5 months if testing of goods is required.",
+  "keywords": [
+   "admission",
+   "21 days",
+   "deemed admitted",
+   "consumer case timeline"
+  ]
+ },
+ {
+  "id": "cpa_39",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 39",
+  "title": "Reliefs the Consumer Commission can grant",
+  "category": "consumer",
+  "text": "The Commission may order removal of the defect, replacement of goods, refund of the price with interest, compensation for loss or injury including mental agony, punitive damages, discontinuance of unfair trade practices, withdrawal of hazardous goods, and payment of litigation costs.",
+  "keywords": [
+   "refund",
+   "replacement",
+   "compensation",
+   "mental agony",
+   "punitive damages",
+   "consumer relief"
+  ]
+ },
+ {
+  "id": "cpa_69",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 69",
+  "title": "Limitation period for consumer complaints",
+  "category": "consumer",
+  "text": "A consumer complaint must be filed within two years from the date on which the cause of action arose. A delay may be condoned if sufficient cause is shown and the Commission records its reasons.",
+  "keywords": [
+   "limitation",
+   "time limit",
+   "two years",
+   "consumer complaint deadline"
+  ]
+ },
+ {
+  "id": "cpa_84",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Sections 84-86",
+  "title": "Product liability of manufacturer, service provider and seller",
+  "category": "consumer",
+  "text": "A manufacturer is liable for harm caused by a product with a manufacturing or design defect, deviation from specifications, breach of express warranty, or inadequate instructions or warnings. Service providers and product sellers (including e-commerce sellers in some cases) are liable on similar grounds.",
+  "keywords": [
+   "product liability",
+   "injury from product",
+   "manufacturer liable",
+   "dangerous product",
+   "e-commerce seller"
+  ]
+ },
+ {
+  "id": "cpa_17",
+  "act": "Consumer Protection Act, 2019",
+  "short_act": "CPA",
+  "ref": "Section 17",
+  "title": "Complaints to the Central Consumer Protection Authority",
+  "category": "consumer",
+  "text": "Complaints about violations of consumer rights, unfair trade practices, or false or misleading advertisements that affect consumers as a class may be sent in writing or electronically to the District Collector, the regional office, or the Central Consumer Protection Authority (CCPA).",
+  "keywords": [
+   "ccpa",
+   "misleading advertisement complaint",
+   "class action",
+   "consumer authority"
+  ]
+ },
+ {
+  "id": "dva_3",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 3",
+  "title": "Definition of domestic violence",
+  "category": "domestic_violence",
+  "text": "Domestic violence includes physical abuse, sexual abuse, verbal and emotional abuse (insults, ridicule, name-calling, threats), and economic abuse (depriving the woman of money, stridhan or the shared household), as well as harassment to meet an unlawful dowry demand.",
+  "keywords": [
+   "domestic violence",
+   "physical abuse",
+   "emotional abuse",
+   "economic abuse",
+   "husband beats",
+   "verbal abuse at home",
+   "in-laws torture"
+  ],
+  "related_judgments": [
+   "hiral_harsora",
+   "satish_ahuja"
+  ]
+ },
+ {
+  "id": "dva_2",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 2",
+  "title": "Aggrieved person, domestic relationship and shared household",
+  "category": "domestic_violence",
+  "text": "An aggrieved person is any woman who is or has been in a domestic relationship (by marriage, a relationship in the nature of marriage, adoption or as family members living together in a shared household) and alleges domestic violence. A complaint may be made against the husband, male partner, and their relatives, including female relatives.",
+  "keywords": [
+   "aggrieved person",
+   "live-in relationship",
+   "shared household",
+   "domestic relationship"
+  ],
+  "related_judgments": [
+   "hiral_harsora",
+   "satish_ahuja"
+  ]
+ },
+ {
+  "id": "dva_12",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 12",
+  "title": "Application to Magistrate for reliefs",
+  "category": "domestic_violence",
+  "text": "An aggrieved woman, a Protection Officer, or any other person on her behalf may apply to the Magistrate for one or more reliefs. The first hearing is ordinarily fixed within 3 days of receipt, and the Magistrate should endeavour to dispose of the application within 60 days.",
+  "keywords": [
+   "dv application",
+   "domestic violence case",
+   "magistrate",
+   "file domestic violence complaint"
+  ]
+ },
+ {
+  "id": "dva_17",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 17",
+  "title": "Right to reside in the shared household",
+  "category": "domestic_violence",
+  "text": "Every woman in a domestic relationship has the right to reside in the shared household, whether or not she has any right, title or interest in it. She cannot be evicted or excluded from it except in accordance with the procedure established by law.",
+  "keywords": [
+   "right to reside",
+   "thrown out of house",
+   "kicked out by husband",
+   "in-laws house",
+   "matrimonial home"
+  ],
+  "related_judgments": [
+   "satish_ahuja"
+  ]
+ },
+ {
+  "id": "dva_18",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 18",
+  "title": "Protection orders",
+  "category": "domestic_violence",
+  "text": "The Magistrate may pass a protection order prohibiting the respondent from committing domestic violence, entering her workplace or school, communicating with her, alienating assets or operating joint bank accounts, or causing violence to her relatives or helpers.",
+  "keywords": [
+   "protection order",
+   "restraining order",
+   "stop contact",
+   "stay away"
+  ]
+ },
+ {
+  "id": "dva_19",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 19",
+  "title": "Residence orders",
+  "category": "domestic_violence",
+  "text": "The Magistrate may restrain the respondent from dispossessing the woman from the shared household, direct the respondent to remove himself, or direct the respondent to secure alternate accommodation or pay rent for her.",
+  "keywords": [
+   "residence order",
+   "stay in house",
+   "alternate accommodation",
+   "rent for wife"
+  ]
+ },
+ {
+  "id": "dva_20",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 20",
+  "title": "Monetary relief",
+  "category": "domestic_violence",
+  "text": "The Magistrate may direct the respondent to pay monetary relief for expenses and losses suffered, including loss of earnings, medical expenses, loss caused by destruction or removal of property, and maintenance for the woman and her children.",
+  "keywords": [
+   "monetary relief",
+   "maintenance",
+   "medical expenses",
+   "financial support"
+  ]
+ },
+ {
+  "id": "dva_21",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Sections 21-22",
+  "title": "Custody orders and compensation",
+  "category": "domestic_violence",
+  "text": "The Magistrate may grant temporary custody of children to the aggrieved woman (Section 21) and may direct the respondent to pay compensation and damages for injuries, including mental torture and emotional distress (Section 22).",
+  "keywords": [
+   "child custody",
+   "compensation",
+   "mental torture",
+   "emotional distress"
+  ]
+ },
+ {
+  "id": "dva_23",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 23",
+  "title": "Interim and ex parte orders",
+  "category": "domestic_violence",
+  "text": "Where the application prima facie discloses domestic violence or its likelihood, the Magistrate may grant interim and even ex parte orders on the woman's affidavit, without waiting for the respondent.",
+  "keywords": [
+   "interim order",
+   "urgent protection",
+   "ex parte",
+   "immediate relief"
+  ]
+ },
+ {
+  "id": "dva_9",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Sections 8-9",
+  "title": "Protection Officers and their duties",
+  "category": "domestic_violence",
+  "text": "Each district has Protection Officers who help the woman prepare a Domestic Incident Report, file an application, obtain free legal aid, and access shelter homes and medical facilities.",
+  "keywords": [
+   "protection officer",
+   "domestic incident report",
+   "shelter home",
+   "women help"
+  ]
+ },
+ {
+  "id": "dva_31",
+  "act": "Protection of Women from Domestic Violence Act, 2005",
+  "short_act": "PWDVA",
+  "ref": "Section 31",
+  "title": "Penalty for breach of protection order",
+  "category": "domestic_violence",
+  "text": "Breach of a protection order or interim protection order by the respondent is an offence.",
+  "punishment": "Up to 1 year, or fine up to Rs. 20,000, or both",
+  "keywords": [
+   "breach of protection order",
+   "violated order",
+   "husband violated order"
+  ]
+ },
+ {
+  "id": "dpa_3",
+  "act": "Dowry Prohibition Act, 1961",
+  "short_act": "DPA",
+  "ref": "Section 3",
+  "title": "Penalty for giving or taking dowry",
+  "category": "domestic_violence",
+  "text": "Giving, taking, or abetting the giving or taking of dowry is an offence. Voluntary presents given at the time of marriage without demand, and entered in a list, are not dowry.",
+  "punishment": "Minimum 5 years and fine of at least Rs. 15,000 or the value of the dowry, whichever is more",
+  "keywords": [
+   "dowry",
+   "dowry taken",
+   "dowry given",
+   "dowry prohibition"
+  ]
+ },
+ {
+  "id": "dpa_4",
+  "act": "Dowry Prohibition Act, 1961",
+  "short_act": "DPA",
+  "ref": "Section 4",
+  "title": "Penalty for demanding dowry",
+  "category": "domestic_violence",
+  "text": "Demanding dowry, directly or indirectly, from the parents, relatives or guardian of a bride or bridegroom is punishable.",
+  "punishment": "6 months to 2 years and fine up to Rs. 10,000",
+  "keywords": [
+   "dowry demand",
+   "demanding money",
+   "car demand",
+   "asking for dowry"
+  ]
+ },
+ {
+  "id": "dpa_6",
+  "act": "Dowry Prohibition Act, 1961",
+  "short_act": "DPA",
+  "ref": "Section 6",
+  "title": "Dowry to be held for the benefit of the wife",
+  "category": "domestic_violence",
+  "text": "Any dowry received by a person other than the woman must be transferred to her within three months, and is held in trust for her benefit until then. Failure is punishable.",
+  "keywords": [
+   "stridhan",
+   "return of dowry",
+   "jewellery not returned",
+   "wife's property"
+  ]
+ },
+ {
+  "id": "posh_2n",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Sections 2(n) and 3",
+  "title": "Sexual harassment at the workplace",
+  "category": "workplace_harassment",
+  "text": "Sexual harassment includes unwelcome physical contact and advances, a demand or request for sexual favours, sexually coloured remarks, showing pornography, or any other unwelcome physical, verbal or non-verbal conduct of a sexual nature. Implied or explicit promises of preferential treatment, threats about employment, or creating an intimidating or hostile work environment also amount to sexual harassment. The workplace includes any place visited during employment, including transport provided by the employer.",
+  "keywords": [
+   "sexual harassment at workplace",
+   "boss harassing",
+   "colleague harassment",
+   "posh",
+   "hostile work environment",
+   "office harassment"
+  ],
+  "related_judgments": [
+   "vishaka",
+   "aureliano_fernandes"
+  ]
+ },
+ {
+  "id": "posh_4",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Section 4",
+  "title": "Internal Committee (ICC)",
+  "category": "workplace_harassment",
+  "text": "Every employer with 10 or more employees must constitute an Internal Committee headed by a senior woman employee, with at least half its members women and one external member from an NGO or person familiar with sexual harassment issues.",
+  "keywords": [
+   "internal committee",
+   "icc",
+   "internal complaints committee",
+   "posh committee"
+  ],
+  "related_judgments": [
+   "aureliano_fernandes"
+  ]
+ },
+ {
+  "id": "posh_6",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Section 6",
+  "title": "Local Committee",
+  "category": "workplace_harassment",
+  "text": "Each district has a Local Committee (constituted by the District Officer) to receive complaints from establishments with fewer than 10 employees, where the complaint is against the employer, or from domestic workers and unorganised sector workers.",
+  "keywords": [
+   "local committee",
+   "small company",
+   "domestic worker harassment",
+   "complaint against employer"
+  ]
+ },
+ {
+  "id": "posh_9",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Section 9",
+  "title": "Complaint of sexual harassment",
+  "category": "workplace_harassment",
+  "text": "An aggrieved woman may make a written complaint to the Internal or Local Committee within three months of the incident (or the last incident in a series). The Committee may extend this by a further three months for sufficient reasons. Committee members must help her put the complaint in writing if needed.",
+  "keywords": [
+   "posh complaint",
+   "three months",
+   "written complaint",
+   "complaint to icc"
+  ]
+ },
+ {
+  "id": "posh_11",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Sections 11-13",
+  "title": "Inquiry, interim relief and action",
+  "category": "workplace_harassment",
+  "text": "The Committee must complete its inquiry within 90 days. During the inquiry, it may recommend interim relief such as transfer of the woman or the respondent, or leave of up to three months. If the allegation is proved, it recommends action under the service rules and deduction of compensation from the respondent's salary. The employer must act within 60 days.",
+  "keywords": [
+   "posh inquiry",
+   "90 days",
+   "transfer",
+   "interim relief",
+   "action against harasser"
+  ]
+ },
+ {
+  "id": "posh_10",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Section 10",
+  "title": "Conciliation",
+  "category": "workplace_harassment",
+  "text": "Before an inquiry, the Committee may take steps to settle the matter through conciliation only at the woman's request. No monetary settlement can be the basis of conciliation.",
+  "keywords": [
+   "conciliation",
+   "settlement",
+   "compromise"
+  ]
+ },
+ {
+  "id": "posh_19",
+  "act": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "short_act": "POSH Act",
+  "ref": "Sections 19 and 26",
+  "title": "Employer duties and penalties",
+  "category": "workplace_harassment",
+  "text": "Employers must provide a safe working environment, display the consequences of sexual harassment and the composition of the Internal Committee, organise awareness programmes, and assist in filing a criminal complaint if the woman wishes. Failure to constitute the Committee or comply with the Act is punishable with a fine, which is doubled on repeat, and may lead to cancellation of licence.",
+  "punishment": "Fine up to Rs. 50,000; higher penalties and licence cancellation on repetition",
+  "keywords": [
+   "employer duty",
+   "no icc",
+   "company did nothing",
+   "penalty employer"
+  ]
+ },
+ {
+  "id": "rti_3",
+  "act": "Right to Information Act, 2005",
+  "short_act": "RTI Act",
+  "ref": "Section 3",
+  "title": "Right to information",
+  "category": "rti",
+  "text": "All citizens have the right to information held by or under the control of any public authority, including records, documents, emails, file notings, orders, reports and samples.",
+  "keywords": [
+   "right to information",
+   "rti",
+   "government information",
+   "public authority"
+  ],
+  "related_judgments": [
+   "aditya_bandopadhyay",
+   "subhash_agarwal"
+  ]
+ },
+ {
+  "id": "rti_6",
+  "act": "Right to Information Act, 2005",
+  "short_act": "RTI Act",
+  "ref": "Section 6",
+  "title": "How to file an RTI application",
+  "category": "rti",
+  "text": "A request may be made in writing or electronically to the Public Information Officer (PIO) of the public authority, in English, Hindi or the official language of the area, with the prescribed fee (Rs. 10 for central public authorities). The applicant need not give any reason for requesting the information. Applicants below the poverty line are exempt from fees. If the information is held by another authority, the PIO must transfer the application within 5 days.",
+  "keywords": [
+   "rti application",
+   "file rti",
+   "public information officer",
+   "pio",
+   "rti fee",
+   "rtionline"
+  ]
+ },
+ {
+  "id": "rti_7",
+  "act": "Right to Information Act, 2005",
+  "short_act": "RTI Act",
+  "ref": "Section 7",
+  "title": "Time limit for reply",
+  "category": "rti",
+  "text": "The PIO must provide the information or reject the request with reasons within 30 days of receipt. Information concerning the life or liberty of a person must be provided within 48 hours. Failure to reply in time is deemed refusal, and information must then be supplied free of charge.",
+  "keywords": [
+   "30 days",
+   "48 hours",
+   "no reply to rti",
+   "rti delay",
+   "deemed refusal"
+  ]
+ },
+ {
+  "id": "rti_8",
+  "act": "Right to Information Act, 2005",
+  "short_act": "RTI Act",
+  "ref": "Section 8",
+  "title": "Exemptions from disclosure",
+  "category": "rti",
+  "text": "Certain information is exempt, such as that affecting sovereignty and security, cabinet papers, information received in confidence from foreign governments, and personal information with no relation to public interest. Information that cannot be denied to Parliament cannot be denied to a citizen.",
+  "keywords": [
+   "rti exemption",
+   "rti rejected",
+   "personal information",
+   "denied information"
+  ]
+ },
+ {
+  "id": "rti_19",
+  "act": "Right to Information Act, 2005",
+  "short_act": "RTI Act",
+  "ref": "Section 19",
+  "title": "First and second appeal",
+  "category": "rti",
+  "text": "If no reply is received in 30 days or the reply is unsatisfactory, a first appeal lies within 30 days to the First Appellate Authority (an officer senior to the PIO), who should decide within 30 to 45 days. A second appeal lies within 90 days to the Central or State Information Commission.",
+  "keywords": [
+   "rti appeal",
+   "first appeal",
+   "second appeal",
+   "information commission",
+   "cic"
+  ]
+ },
+ {
+  "id": "rti_20",
+  "act": "Right to Information Act, 2005",
+  "short_act": "RTI Act",
+  "ref": "Section 20",
+  "title": "Penalty on the PIO",
+  "category": "rti",
+  "text": "The Information Commission may impose a penalty on a PIO who refuses an application without reasonable cause, fails to reply in time, or gives false information.",
+  "punishment": "Rs. 250 per day of delay, up to a total of Rs. 25,000",
+  "keywords": [
+   "rti penalty",
+   "pio fine",
+   "information officer penalty"
+  ]
+ },
+ {
+  "id": "ita_43",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Sections 43 and 66",
+  "title": "Unauthorised access, hacking and computer-related offences",
+  "category": "cyber",
+  "text": "Accessing a computer or network without permission, downloading data, introducing viruses, damaging data or denying access attracts liability to pay compensation (Section 43). When done dishonestly or fraudulently it is an offence (Section 66). This covers hacking of email or social media accounts.",
+  "punishment": "Up to 3 years, or fine up to Rs. 5 lakh, or both (Section 66)",
+  "keywords": [
+   "hacking",
+   "account hacked",
+   "unauthorised access",
+   "virus",
+   "data theft",
+   "instagram hacked",
+   "email hacked"
+  ]
+ },
+ {
+  "id": "ita_66c",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Section 66C",
+  "title": "Identity theft",
+  "category": "cyber",
+  "text": "Fraudulently or dishonestly making use of another person's electronic signature, password or any other unique identification feature (such as OTP, PIN or Aadhaar biometrics) is identity theft.",
+  "punishment": "Up to 3 years and fine up to Rs. 1 lakh",
+  "keywords": [
+   "identity theft",
+   "password stolen",
+   "otp misuse",
+   "aadhaar misuse",
+   "sim swap",
+   "fake account in my name"
+  ]
+ },
+ {
+  "id": "ita_66d",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Section 66D",
+  "title": "Cheating by personation using a computer resource",
+  "category": "cyber",
+  "text": "Cheating by personation by means of any communication device or computer resource is punishable. This covers online frauds such as fake customer care numbers, phishing links, KYC update scams, job and investment scams, and fake profiles used to obtain money.",
+  "punishment": "Up to 3 years and fine up to Rs. 1 lakh",
+  "keywords": [
+   "online fraud",
+   "upi fraud",
+   "phishing",
+   "kyc scam",
+   "fake customer care",
+   "investment scam",
+   "job scam",
+   "digital arrest scam",
+   "online cheating"
+  ]
+ },
+ {
+  "id": "ita_66e",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Section 66E",
+  "title": "Violation of privacy",
+  "category": "cyber",
+  "text": "Intentionally capturing, publishing or transmitting the image of a private area of any person without consent, in circumstances violating their privacy, is punishable.",
+  "punishment": "Up to 3 years, or fine up to Rs. 2 lakh, or both",
+  "keywords": [
+   "privacy violation",
+   "private photos",
+   "leaked photos",
+   "hidden camera video"
+  ]
+ },
+ {
+  "id": "ita_67",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Sections 67 and 67A",
+  "title": "Publishing obscene or sexually explicit material online",
+  "category": "cyber",
+  "text": "Publishing or transmitting obscene material in electronic form (Section 67), or material containing sexually explicit acts (Section 67A), is punishable. Morphed or intimate images shared online without consent are covered.",
+  "punishment": "Section 67: up to 3 years and fine up to Rs. 5 lakh (first conviction). Section 67A: up to 5 years and fine up to Rs. 10 lakh (first conviction)",
+  "keywords": [
+   "obscene",
+   "morphed photos",
+   "nude photos shared",
+   "revenge porn",
+   "sexually explicit video",
+   "sextortion"
+  ]
+ },
+ {
+  "id": "ita_67b",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Section 67B",
+  "title": "Child sexual abuse material online",
+  "category": "child_protection",
+  "text": "Publishing, transmitting, creating, browsing, downloading or promoting material depicting children in sexually explicit acts, or enticing children into online sexual relationships, is punishable.",
+  "punishment": "Up to 5 years and fine up to Rs. 10 lakh (first conviction)",
+  "keywords": [
+   "child pornography",
+   "csam",
+   "child abuse online",
+   "grooming"
+  ]
+ },
+ {
+  "id": "ita_79",
+  "act": "Information Technology Act, 2000",
+  "short_act": "IT Act",
+  "ref": "Section 79 and IT Rules, 2021",
+  "title": "Duties of social media platforms (intermediaries)",
+  "category": "cyber",
+  "text": "Platforms must follow due diligence and have a Grievance Officer. Under the IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, a platform must remove content that exposes a person's private area or shows them in a sexual act, including morphed images, within 24 hours of a complaint by the person or someone on their behalf.",
+  "keywords": [
+   "remove post",
+   "take down",
+   "social media complaint",
+   "grievance officer",
+   "fake profile removal",
+   "instagram",
+   "facebook"
+  ]
+ },
+ {
+  "id": "rbi_liability",
+  "act": "RBI Circular on Customer Protection - Limiting Liability in Unauthorised Electronic Banking Transactions, 2017",
+  "short_act": "RBI",
+  "ref": "Customer liability rules",
+  "title": "Zero liability for unauthorised electronic transactions",
+  "category": "banking",
+  "text": "If an unauthorised electronic transaction results from the bank's negligence, or from a third-party breach that the customer reports within 3 working days of receiving the bank's alert, the customer has zero liability. If reported within 4 to 7 working days, liability is capped at a limited amount depending on the account type. The bank must credit the disputed amount (shadow reversal) within 10 working days of notification and resolve the complaint within 90 days. Customers who shared their OTP or PIN may bear the loss until they report it.",
+  "keywords": [
+   "unauthorised transaction",
+   "money debited",
+   "bank fraud",
+   "zero liability",
+   "atm fraud",
+   "card fraud",
+   "upi fraud refund",
+   "report to bank"
+  ]
+ },
+ {
+  "id": "rbi_ombudsman",
+  "act": "Reserve Bank - Integrated Ombudsman Scheme, 2021",
+  "short_act": "RB-IOS",
+  "ref": "Scheme",
+  "title": "Banking Ombudsman complaint",
+  "category": "banking",
+  "text": "If a bank, NBFC or payment system operator does not reply within 30 days of a complaint, or the customer is not satisfied with the reply, the customer can complain to the RBI Ombudsman free of cost through cms.rbi.org.in. The Ombudsman can award compensation for the loss, plus an additional amount for harassment and loss of time.",
+  "keywords": [
+   "banking ombudsman",
+   "rbi complaint",
+   "bank not responding",
+   "nbfc complaint",
+   "loan app harassment",
+   "cms rbi"
+  ]
+ },
+ {
+  "id": "cow_17",
+  "act": "Code on Wages, 2019",
+  "short_act": "Code on Wages",
+  "ref": "Section 17",
+  "title": "Time limit for payment of wages",
+  "category": "employment",
+  "text": "Wages must be paid on time: daily wages at the end of the shift, weekly wages on the last working day of the week, fortnightly wages within 2 days after the fortnight, and monthly wages before the 7th day of the next month. When an employee is removed, dismissed, retrenched or resigns, wages due must be paid within 2 working days. The Code replaced the Payment of Wages Act, 1936.",
+  "old_equivalent": "Payment of Wages Act, 1936, Section 5",
+  "keywords": [
+   "salary not paid",
+   "wages delayed",
+   "salary delay",
+   "unpaid salary",
+   "full and final settlement",
+   "last salary",
+   "payment of wages"
+  ]
+ },
+ {
+  "id": "cow_18",
+  "act": "Code on Wages, 2019",
+  "short_act": "Code on Wages",
+  "ref": "Section 18",
+  "title": "Permissible deductions from wages",
+  "category": "employment",
+  "text": "Only authorised deductions, such as fines, absence from duty, recovery of advances, income tax and provident fund, may be made from wages, and total deductions cannot exceed 50% of the wages.",
+  "old_equivalent": "Payment of Wages Act, 1936, Section 7",
+  "keywords": [
+   "salary deduction",
+   "salary cut",
+   "illegal deduction",
+   "fine from salary"
+  ]
+ },
+ {
+  "id": "cow_45",
+  "act": "Code on Wages, 2019",
+  "short_act": "Code on Wages",
+  "ref": "Section 45",
+  "title": "Claims for unpaid wages",
+  "category": "employment",
+  "text": "An employee or trade union may file a claim for unpaid or delayed wages, wages below the minimum, or illegal deductions before the authority appointed under the Code, generally within three years. The authority can order payment with compensation.",
+  "old_equivalent": "Payment of Wages Act, 1936, Section 15",
+  "keywords": [
+   "wage claim",
+   "labour commissioner",
+   "labour court",
+   "recover salary",
+   "claim authority"
+  ]
+ },
+ {
+  "id": "cow_3",
+  "act": "Code on Wages, 2019",
+  "short_act": "Code on Wages",
+  "ref": "Sections 3 and 5",
+  "title": "Equal pay and minimum wages",
+  "category": "employment",
+  "text": "No employer may discriminate on the ground of gender in wages or recruitment for the same or similar work (Section 3). No employer may pay less than the notified minimum wage (Section 5).",
+  "old_equivalent": "Equal Remuneration Act, 1976 and Minimum Wages Act, 1948",
+  "keywords": [
+   "equal pay",
+   "minimum wage",
+   "paid less than men",
+   "gender discrimination pay",
+   "below minimum wage"
+  ],
+  "related_judgments": [
+   "jagjit_singh",
+   "pudr"
+  ]
+ },
+ {
+  "id": "ida_25f",
+  "act": "Industrial Disputes Act, 1947 (now Industrial Relations Code, 2020)",
+  "short_act": "ID Act",
+  "ref": "Sections 2A and 25F",
+  "title": "Retrenchment and wrongful termination of workmen",
+  "category": "employment",
+  "text": "A workman with at least one year of continuous service cannot be retrenched without one month's written notice (or wages in lieu) and retrenchment compensation of 15 days' average pay for every completed year of service. A workman who is discharged, dismissed or retrenched may raise an individual dispute and approach the Labour Court or Tribunal.",
+  "keywords": [
+   "retrenchment",
+   "terminated without notice",
+   "fired",
+   "wrongful termination",
+   "illegal termination",
+   "labour court",
+   "retrenchment compensation"
+  ]
+ },
+ {
+  "id": "pga_4",
+  "act": "Payment of Gratuity Act, 1972 (now Code on Social Security, 2020)",
+  "short_act": "Gratuity Act",
+  "ref": "Sections 4 and 7",
+  "title": "Gratuity",
+  "category": "employment",
+  "text": "An employee who has rendered at least five years of continuous service is entitled to gratuity on retirement, resignation, death or disablement, at 15 days' wages for every completed year, subject to a ceiling of Rs. 20 lakh. The five-year condition does not apply on death or disablement. Gratuity must be paid within 30 days of becoming payable, failing which interest is due.",
+  "keywords": [
+   "gratuity",
+   "gratuity not paid",
+   "retirement benefit",
+   "five years service"
+  ]
+ },
+ {
+  "id": "mba_5",
+  "act": "Maternity Benefit Act, 1961 (now Code on Social Security, 2020)",
+  "short_act": "Maternity Benefit Act",
+  "ref": "Sections 5 and 12",
+  "title": "Maternity leave and protection from dismissal",
+  "category": "employment",
+  "text": "A woman employee is entitled to paid maternity leave of up to 26 weeks for her first two children (12 weeks thereafter). Dismissing or discharging a woman during her maternity absence is prohibited.",
+  "keywords": [
+   "maternity leave",
+   "pregnant fired",
+   "maternity benefit",
+   "26 weeks"
+  ]
+ },
+ {
+  "id": "bla_4",
+  "act": "Bonded Labour System (Abolition) Act, 1976",
+  "short_act": "Bonded Labour Act",
+  "ref": "Sections 4 and 16",
+  "title": "Abolition of bonded labour",
+  "category": "employment",
+  "text": "The bonded labour system is abolished. Every bonded labourer is freed and discharged from any obligation to render bonded labour, and any bonded debt is extinguished. Compelling a person to render bonded labour is punishable. The District Magistrate is responsible for release and rehabilitation.",
+  "punishment": "Up to 3 years and fine",
+  "keywords": [
+   "bonded labour",
+   "debt bondage",
+   "forced to work to repay loan",
+   "brick kiln"
+  ],
+  "related_judgments": [
+   "bandhua_mukti",
+   "pudr"
+  ]
+ },
+ {
+  "id": "nia_138",
+  "act": "Negotiable Instruments Act, 1881",
+  "short_act": "NI Act",
+  "ref": "Section 138",
+  "title": "Dishonour of cheque for insufficient funds",
+  "category": "cheque_bounce",
+  "text": "If a cheque issued to discharge a debt or liability is returned unpaid for insufficient funds or exceeding arrangement, the drawer commits an offence, provided the cheque was presented within its validity (3 months), the payee sent a written demand notice within 30 days of receiving the bank's return memo, and the drawer failed to pay within 15 days of receiving the notice.",
+  "punishment": "Up to 2 years, or fine up to twice the cheque amount, or both",
+  "keywords": [
+   "cheque bounce",
+   "dishonour of cheque",
+   "insufficient funds",
+   "138 notice",
+   "cheque returned",
+   "legal notice cheque"
+  ],
+  "related_judgments": [
+   "kanchan_mehta"
+  ]
+ },
+ {
+  "id": "nia_142",
+  "act": "Negotiable Instruments Act, 1881",
+  "short_act": "NI Act",
+  "ref": "Section 142",
+  "title": "Filing the cheque bounce complaint",
+  "category": "cheque_bounce",
+  "text": "The complaint must be filed in writing by the payee within one month after the 15-day notice period expires. It is filed before the court within whose jurisdiction the payee's bank branch (where the cheque was presented) is situated.",
+  "keywords": [
+   "cheque bounce complaint",
+   "where to file cheque case",
+   "limitation cheque",
+   "one month"
+  ]
+ },
+ {
+  "id": "nia_143a",
+  "act": "Negotiable Instruments Act, 1881",
+  "short_act": "NI Act",
+  "ref": "Sections 143A and 148",
+  "title": "Interim compensation in cheque bounce cases",
+  "category": "cheque_bounce",
+  "text": "The trial court may order the drawer to pay interim compensation of up to 20% of the cheque amount to the complainant. In an appeal against conviction, the appellate court may require deposit of at least 20% of the fine or compensation.",
+  "keywords": [
+   "interim compensation",
+   "20 percent",
+   "cheque case appeal"
+  ]
+ },
+ {
+  "id": "nia_147",
+  "act": "Negotiable Instruments Act, 1881",
+  "short_act": "NI Act",
+  "ref": "Section 147",
+  "title": "Cheque bounce offences are compoundable",
+  "category": "cheque_bounce",
+  "text": "Offences under the Act are compoundable, which means the parties can settle and the case can be closed on payment at any stage, including through Lok Adalat or mediation.",
+  "keywords": [
+   "settlement",
+   "compromise cheque case",
+   "compounding"
+  ],
+  "related_judgments": [
+   "kanchan_mehta"
+  ]
+ },
+ {
+  "id": "recovery_suit",
+  "act": "Code of Civil Procedure, 1908 and Limitation Act, 1963",
+  "short_act": "CPC",
+  "ref": "Order XXXVII and Limitation Act Schedule",
+  "title": "Recovering money lent: legal notice and summary suit",
+  "category": "cheque_bounce",
+  "text": "Money lent or owed can be recovered through a civil suit. A suit on a written contract, promissory note, bill of exchange or cheque may be filed as a summary suit under Order XXXVII, where the defendant must seek leave to defend. A suit for recovery of money lent is generally to be filed within three years. A legal notice demanding payment is usually sent first.",
+  "keywords": [
+   "recover money",
+   "loan not returned",
+   "money lent",
+   "summary suit",
+   "legal notice for payment",
+   "friend not returning money"
+  ]
+ },
+ {
+  "id": "tpa_106",
+  "act": "Transfer of Property Act, 1882",
+  "short_act": "TPA",
+  "ref": "Section 106",
+  "title": "Notice to end a tenancy",
+  "category": "tenancy",
+  "text": "In the absence of a contract or local law to the contrary, a monthly tenancy can be terminated by 15 days' written notice, and a yearly lease of agricultural or manufacturing property by six months' notice. The notice must be in writing, signed, and delivered to the other party. State rent control laws may give tenants further protection.",
+  "keywords": [
+   "notice to vacate",
+   "eviction notice",
+   "termination of tenancy",
+   "15 days notice",
+   "landlord asking to vacate"
+  ]
+ },
+ {
+  "id": "tpa_108",
+  "act": "Transfer of Property Act, 1882",
+  "short_act": "TPA",
+  "ref": "Section 108",
+  "title": "Rights and liabilities of landlord and tenant",
+  "category": "tenancy",
+  "text": "Subject to the agreement, the landlord must disclose material defects and put the tenant in possession, and the tenant may enjoy the property without interruption so long as rent is paid. The tenant must pay rent on time, keep the property in good condition and restore it at the end of the lease, and must not use it for purposes other than agreed.",
+  "keywords": [
+   "tenant rights",
+   "landlord duties",
+   "repairs",
+   "lease agreement",
+   "rent agreement"
+  ]
+ },
+ {
+  "id": "sra_6",
+  "act": "Specific Relief Act, 1963",
+  "short_act": "SRA",
+  "ref": "Section 6",
+  "title": "Suit for recovery of possession after illegal dispossession",
+  "category": "tenancy",
+  "text": "A person dispossessed of immovable property without consent and otherwise than in due course of law may file a suit to recover possession within six months of dispossession, without having to prove title. A landlord cannot forcibly evict a tenant by changing locks or removing belongings.",
+  "keywords": [
+   "illegal eviction",
+   "locks changed",
+   "forcibly evicted",
+   "belongings thrown out",
+   "dispossession"
+  ],
+  "related_judgments": [
+   "rame_gowda"
+  ]
+ },
+ {
+  "id": "mta_2021",
+  "act": "Model Tenancy Act, 2021 (applies where adopted by the State)",
+  "short_act": "Model Tenancy Act",
+  "ref": "Sections 11, 17 and 20",
+  "title": "Security deposit, landlord entry and essential services",
+  "category": "tenancy",
+  "text": "Where adopted, the Model Tenancy Act caps the security deposit at two months' rent for residential premises, requires the deposit to be refunded when the tenant vacates (after lawful deductions), requires 24 hours' written notice before the landlord enters, and prohibits the landlord from cutting off essential supplies such as water and electricity. Disputes go to a Rent Authority. Check your State's tenancy law.",
+  "keywords": [
+   "security deposit",
+   "deposit not returned",
+   "landlord cut electricity",
+   "water supply cut",
+   "landlord entering",
+   "rent authority"
+  ]
+ },
+ {
+  "id": "art_300a",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 300A",
+  "title": "Right to property",
+  "category": "tenancy",
+  "text": "No person shall be deprived of their property save by authority of law. Although no longer a fundamental right, it is a constitutional right enforceable before the High Court.",
+  "keywords": [
+   "right to property",
+   "land acquisition",
+   "property taken",
+   "government took land"
+  ]
+ },
+ {
+  "id": "hsa_6",
+  "act": "Hindu Succession Act, 1956",
+  "short_act": "HSA",
+  "ref": "Section 6",
+  "title": "Daughters' equal right in ancestral (coparcenary) property",
+  "category": "family",
+  "text": "Since the 2005 amendment, a daughter is a coparcener by birth in a Hindu joint family in the same manner as a son, with the same rights and liabilities in coparcenary property, regardless of whether her father was alive on the date of the amendment.",
+  "keywords": [
+   "daughter share",
+   "ancestral property",
+   "coparcenary",
+   "sister's share",
+   "inheritance daughter"
+  ],
+  "related_judgments": [
+   "vineeta_sharma"
+  ]
+ },
+ {
+  "id": "hsa_8",
+  "act": "Hindu Succession Act, 1956",
+  "short_act": "HSA",
+  "ref": "Sections 8-10",
+  "title": "Succession when a Hindu man dies without a will",
+  "category": "family",
+  "text": "When a Hindu male dies intestate, his property passes first to Class I heirs, including his widow, sons, daughters and mother, who take simultaneously and in equal shares (each widow, son, daughter and the mother taking one share).",
+  "keywords": [
+   "inheritance",
+   "intestate",
+   "no will",
+   "father died property",
+   "legal heirs",
+   "class i heirs"
+  ]
+ },
+ {
+  "id": "mva_134",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 134",
+  "title": "Duty of driver in case of accident",
+  "category": "road_accident",
+  "text": "When a person is injured in an accident, the driver must take reasonable steps to secure medical attention, including taking the injured person to the nearest hospital, unless prevented by mob fury or circumstances beyond control, and must inform the nearest police station as soon as possible and in any case within 24 hours.",
+  "keywords": [
+   "accident duty",
+   "driver fled",
+   "inform police",
+   "injured in accident"
+  ]
+ },
+ {
+  "id": "mva_134a",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 134A",
+  "title": "Protection of Good Samaritans",
+  "category": "road_accident",
+  "text": "A Good Samaritan who in good faith gives emergency medical or non-medical help to an accident victim, or transports them to hospital, is not liable for any civil or criminal action for injury or death of the victim and cannot be compelled to disclose their identity.",
+  "keywords": [
+   "good samaritan",
+   "helping accident victim",
+   "taking injured to hospital",
+   "fear of police"
+  ],
+  "related_judgments": [
+   "savelife"
+  ]
+ },
+ {
+  "id": "mva_161",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 161",
+  "title": "Compensation for hit-and-run accidents",
+  "category": "road_accident",
+  "text": "In a hit-and-run accident where the vehicle cannot be traced, the victim can claim fixed compensation from the Motor Vehicle Accident Fund: Rs. 2 lakh for death and Rs. 50,000 for grievous hurt, under the Compensation to Victims of Hit and Run Motor Accidents Scheme, 2022. The claim is made to the Claims Enquiry Officer (usually the SDM/Tehsildar).",
+  "keywords": [
+   "hit and run",
+   "vehicle not traced",
+   "unknown vehicle",
+   "hit and run compensation"
+  ]
+ },
+ {
+  "id": "mva_164",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 164",
+  "title": "Compensation without proof of fault",
+  "category": "road_accident",
+  "text": "The owner or insurer is liable to pay fixed compensation of Rs. 5 lakh for death and Rs. 2.5 lakh for grievous hurt, without the claimant having to prove wrongful act, neglect or default.",
+  "keywords": [
+   "no fault liability",
+   "accident compensation",
+   "insurance claim accident",
+   "5 lakh"
+  ]
+ },
+ {
+  "id": "mva_166",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 166",
+  "title": "Claim before the Motor Accident Claims Tribunal",
+  "category": "road_accident",
+  "text": "The injured person, the owner of damaged property, or the legal representatives of a deceased person can file a claim for compensation before the Motor Accident Claims Tribunal (MACT) having jurisdiction where the accident occurred, where the claimant resides or carries on business, or where the defendant resides. The 2019 amendment requires filing within six months of the accident. The police's accident report (DAR) is also treated as a claim application.",
+  "keywords": [
+   "mact",
+   "accident claim",
+   "motor accident claims tribunal",
+   "compensation for death in accident",
+   "injury compensation"
+  ],
+  "related_judgments": [
+   "sarla_verma",
+   "pranay_sethi"
+  ]
+ },
+ {
+  "id": "mva_162",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 162",
+  "title": "Cashless treatment of road accident victims",
+  "category": "road_accident",
+  "text": "Under the Cashless Treatment of Road Accident Victims Scheme framed under Section 162, accident victims are entitled to cashless treatment at designated hospitals up to Rs. 1.5 lakh per victim for up to seven days from the accident.",
+  "keywords": [
+   "cashless treatment",
+   "golden hour",
+   "hospital refused treatment",
+   "accident treatment cost"
+  ],
+  "related_judgments": [
+   "parmanand_katara"
+  ]
+ },
+ {
+  "id": "mva_185",
+  "act": "Motor Vehicles Act, 1988",
+  "short_act": "MV Act",
+  "ref": "Section 185",
+  "title": "Driving under the influence of alcohol or drugs",
+  "category": "road_accident",
+  "text": "Driving with blood alcohol exceeding 30 mg per 100 ml, or under the influence of a drug, is an offence.",
+  "punishment": "First offence: up to 6 months, or fine up to Rs. 10,000, or both; repeat: up to 2 years, or fine up to Rs. 15,000, or both",
+  "keywords": [
+   "drunk driving",
+   "drink and drive",
+   "alcohol driving"
+  ]
+ },
+ {
+  "id": "art_14",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 14",
+  "title": "Equality before law",
+  "category": "constitutional",
+  "text": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. Arbitrary state action violates Article 14.",
+  "keywords": [
+   "equality",
+   "equal treatment",
+   "arbitrary",
+   "discrimination by government"
+  ],
+  "related_judgments": [
+   "maneka_gandhi",
+   "navtej_johar",
+   "joseph_shine"
+  ]
+ },
+ {
+  "id": "art_15",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 15",
+  "title": "Prohibition of discrimination",
+  "category": "constitutional",
+  "text": "The State shall not discriminate against any citizen on grounds only of religion, race, caste, sex or place of birth. No citizen may be denied access to shops, restaurants, hotels, wells, tanks, roads and public places on these grounds.",
+  "keywords": [
+   "discrimination",
+   "caste discrimination",
+   "denied entry",
+   "religion discrimination",
+   "gender discrimination"
+  ]
+ },
+ {
+  "id": "art_17",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 17",
+  "title": "Abolition of untouchability",
+  "category": "caste_atrocities",
+  "text": "Untouchability is abolished and its practice in any form is forbidden. Enforcing any disability arising out of untouchability is an offence punishable under the Protection of Civil Rights Act, 1955.",
+  "keywords": [
+   "untouchability",
+   "caste discrimination",
+   "not allowed in temple",
+   "separate utensils"
+  ]
+ },
+ {
+  "id": "art_19",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 19",
+  "title": "Freedom of speech, assembly, movement and profession",
+  "category": "constitutional",
+  "text": "All citizens have the right to freedom of speech and expression, to assemble peaceably without arms, to form associations or unions, to move freely and reside anywhere in India, and to practise any profession, trade or business, subject to reasonable restrictions.",
+  "keywords": [
+   "freedom of speech",
+   "free speech",
+   "protest",
+   "right to assemble",
+   "freedom of profession"
+  ],
+  "related_judgments": [
+   "shreya_singhal"
+  ]
+ },
+ {
+  "id": "art_20",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 20",
+  "title": "Protection in respect of conviction",
+  "category": "constitutional",
+  "text": "No person can be convicted under a law that did not exist when the act was committed, be prosecuted and punished for the same offence more than once, or be compelled to be a witness against themselves.",
+  "keywords": [
+   "self incrimination",
+   "double jeopardy",
+   "forced confession",
+   "right to silence"
+  ]
+ },
+ {
+  "id": "art_21",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 21",
+  "title": "Right to life and personal liberty",
+  "category": "constitutional",
+  "text": "No person shall be deprived of life or personal liberty except according to procedure established by law. The Supreme Court has held that this includes the right to live with dignity, privacy, livelihood, health, shelter, a clean environment, speedy trial, free legal aid, and protection from custodial violence.",
+  "keywords": [
+   "right to life",
+   "personal liberty",
+   "dignity",
+   "privacy",
+   "livelihood",
+   "custodial violence",
+   "illegal detention"
+  ],
+  "related_judgments": [
+   "maneka_gandhi",
+   "olga_tellis",
+   "puttaswamy",
+   "hussainara",
+   "nilabati_behera"
+  ]
+ },
+ {
+  "id": "art_21a",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 21A",
+  "title": "Right to education",
+  "category": "child_protection",
+  "text": "The State shall provide free and compulsory education to all children aged 6 to 14 years. The Right of Children to Free and Compulsory Education Act, 2009 reserves 25% of entry-level seats in private unaided schools for children from weaker sections (Section 12(1)(c)), bans capitation fees and screening (Section 13), and prohibits physical punishment and mental harassment (Section 17).",
+  "keywords": [
+   "right to education",
+   "school admission",
+   "rte",
+   "25 percent quota",
+   "corporal punishment",
+   "teacher beat child",
+   "school fees"
+  ]
+ },
+ {
+  "id": "art_22",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 22",
+  "title": "Protection against arrest and detention",
+  "category": "police_rights",
+  "text": "An arrested person must be informed of the grounds of arrest as soon as possible, has the right to consult and be defended by a lawyer of their choice, and must be produced before the nearest Magistrate within 24 hours (excluding travel time).",
+  "keywords": [
+   "arrest rights",
+   "grounds of arrest",
+   "right to lawyer",
+   "24 hours magistrate",
+   "illegal arrest"
+  ],
+  "related_judgments": [
+   "dk_basu"
+  ]
+ },
+ {
+  "id": "art_23",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Articles 23-24",
+  "title": "Prohibition of trafficking, forced labour and child labour",
+  "category": "employment",
+  "text": "Traffic in human beings, begar and other forms of forced labour are prohibited (Article 23). Paying less than the minimum wage has been held to be forced labour. No child below 14 years may be employed in any factory, mine or hazardous employment (Article 24).",
+  "keywords": [
+   "forced labour",
+   "trafficking",
+   "child labour",
+   "begar",
+   "bonded labour"
+  ],
+  "related_judgments": [
+   "pudr",
+   "bandhua_mukti"
+  ]
+ },
+ {
+  "id": "art_32",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 32",
+  "title": "Right to approach the Supreme Court for fundamental rights",
+  "category": "constitutional",
+  "text": "Every person has the right to move the Supreme Court for enforcement of fundamental rights. The Court may issue writs of habeas corpus, mandamus, prohibition, quo warranto and certiorari.",
+  "keywords": [
+   "writ petition",
+   "supreme court",
+   "habeas corpus",
+   "fundamental rights violated",
+   "pil"
+  ]
+ },
+ {
+  "id": "art_226",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 226",
+  "title": "Writ jurisdiction of High Courts",
+  "category": "constitutional",
+  "text": "Every High Court may issue writs to any person or authority, including the government, to enforce fundamental rights and for any other purpose. This is often the remedy against illegal action by government departments, police inaction, or illegal detention.",
+  "keywords": [
+   "high court",
+   "writ",
+   "mandamus",
+   "government inaction",
+   "illegal detention"
+  ]
+ },
+ {
+  "id": "art_39a",
+  "act": "Constitution of India",
+  "short_act": "Constitution",
+  "ref": "Article 39A",
+  "title": "Equal justice and free legal aid",
+  "category": "legal_aid",
+  "text": "The State shall secure that the legal system promotes justice on the basis of equal opportunity and shall provide free legal aid so that no citizen is denied justice because of economic or other disabilities.",
+  "keywords": [
+   "free legal aid",
+   "equal justice",
+   "cannot afford lawyer"
+  ],
+  "related_judgments": [
+   "hussainara"
+  ]
+ },
+ {
+  "id": "mwpsc_4",
+  "act": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+  "short_act": "Senior Citizens Act",
+  "ref": "Section 4",
+  "title": "Maintenance of parents and senior citizens",
+  "category": "senior_citizens",
+  "text": "A senior citizen (60 years or above) or parent who cannot maintain themselves from their own earnings or property can claim maintenance from their adult children or grandchildren. A childless senior citizen can claim from relatives who will inherit their property. Maintenance covers food, clothing, residence, medical attendance and treatment.",
+  "keywords": [
+   "parents maintenance",
+   "son not taking care",
+   "elderly parents",
+   "children abandoned parents",
+   "senior citizen"
+  ]
+ },
+ {
+  "id": "mwpsc_5",
+  "act": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+  "short_act": "Senior Citizens Act",
+  "ref": "Sections 5 and 9",
+  "title": "Application to the Maintenance Tribunal",
+  "category": "senior_citizens",
+  "text": "An application for maintenance is filed before the Maintenance Tribunal (usually headed by the SDM). The Tribunal can grant interim maintenance and should decide within 90 days. No lawyer is needed. The Act fixes a maximum monthly maintenance amount set by the State, subject to the statutory ceiling.",
+  "keywords": [
+   "maintenance tribunal",
+   "sdm",
+   "senior citizen application",
+   "monthly maintenance"
+  ]
+ },
+ {
+  "id": "mwpsc_23",
+  "act": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+  "short_act": "Senior Citizens Act",
+  "ref": "Section 23",
+  "title": "Transfer of property can be cancelled",
+  "category": "senior_citizens",
+  "text": "If a senior citizen transfers property by gift or otherwise on the condition that the transferee will provide basic amenities and physical needs, and the transferee fails to do so, the Tribunal can declare the transfer void.",
+  "keywords": [
+   "gift deed cancel",
+   "property transferred to son",
+   "son took property",
+   "cancel transfer"
+  ]
+ },
+ {
+  "id": "mwpsc_24",
+  "act": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+  "short_act": "Senior Citizens Act",
+  "ref": "Section 24",
+  "title": "Abandonment of senior citizens",
+  "category": "senior_citizens",
+  "text": "Leaving a senior citizen anywhere with the intention of wholly abandoning them, by a person who has their care or protection, is punishable.",
+  "punishment": "Up to 3 months, or fine up to Rs. 5,000, or both",
+  "keywords": [
+   "abandoned parents",
+   "old age home",
+   "left elderly"
+  ]
+ },
+ {
+  "id": "hma_13",
+  "act": "Hindu Marriage Act, 1955",
+  "short_act": "HMA",
+  "ref": "Section 13",
+  "title": "Grounds for divorce",
+  "category": "family",
+  "text": "Either spouse may seek divorce on grounds including cruelty, adultery, desertion for at least two years, conversion to another religion, incurable mental disorder, and renunciation of the world. A wife has additional grounds, such as the husband's bigamy.",
+  "keywords": [
+   "divorce",
+   "grounds for divorce",
+   "cruelty divorce",
+   "desertion",
+   "separation"
+  ]
+ },
+ {
+  "id": "hma_13b",
+  "act": "Hindu Marriage Act, 1955",
+  "short_act": "HMA",
+  "ref": "Section 13B",
+  "title": "Divorce by mutual consent",
+  "category": "family",
+  "text": "Spouses who have lived separately for one year or more and agree that they cannot live together may jointly file for divorce. The second motion is ordinarily made after six months, but the court may waive this waiting period.",
+  "keywords": [
+   "mutual consent divorce",
+   "mutual divorce",
+   "both agree divorce",
+   "six months waiting"
+  ],
+  "related_judgments": [
+   "amardeep_singh"
+  ]
+ },
+ {
+  "id": "hma_24",
+  "act": "Hindu Marriage Act, 1955",
+  "short_act": "HMA",
+  "ref": "Sections 24-25",
+  "title": "Maintenance during case and permanent alimony",
+  "category": "family",
+  "text": "Either spouse without sufficient independent income may claim maintenance and litigation expenses while the case is pending (Section 24) and permanent alimony on the final decree (Section 25).",
+  "keywords": [
+   "alimony",
+   "maintenance pendente lite",
+   "interim maintenance",
+   "litigation expenses"
+  ],
+  "related_judgments": [
+   "rajnesh_neha"
+  ]
+ },
+ {
+  "id": "mwa_2019",
+  "act": "Muslim Women (Protection of Rights on Marriage) Act, 2019",
+  "short_act": "MWPRMA",
+  "ref": "Sections 3-6",
+  "title": "Instant triple talaq is void and an offence",
+  "category": "family",
+  "text": "Pronouncement of talaq-e-biddat (instant triple talaq) in any form, spoken, written or electronic, is void and illegal. The married Muslim woman is entitled to subsistence allowance for herself and dependent children, and to custody of her minor children.",
+  "punishment": "Up to 3 years and fine",
+  "keywords": [
+   "triple talaq",
+   "instant talaq",
+   "talaq on whatsapp",
+   "muslim divorce"
+  ],
+  "related_judgments": [
+   "shayara_bano"
+  ]
+ },
+ {
+  "id": "sma_4",
+  "act": "Special Marriage Act, 1954",
+  "short_act": "SMA",
+  "ref": "Sections 4-5",
+  "title": "Inter-faith and civil marriage",
+  "category": "family",
+  "text": "Any two persons, irrespective of religion, may marry under this Act if the man is 21 and the woman is 18 or older, both are of sound mind, neither has a living spouse, and they are not within prohibited degrees. Notice is given to the Marriage Officer and published for 30 days before solemnisation.",
+  "keywords": [
+   "inter-faith marriage",
+   "court marriage",
+   "inter-caste marriage",
+   "love marriage",
+   "family opposing marriage"
+  ],
+  "related_judgments": [
+   "shakti_vahini"
+  ]
+ },
+ {
+  "id": "pocso_4",
+  "act": "Protection of Children from Sexual Offences Act, 2012",
+  "short_act": "POCSO",
+  "ref": "Sections 3-4",
+  "title": "Penetrative sexual assault on a child",
+  "category": "child_protection",
+  "text": "Penetrative sexual assault on any child (a person below 18 years) is punishable with a minimum sentence. Consent of a child is irrelevant. A higher minimum applies where the child is below 16.",
+  "punishment": "Minimum 10 years, extendable to life, and fine; minimum 20 years if the child is below 16",
+  "keywords": [
+   "child sexual abuse",
+   "child rape",
+   "pocso",
+   "minor abused"
+  ],
+  "related_judgments": [
+   "independent_thought"
+  ]
+ },
+ {
+  "id": "pocso_8",
+  "act": "Protection of Children from Sexual Offences Act, 2012",
+  "short_act": "POCSO",
+  "ref": "Sections 7-8 and 11-12",
+  "title": "Sexual assault and sexual harassment of a child",
+  "category": "child_protection",
+  "text": "Touching a child's private parts, or making the child touch, with sexual intent is sexual assault, punishable with 3 to 5 years and fine. Sexual harassment of a child, including sexual remarks, gestures, showing pornography, repeatedly following or watching, and threats to use images, is punishable with up to 3 years and fine.",
+  "keywords": [
+   "child sexual assault",
+   "bad touch",
+   "child harassed",
+   "teacher touched child",
+   "child molested"
+  ],
+  "related_judgments": [
+   "ag_satish"
+  ]
+ },
+ {
+  "id": "pocso_19",
+  "act": "Protection of Children from Sexual Offences Act, 2012",
+  "short_act": "POCSO",
+  "ref": "Sections 19 and 21",
+  "title": "Mandatory reporting",
+  "category": "child_protection",
+  "text": "Anyone who knows or apprehends that a sexual offence against a child has been or is likely to be committed must report it to the Special Juvenile Police Unit or local police. Failure to report is punishable. Reports made in good faith attract no liability.",
+  "punishment": "Failure to report: up to 6 months, or fine, or both",
+  "keywords": [
+   "report child abuse",
+   "mandatory reporting",
+   "school hiding abuse",
+   "sjpu"
+  ]
+ },
+ {
+  "id": "pocso_24",
+  "act": "Protection of Children from Sexual Offences Act, 2012",
+  "short_act": "POCSO",
+  "ref": "Sections 23, 24 and 33",
+  "title": "Child-friendly procedure and confidentiality",
+  "category": "child_protection",
+  "text": "The child's statement is recorded at their residence or a place of their choice, preferably by a woman police officer not below the rank of Sub-Inspector who is not in uniform. The child's identity must not be disclosed by media, and trials must be child-friendly, in camera, with breaks as needed.",
+  "keywords": [
+   "child statement",
+   "identity protected",
+   "in camera trial",
+   "child witness"
+  ],
+  "related_judgments": [
+   "nipun_saxena"
+  ]
+ },
+ {
+  "id": "jja_75",
+  "act": "Juvenile Justice (Care and Protection of Children) Act, 2015",
+  "short_act": "JJ Act",
+  "ref": "Section 75",
+  "title": "Cruelty to a child",
+  "category": "child_protection",
+  "text": "Any person having actual charge or control of a child who assaults, abandons, abuses, exposes or wilfully neglects the child in a manner likely to cause unnecessary mental or physical suffering is punishable. Children in need of care and protection can be produced before the Child Welfare Committee.",
+  "punishment": "Up to 3 years, or fine up to Rs. 1 lakh, or both",
+  "keywords": [
+   "child cruelty",
+   "child beaten",
+   "child neglect",
+   "child welfare committee",
+   "abandoned child"
+  ]
+ },
+ {
+  "id": "clpa_3",
+  "act": "Child and Adolescent Labour (Prohibition and Regulation) Act, 1986",
+  "short_act": "Child Labour Act",
+  "ref": "Sections 3 and 14",
+  "title": "Prohibition of child labour",
+  "category": "child_protection",
+  "text": "No child below 14 years may be employed in any occupation or process, except helping the family or family enterprise outside school hours in non-hazardous work, or as an artist. Adolescents (14 to 18) cannot be employed in hazardous occupations.",
+  "punishment": "6 months to 2 years, or fine of Rs. 20,000 to Rs. 50,000, or both",
+  "keywords": [
+   "child labour",
+   "child working",
+   "minor employed",
+   "child in dhaba",
+   "child domestic help"
+  ]
+ },
+ {
+  "id": "pcma_3",
+  "act": "Prohibition of Child Marriage Act, 2006",
+  "short_act": "PCMA",
+  "ref": "Sections 3, 9-11",
+  "title": "Child marriage",
+  "category": "child_protection",
+  "text": "A marriage where the girl is below 18 or the boy is below 21 is voidable at the option of the party who was a child. Performing, conducting, directing or promoting a child marriage is punishable. Child Marriage Prohibition Officers and Magistrates can issue injunctions to stop a child marriage.",
+  "punishment": "Up to 2 years rigorous imprisonment, or fine up to Rs. 1 lakh, or both",
+  "keywords": [
+   "child marriage",
+   "underage marriage",
+   "forced marriage of minor",
+   "stop marriage"
+  ]
+ },
+ {
+  "id": "lsa_12",
+  "act": "Legal Services Authorities Act, 1987",
+  "short_act": "LSA Act",
+  "ref": "Sections 12-13",
+  "title": "Who is entitled to free legal aid",
+  "category": "legal_aid",
+  "text": "Free legal services, including a lawyer, court fees and drafting, are available to members of Scheduled Castes or Scheduled Tribes, victims of trafficking or begar, women and children, persons with disabilities, victims of mass disaster, ethnic violence, caste atrocity, flood, drought or earthquake, industrial workmen, persons in custody, and persons whose annual income is below the limit set by the State. An affidavit of income is ordinarily sufficient.",
+  "keywords": [
+   "free legal aid",
+   "free lawyer",
+   "legal services authority",
+   "dlsa",
+   "nalsa",
+   "cannot afford lawyer"
+  ],
+  "related_judgments": [
+   "hussainara"
+  ]
+ },
+ {
+  "id": "lsa_19",
+  "act": "Legal Services Authorities Act, 1987",
+  "short_act": "LSA Act",
+  "ref": "Sections 19-21",
+  "title": "Lok Adalat",
+  "category": "legal_aid",
+  "text": "Lok Adalats settle pending or pre-litigation disputes by compromise, including cheque bounce, bank recovery, motor accident, matrimonial (other than divorce), labour and utility bill disputes. The award is deemed a decree of a civil court, is final and binding with no appeal, and court fees paid are refunded.",
+  "keywords": [
+   "lok adalat",
+   "settlement",
+   "compromise",
+   "pre-litigation",
+   "court fee refund"
+  ]
+ },
+ {
+  "id": "lsa_22b",
+  "act": "Legal Services Authorities Act, 1987",
+  "short_act": "LSA Act",
+  "ref": "Sections 22B-22E",
+  "title": "Permanent Lok Adalat for public utility services",
+  "category": "legal_aid",
+  "text": "Permanent Lok Adalats decide disputes about public utility services such as transport, postal, telephone, electricity, water, sanitation, hospitals, insurance and banking. They first try conciliation and may then decide the dispute on merits. Their award is final.",
+  "keywords": [
+   "permanent lok adalat",
+   "electricity bill dispute",
+   "telephone bill",
+   "public utility",
+   "water supply"
+  ]
+ },
+ {
+  "id": "poa_3",
+  "act": "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989",
+  "short_act": "SC/ST Act",
+  "ref": "Section 3",
+  "title": "Offences of atrocities",
+  "category": "caste_atrocities",
+  "text": "Acts by non-SC/ST persons against members of Scheduled Castes or Scheduled Tribes are punishable as atrocities. These include intentionally insulting or intimidating them with intent to humiliate in any place within public view, using caste names to abuse, wrongful dispossession of land, forcing inedible substances, social or economic boycott, preventing use of public places or water sources, and forced labour.",
+  "punishment": "6 months to 5 years and fine for most offences; higher for serious offences",
+  "keywords": [
+   "caste abuse",
+   "casteist slur",
+   "dalit atrocity",
+   "caste insult in public",
+   "land grabbed dalit",
+   "social boycott"
+  ],
+  "related_judgments": [
+   "prathvi_raj_chauhan"
+  ]
+ },
+ {
+  "id": "poa_18",
+  "act": "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989",
+  "short_act": "SC/ST Act",
+  "ref": "Sections 18 and 18A",
+  "title": "No anticipatory bail and no preliminary enquiry",
+  "category": "caste_atrocities",
+  "text": "Anticipatory bail is not available to a person accused of an offence under this Act where a prima facie case is made out. No preliminary enquiry is required before registering an FIR, and no approval is needed before arrest.",
+  "keywords": [
+   "anticipatory bail atrocity",
+   "fir atrocity act",
+   "sc st act fir"
+  ],
+  "related_judgments": [
+   "prathvi_raj_chauhan"
+  ]
+ },
+ {
+  "id": "poa_15a",
+  "act": "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989",
+  "short_act": "SC/ST Act",
+  "ref": "Sections 14 and 15A",
+  "title": "Rights of victims and Special Courts",
+  "category": "caste_atrocities",
+  "text": "Victims and witnesses are entitled to protection, to be informed of every court proceeding, to be heard on bail and other matters, to travel and maintenance expenses, and to relief and rehabilitation including monetary relief. Exclusive Special Courts try these offences, and the chargesheet must be filed within 60 days.",
+  "keywords": [
+   "atrocity victim rights",
+   "special court",
+   "relief amount",
+   "rehabilitation"
+  ]
+ }
+]

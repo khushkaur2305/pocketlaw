@@ -1,0 +1,30 @@
+{
+ "MIN_SCORE": 0.05,
+ "MEDIUM_SCORE": 0.1,
+ "STRONG_SCORE": 0.2,
+ "RELATIVE_CUTOFF": 0.3,
+ "TOP_K": 6,
+ "GUIDE_MIN_SCORE": 0.08,
+ "DISCLAIMER": "PocketLaw provides general legal information for educational and reference purposes only. It is not a substitute for advice from a qualified advocate. Laws change and their application depends on the facts of each case.",
+ "CATEGORY_LABELS": {
+  "criminal": "Criminal Offences",
+  "police_rights": "Police, FIR & Arrest Rights",
+  "women_safety": "Women's Safety",
+  "domestic_violence": "Domestic Violence & Dowry",
+  "workplace_harassment": "Sexual Harassment at Work",
+  "consumer": "Consumer Rights",
+  "cyber": "Cyber Crime & Online Fraud",
+  "banking": "Banking & Digital Payments",
+  "employment": "Employment & Wages",
+  "cheque_bounce": "Cheque Bounce & Money Recovery",
+  "tenancy": "Property & Tenancy",
+  "road_accident": "Road Accidents",
+  "constitutional": "Fundamental Rights",
+  "rti": "Right to Information",
+  "senior_citizens": "Senior Citizens",
+  "family": "Marriage, Divorce & Family",
+  "child_protection": "Child Protection",
+  "legal_aid": "Free Legal Aid",
+  "caste_atrocities": "Caste Atrocities"
+ }
+}

@@ -1,0 +1,2 @@
+# Generated data must stay byte-identical to what scripts/export_web.py writes (LF line endings).
+frontend/public/data/** text eol=lf

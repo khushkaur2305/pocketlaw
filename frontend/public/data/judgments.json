@@ -1,0 +1,717 @@
+[
+ {
+  "id": "dk_basu",
+  "name": "D.K. Basu v. State of West Bengal",
+  "citation": "(1997) 1 SCC 416",
+  "year": 1996,
+  "category": "police_rights",
+  "principle": "Mandatory safeguards for every arrest and detention.",
+  "summary": "The Supreme Court laid down binding requirements for arrest and detention to prevent custodial violence: police must carry visible identification, prepare an arrest memo attested by a witness and countersigned by the arrestee, inform a relative or friend, tell the arrestee of this right, conduct medical examination, and allow the arrestee to meet a lawyer during interrogation. Many of these were later written into the criminal procedure code.",
+  "keywords": [
+   "arrest guidelines",
+   "custodial violence",
+   "arrest memo",
+   "custodial death",
+   "police torture"
+  ]
+ },
+ {
+  "id": "lalita_kumari",
+  "name": "Lalita Kumari v. Government of Uttar Pradesh",
+  "citation": "(2014) 2 SCC 1",
+  "year": 2013,
+  "category": "police_rights",
+  "principle": "Registration of an FIR is mandatory when information discloses a cognizable offence.",
+  "summary": "A Constitution Bench held that police must register an FIR if the information discloses a cognizable offence, and no preliminary enquiry is permitted in such a case. A limited preliminary enquiry is allowed only in specified categories such as matrimonial, commercial and medical negligence disputes, and must be completed within a short time. Action must be taken against officers who fail to register an FIR.",
+  "keywords": [
+   "fir mandatory",
+   "police refused fir",
+   "registration of fir",
+   "preliminary enquiry"
+  ]
+ },
+ {
+  "id": "arnesh_kumar",
+  "name": "Arnesh Kumar v. State of Bihar",
+  "citation": "(2014) 8 SCC 273",
+  "year": 2014,
+  "category": "police_rights",
+  "principle": "No automatic arrest for offences punishable up to seven years.",
+  "summary": "The Court held that police must not arrest automatically in cases punishable with imprisonment up to seven years, including cruelty cases under Section 498A IPC. Officers must satisfy themselves of the necessity of arrest using a checklist, and Magistrates must not authorise detention mechanically. Failure invites departmental action and contempt.",
+  "keywords": [
+   "unnecessary arrest",
+   "498a arrest",
+   "arrest checklist",
+   "seven years",
+   "notice of appearance"
+  ]
+ },
+ {
+  "id": "sakiri_vasu",
+  "name": "Sakiri Vasu v. State of Uttar Pradesh",
+  "citation": "(2008) 2 SCC 409",
+  "year": 2007,
+  "category": "police_rights",
+  "principle": "If police do not register an FIR, approach the SP and then the Magistrate.",
+  "summary": "The Court explained that a person whose FIR is not registered should first approach the Superintendent of Police and then the Magistrate, who has wide powers to order registration and to monitor a proper investigation, rather than directly approaching the High Court.",
+  "keywords": [
+   "fir not registered",
+   "magistrate order investigation",
+   "156(3)",
+   "superintendent of police"
+  ]
+ },
+ {
+  "id": "youth_bar",
+  "name": "Youth Bar Association of India v. Union of India",
+  "citation": "(2016) 9 SCC 473",
+  "year": 2016,
+  "category": "police_rights",
+  "principle": "FIRs must be uploaded online within 24 hours, except sensitive cases.",
+  "summary": "The Court directed that copies of FIRs be uploaded on police websites within 24 hours of registration so the accused and others can access them, except in sensitive cases such as sexual offences, insurgency and offences against children.",
+  "keywords": [
+   "fir copy online",
+   "fir upload",
+   "access to fir"
+  ]
+ },
+ {
+  "id": "paramvir_saini",
+  "name": "Paramvir Singh Saini v. Baljit Singh",
+  "citation": "(2021) 1 SCC 184",
+  "year": 2020,
+  "category": "police_rights",
+  "principle": "CCTV cameras must be installed in all police stations and investigating agencies.",
+  "summary": "To check custodial violence, the Court directed installation of CCTV cameras with night vision and audio covering entry and exit points, lock-ups, corridors and interrogation rooms of every police station, with footage preserved, and allowed victims of custodial violence to seek the footage.",
+  "keywords": [
+   "cctv police station",
+   "custodial torture",
+   "police beating evidence"
+  ]
+ },
+ {
+  "id": "nilabati_behera",
+  "name": "Nilabati Behera v. State of Orissa",
+  "citation": "(1993) 2 SCC 746",
+  "year": 1993,
+  "category": "police_rights",
+  "principle": "The State must pay compensation for custodial death.",
+  "summary": "The Court held that compensation can be awarded under Article 32 or 226 for violation of the right to life by the State, such as a death in police custody, as a public law remedy separate from any civil suit or criminal prosecution.",
+  "keywords": [
+   "custodial death",
+   "compensation",
+   "police custody death"
+  ]
+ },
+ {
+  "id": "prakash_singh",
+  "name": "Prakash Singh v. Union of India",
+  "citation": "(2006) 8 SCC 1",
+  "year": 2006,
+  "category": "police_rights",
+  "principle": "Police reforms including Police Complaints Authorities.",
+  "summary": "The Court directed police reforms, including the creation of State and District Police Complaints Authorities to inquire into serious misconduct by police officers, separation of investigation from law and order, and fixed tenure for key officers.",
+  "keywords": [
+   "police complaints authority",
+   "police misconduct",
+   "complaint against police"
+  ]
+ },
+ {
+  "id": "satender_antil",
+  "name": "Satender Kumar Antil v. Central Bureau of Investigation",
+  "citation": "(2022) 10 SCC 51",
+  "year": 2022,
+  "category": "police_rights",
+  "principle": "Bail is the rule and jail the exception; guidelines on bail.",
+  "summary": "The Court issued comprehensive bail guidelines, categorising offences and holding that where an accused was not arrested during investigation and cooperated, they should ordinarily not be taken into custody when the chargesheet is filed. It stressed compliance with the Arnesh Kumar directions and timely disposal of bail applications.",
+  "keywords": [
+   "bail guidelines",
+   "bail is rule",
+   "undertrial",
+   "bail application"
+  ]
+ },
+ {
+  "id": "sushila_aggarwal",
+  "name": "Sushila Aggarwal v. State (NCT of Delhi)",
+  "citation": "(2020) 5 SCC 1",
+  "year": 2020,
+  "category": "police_rights",
+  "principle": "Anticipatory bail need not be limited to a fixed period.",
+  "summary": "A Constitution Bench held that anticipatory bail need not invariably be limited in time and can continue until the end of trial, though courts may impose conditions depending on the facts.",
+  "keywords": [
+   "anticipatory bail",
+   "duration of bail"
+  ]
+ },
+ {
+  "id": "vishaka",
+  "name": "Vishaka v. State of Rajasthan",
+  "citation": "(1997) 6 SCC 241",
+  "year": 1997,
+  "category": "workplace_harassment",
+  "principle": "Sexual harassment at the workplace violates fundamental rights; employers must prevent it.",
+  "summary": "In the absence of legislation, the Court framed binding guidelines requiring employers to prevent sexual harassment and set up complaints committees headed by a woman, holding that such harassment violates Articles 14, 15, 19 and 21. These guidelines formed the basis of the POSH Act, 2013.",
+  "keywords": [
+   "vishaka guidelines",
+   "sexual harassment workplace",
+   "complaints committee"
+  ]
+ },
+ {
+  "id": "aureliano_fernandes",
+  "name": "Aureliano Fernandes v. State of Goa",
+  "citation": "(2024) 1 SCC 632",
+  "year": 2023,
+  "category": "workplace_harassment",
+  "principle": "Authorities must ensure Internal Committees are properly constituted and functional.",
+  "summary": "Noting serious gaps in implementation of the POSH Act, the Court directed governments, public authorities and organisations to verify that Internal Committees, Local Committees and Internal Complaints Committees are constituted and their details published, and that members are trained in the procedure.",
+  "keywords": [
+   "posh implementation",
+   "internal committee",
+   "icc not constituted"
+  ]
+ },
+ {
+  "id": "laxmi",
+  "name": "Laxmi v. Union of India",
+  "citation": "(2014) 4 SCC 427",
+  "year": 2013,
+  "category": "women_safety",
+  "principle": "Regulation of acid sale and compensation and free treatment for acid attack survivors.",
+  "summary": "The Court directed regulation of over-the-counter sale of acid, minimum compensation for acid attack victims from the State, and free medical treatment including reconstructive surgery in private and public hospitals.",
+  "keywords": [
+   "acid attack",
+   "acid sale",
+   "victim compensation",
+   "free treatment"
+  ]
+ },
+ {
+  "id": "nipun_saxena",
+  "name": "Nipun Saxena v. Union of India",
+  "citation": "(2019) 2 SCC 703",
+  "year": 2018,
+  "category": "women_safety",
+  "principle": "The identity of victims of rape and of child sexual abuse must never be disclosed.",
+  "summary": "The Court held that no person may print or publish the name of a victim of rape or child sexual abuse, or any fact from which her identity could be known, including in social media. Police must keep such records in sealed covers.",
+  "keywords": [
+   "victim identity",
+   "rape victim name",
+   "confidentiality"
+  ]
+ },
+ {
+  "id": "aparna_bhat",
+  "name": "Aparna Bhat v. State of Madhya Pradesh",
+  "citation": "(2021) 16 SCC 179",
+  "year": 2021,
+  "category": "women_safety",
+  "principle": "Courts must not trivialise sexual offences through bail conditions or stereotypes.",
+  "summary": "The Court set aside a bail condition requiring the accused to have a rakhi tied by the complainant, holding that bail conditions must not mandate contact between the accused and the victim and that judges must avoid gender stereotypes in orders and observations.",
+  "keywords": [
+   "bail conditions",
+   "gender stereotypes",
+   "sexual offence bail"
+  ]
+ },
+ {
+  "id": "independent_thought",
+  "name": "Independent Thought v. Union of India",
+  "citation": "(2017) 10 SCC 800",
+  "year": 2017,
+  "category": "child_protection",
+  "principle": "Sexual intercourse with a wife below 18 years is rape.",
+  "summary": "The Court read down the marital rape exception in the IPC so that sexual intercourse by a man with his wife who is below 18 years of age is rape, harmonising the law with POCSO.",
+  "keywords": [
+   "child marriage",
+   "minor wife",
+   "marital rape exception"
+  ]
+ },
+ {
+  "id": "ag_satish",
+  "name": "Attorney General for India v. Satish",
+  "citation": "(2022) 5 SCC 545",
+  "year": 2021,
+  "category": "child_protection",
+  "principle": "Skin-to-skin contact is not required for sexual assault under POCSO.",
+  "summary": "The Court overturned a High Court ruling and held that the most important ingredient of sexual assault under Section 7 POCSO is sexual intent, not skin-to-skin contact; touching a child's private parts over clothes with sexual intent is sexual assault.",
+  "keywords": [
+   "pocso",
+   "skin to skin",
+   "sexual intent",
+   "touching over clothes"
+  ]
+ },
+ {
+  "id": "hiral_harsora",
+  "name": "Hiral P. Harsora v. Kusum Narottamdas Harsora",
+  "citation": "(2016) 10 SCC 165",
+  "year": 2016,
+  "category": "domestic_violence",
+  "principle": "Domestic violence complaints can be filed against women and minors too.",
+  "summary": "The Court struck down the words 'adult male' from the definition of respondent in the Domestic Violence Act, so that a complaint can be filed against female relatives such as a mother-in-law or sister-in-law, and against any person in the domestic relationship.",
+  "keywords": [
+   "mother-in-law",
+   "female relatives",
+   "respondent",
+   "domestic violence"
+  ]
+ },
+ {
+  "id": "satish_ahuja",
+  "name": "Satish Chander Ahuja v. Sneha Ahuja",
+  "citation": "(2021) 1 SCC 414",
+  "year": 2020,
+  "category": "domestic_violence",
+  "principle": "A wife's right to reside extends to the in-laws' house where she lived.",
+  "summary": "A three-judge Bench held that a shared household includes a house belonging to the husband's relatives where the woman lived in a domestic relationship, so she may claim a right of residence there even if her husband has no share in it.",
+  "keywords": [
+   "shared household",
+   "in-laws house",
+   "right to reside",
+   "eviction of daughter-in-law"
+  ]
+ },
+ {
+  "id": "rajnesh_neha",
+  "name": "Rajnesh v. Neha",
+  "citation": "(2021) 2 SCC 324",
+  "year": 2020,
+  "category": "family",
+  "principle": "Uniform guidelines on maintenance, including mandatory affidavits of disclosure.",
+  "summary": "The Court laid down guidelines for maintenance under all laws: both parties must file affidavits disclosing assets and liabilities, maintenance is payable from the date of application, overlapping orders must be adjusted, and criteria for fixing the amount were set out.",
+  "keywords": [
+   "maintenance",
+   "affidavit of disclosure",
+   "interim maintenance",
+   "alimony"
+  ]
+ },
+ {
+  "id": "shah_bano",
+  "name": "Mohd. Ahmed Khan v. Shah Bano Begum",
+  "citation": "(1985) 2 SCC 556",
+  "year": 1985,
+  "category": "family",
+  "principle": "Divorced Muslim women can claim maintenance under the criminal procedure code.",
+  "summary": "A Constitution Bench held that the provision for maintenance of wives in the criminal procedure code applies to all persons regardless of religion, including a divorced Muslim woman unable to maintain herself.",
+  "keywords": [
+   "maintenance",
+   "muslim woman",
+   "divorced wife"
+  ]
+ },
+ {
+  "id": "danial_latifi",
+  "name": "Danial Latifi v. Union of India",
+  "citation": "(2001) 7 SCC 740",
+  "year": 2001,
+  "category": "family",
+  "principle": "A Muslim husband must make a reasonable and fair provision for the divorced wife's future.",
+  "summary": "The Court upheld the Muslim Women (Protection of Rights on Divorce) Act, 1986 by interpreting it to require a reasonable and fair provision for the divorced wife's entire future, to be made within the iddat period.",
+  "keywords": [
+   "muslim divorce",
+   "maintenance",
+   "fair provision"
+  ]
+ },
+ {
+  "id": "shayara_bano",
+  "name": "Shayara Bano v. Union of India",
+  "citation": "(2017) 9 SCC 1",
+  "year": 2017,
+  "category": "family",
+  "principle": "Instant triple talaq is unconstitutional.",
+  "summary": "A Constitution Bench set aside the practice of talaq-e-biddat (instant triple talaq) as manifestly arbitrary and unconstitutional. Parliament later enacted the Muslim Women (Protection of Rights on Marriage) Act, 2019.",
+  "keywords": [
+   "triple talaq",
+   "instant talaq",
+   "muslim women"
+  ]
+ },
+ {
+  "id": "amardeep_singh",
+  "name": "Amardeep Singh v. Harveen Kaur",
+  "citation": "(2017) 8 SCC 746",
+  "year": 2017,
+  "category": "family",
+  "principle": "The six-month waiting period for mutual consent divorce can be waived.",
+  "summary": "The Court held that the six-month cooling-off period under Section 13B(2) of the Hindu Marriage Act is directory, not mandatory, and may be waived where there is no chance of reconciliation and the parties have settled all issues.",
+  "keywords": [
+   "mutual consent divorce",
+   "cooling off period",
+   "waiver"
+  ]
+ },
+ {
+  "id": "vineeta_sharma",
+  "name": "Vineeta Sharma v. Rakesh Sharma",
+  "citation": "(2020) 9 SCC 1",
+  "year": 2020,
+  "category": "family",
+  "principle": "Daughters have equal coparcenary rights by birth, whether or not the father was alive in 2005.",
+  "summary": "A three-judge Bench held that a daughter's right as a coparcener under the amended Section 6 of the Hindu Succession Act arises by birth, and does not depend on her father being alive on 9 September 2005.",
+  "keywords": [
+   "daughter share",
+   "ancestral property",
+   "coparcener",
+   "hindu succession"
+  ]
+ },
+ {
+  "id": "shakti_vahini",
+  "name": "Shakti Vahini v. Union of India",
+  "citation": "(2018) 7 SCC 192",
+  "year": 2018,
+  "category": "family",
+  "principle": "Adults have the right to marry a person of their choice; honour crimes must be prevented.",
+  "summary": "The Court held that the choice of two consenting adults to marry is protected by Articles 19 and 21, that interference by khap panchayats or families is illegal, and laid down preventive, remedial and punitive measures against honour crimes.",
+  "keywords": [
+   "honour killing",
+   "inter-caste marriage",
+   "khap panchayat",
+   "marry by choice"
+  ]
+ },
+ {
+  "id": "joseph_shine",
+  "name": "Joseph Shine v. Union of India",
+  "citation": "(2019) 3 SCC 39",
+  "year": 2018,
+  "category": "constitutional",
+  "principle": "Adultery is no longer a crime.",
+  "summary": "A Constitution Bench struck down Section 497 IPC (adultery) as violating Articles 14, 15 and 21, holding that it treated women as the property of their husbands. Adultery may still be a ground for divorce.",
+  "keywords": [
+   "adultery",
+   "section 497",
+   "women dignity"
+  ]
+ },
+ {
+  "id": "navtej_johar",
+  "name": "Navtej Singh Johar v. Union of India",
+  "citation": "(2018) 10 SCC 1",
+  "year": 2018,
+  "category": "constitutional",
+  "principle": "Consensual same-sex relations between adults are not a crime.",
+  "summary": "A Constitution Bench read down Section 377 IPC to decriminalise consensual sexual conduct between adults, holding that sexual orientation is protected by the rights to equality, expression, dignity and privacy.",
+  "keywords": [
+   "section 377",
+   "lgbtq",
+   "sexual orientation",
+   "same sex"
+  ]
+ },
+ {
+  "id": "puttaswamy",
+  "name": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+  "citation": "(2017) 10 SCC 1",
+  "year": 2017,
+  "category": "constitutional",
+  "principle": "Privacy is a fundamental right.",
+  "summary": "A nine-judge Bench unanimously held that the right to privacy is a fundamental right protected under Article 21 and Part III of the Constitution, including informational privacy and bodily autonomy, subject to tests of legality, necessity and proportionality.",
+  "keywords": [
+   "right to privacy",
+   "data protection",
+   "informational privacy",
+   "aadhaar"
+  ]
+ },
+ {
+  "id": "maneka_gandhi",
+  "name": "Maneka Gandhi v. Union of India",
+  "citation": "(1978) 1 SCC 248",
+  "year": 1978,
+  "category": "constitutional",
+  "principle": "Any procedure depriving personal liberty must be just, fair and reasonable.",
+  "summary": "The Court held that the procedure established by law under Article 21 must be fair, just and reasonable, not arbitrary, and that Articles 14, 19 and 21 are interlinked. This greatly expanded the scope of the right to life and liberty.",
+  "keywords": [
+   "personal liberty",
+   "passport",
+   "fair procedure",
+   "article 21"
+  ]
+ },
+ {
+  "id": "olga_tellis",
+  "name": "Olga Tellis v. Bombay Municipal Corporation",
+  "citation": "(1985) 3 SCC 545",
+  "year": 1985,
+  "category": "constitutional",
+  "principle": "The right to livelihood is part of the right to life.",
+  "summary": "The Court held that the right to life under Article 21 includes the right to livelihood, and that pavement dwellers could not be evicted without notice and a fair hearing.",
+  "keywords": [
+   "livelihood",
+   "eviction",
+   "pavement dwellers",
+   "slum"
+  ]
+ },
+ {
+  "id": "hussainara",
+  "name": "Hussainara Khatoon v. Home Secretary, State of Bihar",
+  "citation": "(1980) 1 SCC 81",
+  "year": 1979,
+  "category": "legal_aid",
+  "principle": "Speedy trial and free legal aid are part of Article 21.",
+  "summary": "Dealing with thousands of undertrials detained for periods longer than their possible sentences, the Court held that speedy trial is a fundamental right and that the State must provide free legal services to accused persons who cannot afford a lawyer.",
+  "keywords": [
+   "undertrial",
+   "speedy trial",
+   "free legal aid",
+   "prisoners rights"
+  ]
+ },
+ {
+  "id": "shreya_singhal",
+  "name": "Shreya Singhal v. Union of India",
+  "citation": "(2015) 5 SCC 1",
+  "year": 2015,
+  "category": "cyber",
+  "principle": "Section 66A of the IT Act is unconstitutional.",
+  "summary": "The Court struck down Section 66A of the Information Technology Act, which criminalised 'offensive' online messages, as vague and violating free speech. It also read down intermediary liability so platforms must remove content upon a court order or government notification.",
+  "keywords": [
+   "66a",
+   "online speech",
+   "social media post arrest",
+   "free speech online"
+  ]
+ },
+ {
+  "id": "vp_shantha",
+  "name": "Indian Medical Association v. V.P. Shantha",
+  "citation": "(1995) 6 SCC 651",
+  "year": 1995,
+  "category": "consumer",
+  "principle": "Medical services are covered by consumer protection law.",
+  "summary": "The Court held that services rendered by medical practitioners and hospitals for a fee fall within the definition of service under consumer protection law, so patients can file consumer complaints for medical negligence. Services rendered entirely free of charge are excluded.",
+  "keywords": [
+   "medical negligence",
+   "hospital consumer complaint",
+   "doctor negligence"
+  ]
+ },
+ {
+  "id": "jacob_mathew",
+  "name": "Jacob Mathew v. State of Punjab",
+  "citation": "(2005) 6 SCC 1",
+  "year": 2005,
+  "category": "consumer",
+  "principle": "Criminal liability for medical negligence requires gross negligence.",
+  "summary": "The Court held that a doctor can be criminally prosecuted for negligence only where the negligence is gross, and that a private complaint against a doctor should be supported by a credible medical opinion. Civil and consumer remedies apply to ordinary negligence.",
+  "keywords": [
+   "medical negligence",
+   "doctor prosecution",
+   "gross negligence"
+  ]
+ },
+ {
+  "id": "lucknow_da",
+  "name": "Lucknow Development Authority v. M.K. Gupta",
+  "citation": "(1994) 1 SCC 243",
+  "year": 1993,
+  "category": "consumer",
+  "principle": "Housing construction is a service, and compensation can include harassment.",
+  "summary": "The Court held that construction of houses by a development authority is a service under consumer law, and that consumer fora can award compensation for harassment and mental agony caused by deficient service, recoverable from the officers responsible.",
+  "keywords": [
+   "housing",
+   "builder",
+   "harassment compensation",
+   "development authority"
+  ]
+ },
+ {
+  "id": "pioneer_urban",
+  "name": "Pioneer Urban Land and Infrastructure Ltd. v. Govindan Raghavan",
+  "citation": "(2019) 5 SCC 725",
+  "year": 2019,
+  "category": "consumer",
+  "principle": "One-sided builder agreements are unfair trade practices; homebuyers can seek refund for delay.",
+  "summary": "The Court held that one-sided clauses in builder-buyer agreements are unfair trade practices and not binding, and that a homebuyer cannot be made to wait indefinitely for possession and is entitled to a refund with compensation for inordinate delay.",
+  "keywords": [
+   "builder delay",
+   "flat possession",
+   "refund homebuyer",
+   "one-sided agreement"
+  ]
+ },
+ {
+  "id": "kanchan_mehta",
+  "name": "Meters and Instruments Pvt. Ltd. v. Kanchan Mehta",
+  "citation": "(2018) 1 SCC 560",
+  "year": 2017,
+  "category": "cheque_bounce",
+  "principle": "Cheque bounce cases are primarily compensatory and can be closed on payment.",
+  "summary": "The Court held that the offence under Section 138 NI Act is primarily a civil wrong with a compensatory purpose, that courts may close proceedings if the accused pays the cheque amount with interest and costs, and encouraged summary trials and settlement.",
+  "keywords": [
+   "cheque bounce",
+   "compounding",
+   "settlement",
+   "138"
+  ]
+ },
+ {
+  "id": "rame_gowda",
+  "name": "Rame Gowda v. M. Varadappa Naidu",
+  "citation": "(2004) 1 SCC 769",
+  "year": 2003,
+  "category": "tenancy",
+  "principle": "A person in settled possession cannot be evicted except by due process of law.",
+  "summary": "The Court held that even the true owner cannot forcibly dispossess a person in settled possession of property, and must take recourse to law. The person in settled possession may defend their possession against forcible dispossession.",
+  "keywords": [
+   "settled possession",
+   "forcible eviction",
+   "due process",
+   "illegal dispossession"
+  ]
+ },
+ {
+  "id": "savelife",
+  "name": "Savelife Foundation v. Union of India",
+  "citation": "(2016) 7 SCC 194",
+  "year": 2016,
+  "category": "road_accident",
+  "principle": "Good Samaritans helping accident victims must be protected.",
+  "summary": "The Court gave force of law to guidelines protecting Good Samaritans who help road accident victims: they cannot be detained, need not disclose identity, and hospitals cannot demand payment from them. These were later codified in Section 134A of the Motor Vehicles Act.",
+  "keywords": [
+   "good samaritan",
+   "helping accident victim",
+   "hospital"
+  ]
+ },
+ {
+  "id": "parmanand_katara",
+  "name": "Pt. Parmanand Katara v. Union of India",
+  "citation": "(1989) 4 SCC 286",
+  "year": 1989,
+  "category": "road_accident",
+  "principle": "Every doctor must give immediate medical aid to an injured person; legal formalities cannot delay it.",
+  "summary": "The Court held that every doctor, in a government or private hospital, has a professional obligation to give immediate medical aid to preserve life, without waiting for police formalities in medico-legal cases.",
+  "keywords": [
+   "emergency treatment",
+   "hospital refused",
+   "medico legal case",
+   "injured person"
+  ]
+ },
+ {
+  "id": "sarla_verma",
+  "name": "Sarla Verma v. Delhi Transport Corporation",
+  "citation": "(2009) 6 SCC 121",
+  "year": 2009,
+  "category": "road_accident",
+  "principle": "Standard method for computing compensation for death in accidents.",
+  "summary": "The Court laid down a standardised method for computing compensation in motor accident death claims, including the multiplier based on the deceased's age and deductions for personal expenses based on the number of dependants.",
+  "keywords": [
+   "accident compensation",
+   "multiplier",
+   "death claim",
+   "dependants"
+  ]
+ },
+ {
+  "id": "pranay_sethi",
+  "name": "National Insurance Co. Ltd. v. Pranay Sethi",
+  "citation": "(2017) 16 SCC 680",
+  "year": 2017,
+  "category": "road_accident",
+  "principle": "Future prospects must be added in computing accident compensation.",
+  "summary": "A Constitution Bench held that future prospects must be added to the income of the deceased (including self-employed persons) when computing compensation, and fixed standard amounts for loss of estate, consortium and funeral expenses.",
+  "keywords": [
+   "future prospects",
+   "accident compensation",
+   "consortium"
+  ]
+ },
+ {
+  "id": "jagjit_singh",
+  "name": "State of Punjab v. Jagjit Singh",
+  "citation": "(2017) 1 SCC 148",
+  "year": 2016,
+  "category": "employment",
+  "principle": "Equal pay for equal work applies to temporary employees.",
+  "summary": "The Court held that temporary, daily-wage and contractual employees performing the same duties as regular employees are entitled to the minimum of the regular pay scale under the principle of equal pay for equal work.",
+  "keywords": [
+   "equal pay",
+   "contract employee",
+   "temporary employee",
+   "daily wage"
+  ]
+ },
+ {
+  "id": "pudr",
+  "name": "People's Union for Democratic Rights v. Union of India",
+  "citation": "(1982) 3 SCC 235",
+  "year": 1982,
+  "category": "employment",
+  "principle": "Paying less than the minimum wage is forced labour.",
+  "summary": "In a case about workers on Asian Games construction sites, the Court held that paying less than the minimum wage amounts to forced labour prohibited by Article 23, and that labour laws must be enforced against contractors and principal employers.",
+  "keywords": [
+   "minimum wage",
+   "forced labour",
+   "construction workers",
+   "contract labour"
+  ]
+ },
+ {
+  "id": "bandhua_mukti",
+  "name": "Bandhua Mukti Morcha v. Union of India",
+  "citation": "(1984) 3 SCC 161",
+  "year": 1983,
+  "category": "employment",
+  "principle": "The State must identify, release and rehabilitate bonded labourers.",
+  "summary": "The Court held that bonded labour violates fundamental rights and directed the State to identify, release and rehabilitate bonded labourers working in stone quarries, treating a letter petition as a public interest litigation.",
+  "keywords": [
+   "bonded labour",
+   "release",
+   "rehabilitation",
+   "quarry workers"
+  ]
+ },
+ {
+  "id": "aditya_bandopadhyay",
+  "name": "CBSE v. Aditya Bandopadhyay",
+  "citation": "(2011) 8 SCC 497",
+  "year": 2011,
+  "category": "rti",
+  "principle": "Students can access their evaluated answer sheets under RTI.",
+  "summary": "The Court held that an evaluated answer book is information under the RTI Act and examinees are entitled to inspect or obtain copies of it, subject to exemptions.",
+  "keywords": [
+   "answer sheet",
+   "rti exam",
+   "student rti"
+  ]
+ },
+ {
+  "id": "subhash_agarwal",
+  "name": "Central Public Information Officer, Supreme Court of India v. Subhash Chandra Agarwal",
+  "citation": "(2020) 5 SCC 481",
+  "year": 2019,
+  "category": "rti",
+  "principle": "The office of the Chief Justice of India is a public authority under RTI.",
+  "summary": "A Constitution Bench held that the office of the Chief Justice of India is a public authority under the RTI Act, balancing transparency against privacy and judicial independence on a case-by-case basis.",
+  "keywords": [
+   "rti judiciary",
+   "public authority",
+   "transparency"
+  ]
+ },
+ {
+  "id": "prathvi_raj_chauhan",
+  "name": "Prathvi Raj Chauhan v. Union of India",
+  "citation": "(2020) 4 SCC 727",
+  "year": 2020,
+  "category": "caste_atrocities",
+  "principle": "The 2018 amendment barring anticipatory bail under the SC/ST Act is valid.",
+  "summary": "The Court upheld Section 18A of the SC/ST (Prevention of Atrocities) Act, which removed the requirement of a preliminary enquiry before registering an FIR and of approval before arrest, while noting that courts may still quash proceedings where no prima facie case exists.",
+  "keywords": [
+   "atrocities act",
+   "anticipatory bail",
+   "18a",
+   "fir caste"
+  ]
+ }
+]

@@ -1,0 +1,1772 @@
+[
+ {
+  "id": "cheque_bounce_notice",
+  "title": "Cheque Bounce Notice (Section 138)",
+  "description": "The mandatory demand notice to the drawer of a dishonoured cheque. It must be sent within 30 days of receiving the bank's return memo.",
+  "forum": "Sent to the drawer of the cheque",
+  "law": "Section 138, Negotiable Instruments Act, 1881",
+  "categories": [
+   "cheque_bounce"
+  ],
+  "fields": [
+   {
+    "name": "sender_name",
+    "label": "Your full name (payee)",
+    "type": "text",
+    "required": true,
+    "group": "From"
+   },
+   {
+    "name": "sender_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "From"
+   },
+   {
+    "name": "sender_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "From"
+   },
+   {
+    "name": "drawer_name",
+    "label": "Name of the person who gave the cheque",
+    "type": "text",
+    "required": true,
+    "group": "To"
+   },
+   {
+    "name": "drawer_address",
+    "label": "Their address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "To"
+   },
+   {
+    "name": "cheque_no",
+    "label": "Cheque number",
+    "type": "text",
+    "required": true,
+    "group": "Cheque"
+   },
+   {
+    "name": "cheque_date",
+    "label": "Date on cheque",
+    "type": "date",
+    "required": true,
+    "group": "Cheque"
+   },
+   {
+    "name": "cheque_amount",
+    "label": "Cheque amount (Rs.)",
+    "type": "number",
+    "required": true,
+    "group": "Cheque"
+   },
+   {
+    "name": "bank_name",
+    "label": "Drawee bank and branch",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. State Bank of India, Model Town branch",
+    "group": "Cheque"
+   },
+   {
+    "name": "debt_reason",
+    "label": "Why was the cheque given? (debt or liability)",
+    "type": "textarea",
+    "required": true,
+    "rows": 3,
+    "placeholder": "e.g. repayment of a friendly loan of Rs. 2,00,000 given on 10.01.2026 by bank transfer",
+    "group": "Cheque"
+   },
+   {
+    "name": "payee_bank",
+    "label": "Your bank where you deposited it (optional)",
+    "type": "text",
+    "group": "Dishonour"
+   },
+   {
+    "name": "presentation_date",
+    "label": "Date you deposited the cheque",
+    "type": "date",
+    "required": true,
+    "group": "Dishonour"
+   },
+   {
+    "name": "return_memo_date",
+    "label": "Date of bank's return memo",
+    "type": "date",
+    "required": true,
+    "group": "Dishonour"
+   },
+   {
+    "name": "return_reason",
+    "label": "Reason for return",
+    "type": "select",
+    "required": true,
+    "options": [
+     "Funds Insufficient",
+     "Exceeds Arrangement",
+     "Account Closed",
+     "Payment Stopped by Drawer",
+     "Signature Differs",
+     "Refer to Drawer"
+    ],
+    "group": "Dishonour"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Dishonour"
+   }
+  ],
+  "checks": [
+   {
+    "type": "max_days_since",
+    "field": "return_memo_date",
+    "days": 30,
+    "message": "The return memo is more than 30 days old. Section 138(b) requires the notice within 30 days of receiving the information from the bank; consult a lawyer before relying on this notice."
+   },
+   {
+    "type": "max_days_between",
+    "from": "cheque_date",
+    "to": "presentation_date",
+    "days": 90,
+    "message": "The cheque appears to have been presented more than 3 months after its date, beyond its validity period."
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "heading": "LEGAL NOTICE UNDER SECTION 138 OF THE NEGOTIABLE INSTRUMENTS ACT, 1881",
+   "mode_of_delivery": "By Registered Post A.D. / Speed Post / Email",
+   "to": [
+    "To,",
+    "{drawer_name},",
+    "{drawer_address}."
+   ],
+   "subject": "Notice of dishonour of cheque no. {cheque_no} dated {cheque_date} for Rs. {cheque_amount}",
+   "salutation": "Sir/Madam,",
+   "intro": [
+    "I, {sender_name}, residing at {sender_address}, hereby serve upon you the following notice:"
+   ],
+   "pre_facts": [
+    "You issued cheque no. {cheque_no} dated {cheque_date} for Rs. {cheque_amount} ({cheque_amount_words}), drawn on {bank_name}, in my favour, towards discharge of your legally enforceable debt or liability, namely: {debt_reason}.",
+    "I presented the said cheque for payment on {presentation_date}[[ through my bank, {payee_bank}]], within its period of validity. The cheque was returned unpaid with the remark \"{return_reason}\" by return memo dated {return_memo_date}.",
+    "The dishonour of the cheque for the above reason constitutes an offence punishable under Section 138 of the Negotiable Instruments Act, 1881. This notice is issued within 30 days of receipt of the information from the bank regarding the dishonour, as required by Section 138(b) of the Act."
+   ],
+   "paragraphs": [
+    "I therefore call upon you to pay the said sum of Rs. {cheque_amount} to me within 15 (fifteen) days of receipt of this notice.",
+    "Take notice that if you fail to make the payment within the said period, I shall be constrained to file a criminal complaint against you under Section 138 read with Section 142 of the Negotiable Instruments Act, 1881, which is punishable with imprisonment of up to two years, or fine of up to twice the amount of the cheque, or both, and to initiate civil proceedings for recovery of the amount with interest and costs, entirely at your risk as to costs and consequences.",
+    "A copy of this notice has been retained for record and further action."
+   ],
+   "signoff": [
+    "",
+    "",
+    "(Signature)",
+    "{sender_name}",
+    "Phone: {sender_phone}"
+   ]
+  }
+ },
+ {
+  "id": "consumer_complaint",
+  "title": "Consumer Complaint to District Commission",
+  "description": "A complaint before the District Consumer Disputes Redressal Commission for a defective product, deficient service, refund refusal or unfair trade practice (claims up to Rs. 50 lakh).",
+  "forum": "District Consumer Disputes Redressal Commission",
+  "law": "Section 35, Consumer Protection Act, 2019",
+  "categories": [
+   "consumer"
+  ],
+  "fields": [
+   {
+    "name": "complainant_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_email",
+    "label": "Email (optional)",
+    "type": "email",
+    "group": "Your details"
+   },
+   {
+    "name": "district",
+    "label": "District of the Commission",
+    "type": "text",
+    "required": true,
+    "placeholder": "Where you live or work, or where the seller is",
+    "group": "Your details"
+   },
+   {
+    "name": "op_name",
+    "label": "Seller / company / service provider name",
+    "type": "text",
+    "required": true,
+    "group": "Opposite party"
+   },
+   {
+    "name": "op_address",
+    "label": "Their address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Opposite party"
+   },
+   {
+    "name": "product_service",
+    "label": "Product or service",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. Samsung refrigerator model RT28",
+    "group": "Purchase"
+   },
+   {
+    "name": "purchase_date",
+    "label": "Date of purchase / booking",
+    "type": "date",
+    "required": true,
+    "group": "Purchase"
+   },
+   {
+    "name": "amount_paid",
+    "label": "Amount paid (Rs.)",
+    "type": "number",
+    "required": true,
+    "group": "Purchase"
+   },
+   {
+    "name": "invoice_no",
+    "label": "Invoice / order number (optional)",
+    "type": "text",
+    "group": "Purchase"
+   },
+   {
+    "name": "facts",
+    "label": "What went wrong? (one point per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 6,
+    "group": "Complaint"
+   },
+   {
+    "name": "complaint_date",
+    "label": "Date you first complained to the seller (optional)",
+    "type": "date",
+    "group": "Complaint"
+   },
+   {
+    "name": "notice_date",
+    "label": "Date of legal notice, if sent (optional)",
+    "type": "date",
+    "group": "Complaint"
+   },
+   {
+    "name": "refund_amount",
+    "label": "Refund / replacement value claimed (Rs.)",
+    "type": "number",
+    "required": true,
+    "group": "Relief"
+   },
+   {
+    "name": "compensation_amount",
+    "label": "Compensation for harassment and mental agony (Rs.)",
+    "type": "number",
+    "required": true,
+    "group": "Relief"
+   },
+   {
+    "name": "litigation_cost",
+    "label": "Litigation costs (Rs., optional)",
+    "type": "number",
+    "group": "Relief"
+   },
+   {
+    "name": "legal_provisions",
+    "label": "Relevant provisions (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Relief"
+   },
+   {
+    "name": "enclosures",
+    "label": "Documents attached (one per line)",
+    "type": "textarea",
+    "rows": 3,
+    "placeholder": "Invoice\nWarranty card\nEmails with customer care\nPhotos of defect",
+    "group": "Attachments"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Attachments"
+   }
+  ],
+  "document": {
+   "court_heading": [
+    "BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION",
+    "{district}"
+   ],
+   "case_no": "Consumer Complaint No. ________ of {year}",
+   "parties": [
+    {
+     "lines": [
+      "{complainant_name}",
+      "{complainant_address}",
+      "Phone: {complainant_phone}",
+      "[[Email: {complainant_email}]]"
+     ],
+     "role": "...Complainant"
+    },
+    {
+     "versus": true
+    },
+    {
+     "lines": [
+      "{op_name}",
+      "{op_address}"
+     ],
+     "role": "...Opposite Party"
+    }
+   ],
+   "heading": "COMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019",
+   "intro": [
+    "The Complainant respectfully submits as under:"
+   ],
+   "pre_facts": [
+    "The Complainant is a consumer within the meaning of Section 2(7) of the Consumer Protection Act, 2019, having purchased/availed {product_service} from the Opposite Party on {purchase_date} for a consideration of Rs. {amount_paid}[[ vide invoice/order no. {invoice_no}]], for personal use and not for any commercial purpose."
+   ],
+   "facts_field": "facts",
+   "paragraphs": [
+    {
+     "if": "complaint_date",
+     "text": "The Complainant raised the grievance with the Opposite Party on {complaint_date}, but the Opposite Party failed to redress it."
+    },
+    {
+     "if": "notice_date",
+     "text": "The Complainant also sent a legal notice to the Opposite Party on {notice_date}, but the Opposite Party failed to comply with it."
+    },
+    "The above acts and omissions of the Opposite Party amount to defect in goods, deficiency in service and/or unfair trade practice within the meaning of Sections 2(10), 2(11) and 2(47) of the Consumer Protection Act, 2019, which has caused the Complainant financial loss, harassment and mental agony.",
+    {
+     "if": "legal_provisions",
+     "text": "The relevant provisions of law also include: {legal_provisions}."
+    },
+    "This Commission has territorial jurisdiction under Section 34(2) of the Act, as the Complainant resides or personally works for gain within its jurisdiction and/or the cause of action arose here. The value of the goods or services paid as consideration is within the pecuniary jurisdiction of this Commission.",
+    "The cause of action arose on {purchase_date} and subsequently when the Opposite Party failed to redress the grievance. The complaint is filed within the period of two years prescribed under Section 69 of the Act."
+   ],
+   "prayer_intro": "It is therefore most respectfully prayed that this Hon'ble Commission may be pleased to direct the Opposite Party to:",
+   "prayer": [
+    "refund / pay Rs. {refund_amount} to the Complainant, along with interest from the date of payment till realisation, or replace the goods / remove the defect;",
+    "pay Rs. {compensation_amount} as compensation for the harassment and mental agony suffered by the Complainant;",
+    "[[pay Rs. {litigation_cost} towards the costs of litigation;]]",
+    "discontinue the unfair trade practice; and",
+    "grant any other relief that this Hon'ble Commission deems fit and proper in the facts and circumstances of the case."
+   ],
+   "signoff": [
+    "",
+    "",
+    "(Signature)",
+    "{complainant_name}",
+    "Complainant"
+   ],
+   "verification_heading": "VERIFICATION",
+   "verification": [
+    "I, {complainant_name}, the Complainant above named, do hereby verify that the contents of paragraphs 1 to {para_count} of the above complaint are true and correct to my personal knowledge and belief, and nothing material has been concealed therefrom.",
+    "Verified at {place} on {today}."
+   ],
+   "verification_signoff": [
+    "",
+    "(Signature)",
+    "{complainant_name}",
+    "Complainant"
+   ],
+   "enclosures_field": "enclosures",
+   "date_place": "bottom"
+  }
+ },
+ {
+  "id": "dv_application",
+  "title": "Domestic Violence Application to Magistrate",
+  "description": "An application by an aggrieved woman to the Magistrate under Section 12 of the Domestic Violence Act seeking protection, residence, monetary relief, custody and compensation.",
+  "forum": "Judicial Magistrate First Class / Metropolitan Magistrate",
+  "law": "Section 12, Protection of Women from Domestic Violence Act, 2005",
+  "categories": [
+   "domestic_violence",
+   "family",
+   "women_safety"
+  ],
+  "fields": [
+   {
+    "name": "aggrieved_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "aggrieved_address",
+    "label": "Your current address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "aggrieved_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "magistrate_court",
+    "label": "Court",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. Judicial Magistrate First Class, Ludhiana",
+    "group": "Court"
+   },
+   {
+    "name": "respondent_names",
+    "label": "Respondent(s): names and relationship to you",
+    "type": "textarea",
+    "required": true,
+    "rows": 3,
+    "placeholder": "1. Rahul Sharma (husband)\n2. Sunita Sharma (mother-in-law)",
+    "group": "Respondents"
+   },
+   {
+    "name": "respondent_address",
+    "label": "Respondents' address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Respondents"
+   },
+   {
+    "name": "relationship",
+    "label": "Your relationship with Respondent No. 1",
+    "type": "select",
+    "required": true,
+    "options": [
+     "married to Respondent No. 1",
+     "in a relationship in the nature of marriage with Respondent No. 1",
+     "a family member living with the Respondents in a shared household"
+    ],
+    "group": "Relationship"
+   },
+   {
+    "name": "marriage_date",
+    "label": "Date of marriage (optional)",
+    "type": "date",
+    "group": "Relationship"
+   },
+   {
+    "name": "shared_household",
+    "label": "Address of the shared household",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Relationship"
+   },
+   {
+    "name": "children",
+    "label": "Children, if any (name and age)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Relationship"
+   },
+   {
+    "name": "facts",
+    "label": "Incidents of violence (one per line, with dates if possible)",
+    "type": "textarea",
+    "required": true,
+    "rows": 7,
+    "group": "Incidents",
+    "help": "Include physical, sexual, verbal, emotional and economic abuse and dowry demands."
+   },
+   {
+    "name": "dir_date",
+    "label": "Date Domestic Incident Report was recorded (optional)",
+    "type": "date",
+    "group": "Incidents"
+   },
+   {
+    "name": "relief_protection",
+    "label": "Protection order (stop violence and contact)",
+    "type": "checkbox",
+    "default": true,
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "relief_residence",
+    "label": "Residence order (right to stay in the shared household)",
+    "type": "checkbox",
+    "default": true,
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "relief_monetary",
+    "label": "Monetary relief and maintenance",
+    "type": "checkbox",
+    "default": true,
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "monetary_amount",
+    "label": "Monthly maintenance sought (Rs., optional)",
+    "type": "number",
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "relief_custody",
+    "label": "Temporary custody of children",
+    "type": "checkbox",
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "relief_compensation",
+    "label": "Compensation for injuries and mental torture",
+    "type": "checkbox",
+    "default": true,
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "relief_interim",
+    "label": "Urgent interim / ex parte orders",
+    "type": "checkbox",
+    "default": true,
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "stridhan",
+    "label": "Stridhan / articles to be returned (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Reliefs sought"
+   },
+   {
+    "name": "enclosures",
+    "label": "Documents attached (one per line)",
+    "type": "textarea",
+    "rows": 3,
+    "placeholder": "Medical reports\nPhotographs\nMarriage certificate\nDomestic Incident Report",
+    "group": "Attachments"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Attachments"
+   }
+  ],
+  "document": {
+   "court_heading": [
+    "IN THE COURT OF THE {magistrate_court}"
+   ],
+   "case_no": "Criminal Misc. Application No. ________ of {year}",
+   "parties": [
+    {
+     "lines": [
+      "{aggrieved_name}",
+      "{aggrieved_address}",
+      "Phone: {aggrieved_phone}"
+     ],
+     "role": "...Aggrieved Person / Applicant"
+    },
+    {
+     "versus": true
+    },
+    {
+     "lines": [
+      "{respondent_names}",
+      "{respondent_address}"
+     ],
+     "role": "...Respondent(s)"
+    }
+   ],
+   "heading": "APPLICATION UNDER SECTION 12 OF THE PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005",
+   "intro": [
+    "The Applicant respectfully submits as under:"
+   ],
+   "pre_facts": [
+    "The Applicant is {relationship}[[, having been married on {marriage_date}]]. The Applicant and the Respondents lived together in a shared household at {shared_household}. The Applicant is therefore an 'aggrieved person' in a 'domestic relationship' with the Respondents within the meaning of Section 2 of the Act.",
+    {
+     "if": "children",
+     "text": "The following children were born from the relationship: {children}."
+    },
+    "The Respondents have subjected the Applicant to domestic violence as defined in Section 3 of the Act, as detailed below."
+   ],
+   "facts_heading": "Incidents of domestic violence",
+   "facts_field": "facts",
+   "paragraphs": [
+    {
+     "if": "dir_date",
+     "text": "A Domestic Incident Report was recorded on {dir_date}, a copy of which is enclosed."
+    },
+    "Under Section 17 of the Act, the Applicant has the right to reside in the shared household irrespective of any right, title or interest in it, and cannot be evicted except in accordance with the procedure established by law, as affirmed by the Supreme Court in Satish Chander Ahuja v. Sneha Ahuja, (2021) 1 SCC 414.",
+    "The Applicant apprehends further violence and is in urgent need of protection and relief. This Hon'ble Court has jurisdiction as the Applicant resides / the Respondents reside / the cause of action arose within its local limits, in terms of Section 27 of the Act."
+   ],
+   "prayer_intro": "It is therefore most respectfully prayed that this Hon'ble Court may be pleased to:",
+   "prayer": [
+    {
+     "if": "relief_protection",
+     "text": "pass a protection order under Section 18 prohibiting the Respondents from committing any act of domestic violence, from contacting or communicating with the Applicant, entering her place of work, and from alienating assets or operating joint bank accounts;"
+    },
+    {
+     "if": "relief_residence",
+     "text": "pass a residence order under Section 19 restraining the Respondents from dispossessing the Applicant from the shared household or, in the alternative, directing them to provide alternate accommodation of the same standard;"
+    },
+    {
+     "if": "relief_monetary",
+     "text": "direct the Respondents under Section 20 to pay monetary relief for the expenses and losses suffered by the Applicant, and maintenance[[ of Rs. {monetary_amount} per month]] for the Applicant and her children;"
+    },
+    {
+     "if": "relief_custody",
+     "text": "grant temporary custody of the minor children to the Applicant under Section 21;"
+    },
+    {
+     "if": "relief_compensation",
+     "text": "direct the Respondents to pay compensation and damages for injuries, including mental torture and emotional distress, under Section 22;"
+    },
+    {
+     "if": "stridhan",
+     "text": "direct the Respondents to return the Applicant's stridhan, jewellery and articles, namely: {stridhan};"
+    },
+    {
+     "if": "relief_interim",
+     "text": "pass interim and ex parte orders under Section 23 pending disposal of this application; and"
+    },
+    "pass any other order that this Hon'ble Court deems fit and proper in the interest of justice."
+   ],
+   "signoff": [
+    "",
+    "",
+    "(Signature)",
+    "{aggrieved_name}",
+    "Applicant / Aggrieved Person"
+   ],
+   "verification_heading": "VERIFICATION",
+   "verification": [
+    "I, {aggrieved_name}, the Applicant above named, do hereby verify that the contents of paragraphs 1 to {para_count} of the above application are true and correct to my knowledge and belief, and nothing material has been concealed therefrom.",
+    "Verified at {place} on {today}."
+   ],
+   "verification_signoff": [
+    "",
+    "(Signature)",
+    "{aggrieved_name}",
+    "Applicant"
+   ],
+   "enclosures_field": "enclosures",
+   "date_place": "bottom"
+  }
+ },
+ {
+  "id": "legal_aid_application",
+  "title": "Application for Free Legal Aid (DLSA)",
+  "description": "An application to the District Legal Services Authority for a free lawyer, legal advice, drafting and court fee support.",
+  "forum": "District Legal Services Authority (DLSA)",
+  "law": "Sections 12-13, Legal Services Authorities Act, 1987",
+  "categories": [
+   "legal_aid",
+   "police_rights",
+   "senior_citizens",
+   "family",
+   "caste_atrocities",
+   "constitutional"
+  ],
+  "fields": [
+   {
+    "name": "applicant_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_age",
+    "label": "Age",
+    "type": "number",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_gender",
+    "label": "Gender",
+    "type": "select",
+    "required": true,
+    "options": [
+     "Female",
+     "Male",
+     "Transgender",
+     "Prefer not to say"
+    ],
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "district",
+    "label": "District",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "eligibility",
+    "label": "You are eligible as",
+    "type": "select",
+    "required": true,
+    "options": [
+     "a woman",
+     "a child",
+     "a member of a Scheduled Caste / Scheduled Tribe",
+     "a person with disability",
+     "a person in custody",
+     "an industrial workman",
+     "a victim of trafficking or begar",
+     "a victim of a mass disaster, ethnic violence, caste atrocity, flood, drought or earthquake",
+     "a person whose annual income is below the limit prescribed by the State"
+    ],
+    "group": "Eligibility"
+   },
+   {
+    "name": "annual_income",
+    "label": "Annual family income (Rs., optional)",
+    "type": "number",
+    "group": "Eligibility"
+   },
+   {
+    "name": "case_nature",
+    "label": "Nature of your legal problem",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. domestic violence and maintenance",
+    "group": "Your matter"
+   },
+   {
+    "name": "case_stage",
+    "label": "Stage of the matter",
+    "type": "select",
+    "required": true,
+    "options": [
+     "not yet filed in any court (pre-litigation)",
+     "pending in court",
+     "I need legal advice only"
+    ],
+    "group": "Your matter"
+   },
+   {
+    "name": "court_case_details",
+    "label": "Court and case number, if pending (optional)",
+    "type": "text",
+    "group": "Your matter"
+   },
+   {
+    "name": "facts",
+    "label": "Brief facts (one point per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 5,
+    "group": "Your matter"
+   },
+   {
+    "name": "enclosures",
+    "label": "Documents attached (one per line)",
+    "type": "textarea",
+    "rows": 3,
+    "placeholder": "Identity proof\nIncome certificate / affidavit\nCaste certificate (if applicable)\nCase papers",
+    "group": "Attachments"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Attachments"
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "to": [
+    "To,",
+    "The Secretary,",
+    "District Legal Services Authority,",
+    "{district}."
+   ],
+   "subject": "Application for free legal services under Section 12 of the Legal Services Authorities Act, 1987",
+   "salutation": "Respected Sir/Madam,",
+   "intro": [
+    "I, {applicant_name}, aged {applicant_age} years ({applicant_gender}), residing at {applicant_address}, respectfully submit as follows:"
+   ],
+   "pre_facts": [
+    "I am entitled to free legal services under Section 12 of the Legal Services Authorities Act, 1987, as I am {eligibility}.[[ My annual family income is Rs. {annual_income}.]]",
+    "Nature of my legal problem: {case_nature}. Present stage: {case_stage}.[[ Case details: {court_case_details}.]]"
+   ],
+   "facts_heading": "Brief facts",
+   "facts_field": "facts",
+   "paragraphs": [
+    "I am unable to engage a lawyer at my own cost, and Article 39A of the Constitution of India guarantees free legal aid so that no citizen is denied justice by reason of economic or other disabilities."
+   ],
+   "prayer_intro": "I therefore request you to kindly:",
+   "prayer": [
+    "assign a panel lawyer to advise and represent me in the above matter;",
+    "provide assistance in drafting the necessary applications, petitions or replies;",
+    "bear the court fees and other expenses as permissible under the Regulations; and",
+    "refer the matter to Lok Adalat or mediation, if suitable."
+   ],
+   "closing": [
+    "I declare that the information given above is true and correct to the best of my knowledge and belief, and I undertake to inform the Authority of any change in my financial circumstances."
+   ],
+   "signoff": [
+    "Yours faithfully,",
+    "",
+    "",
+    "(Signature / Thumb impression)",
+    "{applicant_name}",
+    "Phone: {applicant_phone}"
+   ],
+   "enclosures_field": "enclosures"
+  }
+ },
+ {
+  "id": "legal_notice",
+  "title": "Legal Notice (General)",
+  "description": "A formal legal notice demanding that the other party do something (pay money, return a deposit, stop an action, compensate) within a fixed time before you take legal action.",
+  "forum": "Sent directly to the other party",
+  "law": "General civil and criminal law; prerequisite to many suits and complaints",
+  "categories": [
+   "tenancy",
+   "employment",
+   "consumer",
+   "cheque_bounce",
+   "family",
+   "senior_citizens",
+   "workplace_harassment",
+   "criminal",
+   "banking"
+  ],
+  "fields": [
+   {
+    "name": "sender_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "From"
+   },
+   {
+    "name": "sender_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "From"
+   },
+   {
+    "name": "sender_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "From"
+   },
+   {
+    "name": "sender_email",
+    "label": "Email (optional)",
+    "type": "email",
+    "group": "From"
+   },
+   {
+    "name": "recipient_name",
+    "label": "Recipient name",
+    "type": "text",
+    "required": true,
+    "group": "To"
+   },
+   {
+    "name": "recipient_address",
+    "label": "Recipient address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "To"
+   },
+   {
+    "name": "subject",
+    "label": "Notice regarding",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. refund of security deposit of Rs. 40,000",
+    "group": "Notice"
+   },
+   {
+    "name": "facts",
+    "label": "Facts (one point per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 6,
+    "group": "Notice"
+   },
+   {
+    "name": "legal_provisions",
+    "label": "Relevant provisions (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Notice",
+    "help": "Filled in automatically when you come from the Law Matcher."
+   },
+   {
+    "name": "demand",
+    "label": "What do you want the recipient to do?",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "placeholder": "e.g. refund the security deposit of Rs. 40,000 with interest at 9% per annum",
+    "group": "Demand"
+   },
+   {
+    "name": "compliance_days",
+    "label": "Days given to comply",
+    "type": "number",
+    "required": true,
+    "default": 15,
+    "group": "Demand"
+   },
+   {
+    "name": "consequence",
+    "label": "Action you will take if they do not comply",
+    "type": "select",
+    "required": true,
+    "options": [
+     "initiate appropriate civil and/or criminal proceedings against you",
+     "file a complaint before the appropriate Consumer Commission",
+     "file a suit for recovery of the amount with interest and costs",
+     "file a complaint before the appropriate authority and court"
+    ],
+    "group": "Demand"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Demand"
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "heading": "LEGAL NOTICE",
+   "mode_of_delivery": "By Registered Post A.D. / Speed Post / Email",
+   "to": [
+    "To,",
+    "{recipient_name},",
+    "{recipient_address}."
+   ],
+   "subject": "Legal notice regarding {subject}",
+   "salutation": "Sir/Madam,",
+   "intro": [
+    "I, {sender_name}, residing at {sender_address}, hereby serve upon you the following legal notice:"
+   ],
+   "facts_field": "facts",
+   "paragraphs": [
+    {
+     "if": "legal_provisions",
+     "text": "Your acts and omissions are in violation of law, including: {legal_provisions}."
+    },
+    "Despite my requests, you have failed to resolve the matter, which has caused me financial loss, inconvenience and mental harassment.",
+    "I therefore call upon you to {demand} within {compliance_days} days of receipt of this notice.",
+    "Take notice that if you fail to comply within the said period, I shall be constrained to {consequence}, entirely at your risk as to costs and consequences, without any further notice to you.",
+    "A copy of this notice has been retained for record and further action."
+   ],
+   "signoff": [
+    "",
+    "",
+    "(Signature)",
+    "{sender_name}",
+    "Phone: {sender_phone}",
+    "[[Email: {sender_email}]]"
+   ]
+  }
+ },
+ {
+  "id": "police_complaint",
+  "title": "Police Complaint / Request to Register FIR",
+  "description": "A written complaint to the Station House Officer asking for registration of an FIR for a cognizable offence (theft, assault, cheating, threats, harassment, cyber fraud and so on).",
+  "forum": "Station House Officer (SHO), Police Station",
+  "law": "Section 173, Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "categories": [
+   "police_rights",
+   "criminal",
+   "women_safety",
+   "cyber",
+   "domestic_violence",
+   "caste_atrocities",
+   "child_protection",
+   "road_accident",
+   "banking"
+  ],
+  "fields": [
+   {
+    "name": "complainant_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_email",
+    "label": "Email (optional)",
+    "type": "email",
+    "group": "Your details"
+   },
+   {
+    "name": "police_station",
+    "label": "Police station name",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. Sarabha Nagar",
+    "group": "Where to file"
+   },
+   {
+    "name": "district",
+    "label": "District / City",
+    "type": "text",
+    "required": true,
+    "group": "Where to file"
+   },
+   {
+    "name": "incident_type",
+    "label": "What kind of incident?",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. theft of my mobile phone",
+    "group": "Incident"
+   },
+   {
+    "name": "incident_date",
+    "label": "Date of incident",
+    "type": "date",
+    "required": true,
+    "group": "Incident"
+   },
+   {
+    "name": "incident_time",
+    "label": "Approximate time (optional)",
+    "type": "text",
+    "placeholder": "e.g. 7:30 pm",
+    "group": "Incident"
+   },
+   {
+    "name": "incident_place",
+    "label": "Place of incident",
+    "type": "text",
+    "required": true,
+    "group": "Incident"
+   },
+   {
+    "name": "facts",
+    "label": "What happened? (one point per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 6,
+    "group": "Incident",
+    "help": "Each line becomes a numbered paragraph. Describe events in order."
+   },
+   {
+    "name": "accused_details",
+    "label": "Accused person(s), if known (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "placeholder": "Name, address, description, vehicle number...",
+    "group": "Incident"
+   },
+   {
+    "name": "witnesses",
+    "label": "Witnesses (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Incident"
+   },
+   {
+    "name": "loss_details",
+    "label": "Loss or injury suffered (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Incident"
+   },
+   {
+    "name": "legal_provisions",
+    "label": "Relevant provisions (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Law",
+    "help": "Filled in automatically when you come from the Law Matcher. You may edit it."
+   },
+   {
+    "name": "enclosures",
+    "label": "Documents attached (one per line, optional)",
+    "type": "textarea",
+    "rows": 3,
+    "group": "Attachments"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Attachments"
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "to": [
+    "To,",
+    "The Station House Officer,",
+    "Police Station {police_station},",
+    "District {district}."
+   ],
+   "subject": "Complaint regarding {incident_type} and request for registration of FIR under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023",
+   "salutation": "Respected Sir/Madam,",
+   "intro": [
+    "I, {complainant_name}, residing at {complainant_address}, respectfully submit this complaint for registration of a First Information Report in respect of the following incident, which took place on {incident_date}[[ at about {incident_time}]] at {incident_place}."
+   ],
+   "facts_heading": "Facts of the incident",
+   "facts_field": "facts",
+   "paragraphs": [
+    {
+     "if": "accused_details",
+     "text": "The details of the accused person(s), as known to me, are: {accused_details}."
+    },
+    {
+     "if": "loss_details",
+     "text": "As a result of the incident I have suffered the following loss/injury: {loss_details}."
+    },
+    {
+     "if": "witnesses",
+     "text": "The incident was witnessed by: {witnesses}."
+    }
+   ],
+   "legal_basis_heading": "Legal basis",
+   "legal_basis": [
+    "The above facts disclose the commission of cognizable offence(s). Under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023, every information relating to the commission of a cognizable offence must be reduced to writing and registered, and as held by the Supreme Court in Lalita Kumari v. Government of Uttar Pradesh, (2014) 2 SCC 1, registration of an FIR is mandatory in such cases.",
+    {
+     "if": "legal_provisions",
+     "text": "The relevant provisions of law include: {legal_provisions}."
+    }
+   ],
+   "prayer_intro": "I therefore request you to kindly:",
+   "prayer": [
+    "register a First Information Report under the appropriate provisions of law and investigate the matter;",
+    "provide me a free copy of the FIR as required under Section 173(2) of the BNSS, 2023;",
+    "take appropriate legal action against the accused person(s) and ensure the safety of myself and my family; and",
+    "keep me informed of the progress of the investigation as required under Section 193(3) of the BNSS, 2023."
+   ],
+   "closing": [
+    "I declare that the information given above is true and correct to the best of my knowledge and belief."
+   ],
+   "signoff": [
+    "Yours faithfully,",
+    "",
+    "",
+    "(Signature)",
+    "{complainant_name}",
+    "Phone: {complainant_phone}",
+    "[[Email: {complainant_email}]]"
+   ],
+   "enclosures_field": "enclosures"
+  }
+ },
+ {
+  "id": "rti_application",
+  "title": "RTI Application",
+  "description": "An application under Section 6(1) of the Right to Information Act to obtain information or copies of records from any public authority, such as the status of your file, pension or complaint.",
+  "forum": "Public Information Officer (PIO) of the public authority",
+  "law": "Section 6, Right to Information Act, 2005",
+  "categories": [
+   "rti"
+  ],
+  "fields": [
+   {
+    "name": "applicant_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_address",
+    "label": "Your address (for reply)",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "applicant_email",
+    "label": "Email (optional)",
+    "type": "email",
+    "group": "Your details"
+   },
+   {
+    "name": "public_authority",
+    "label": "Public authority / department",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. Office of the District Treasury Officer",
+    "group": "Public authority"
+   },
+   {
+    "name": "pio_address",
+    "label": "Office address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Public authority"
+   },
+   {
+    "name": "subject_matter",
+    "label": "Subject matter",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. status of my pension application",
+    "group": "Information"
+   },
+   {
+    "name": "facts",
+    "label": "Information sought (one question per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 6,
+    "group": "Information",
+    "help": "Ask for specific records: e.g. 'Certified copy of the file notings on my application no. 123 dated 01.04.2026'."
+   },
+   {
+    "name": "period",
+    "label": "Period to which information relates (optional)",
+    "type": "text",
+    "placeholder": "e.g. 01.01.2026 to date",
+    "group": "Information"
+   },
+   {
+    "name": "fee_mode",
+    "label": "Application fee",
+    "type": "select",
+    "required": true,
+    "options": [
+     "Rs. 10 paid by Indian Postal Order",
+     "Rs. 10 paid by Demand Draft",
+     "Rs. 10 paid in cash / court fee stamp",
+     "Rs. 10 paid online",
+     "Exempt: applicant belongs to the Below Poverty Line category (copy of BPL card enclosed)"
+    ],
+    "group": "Fee and delivery"
+   },
+   {
+    "name": "fee_details",
+    "label": "IPO / DD / receipt number (optional)",
+    "type": "text",
+    "group": "Fee and delivery"
+   },
+   {
+    "name": "delivery",
+    "label": "How do you want the information?",
+    "type": "select",
+    "required": true,
+    "options": [
+     "by post at the address given above",
+     "by email",
+     "by post and email",
+     "through inspection of records followed by copies"
+    ],
+    "group": "Fee and delivery"
+   },
+   {
+    "name": "life_liberty",
+    "label": "The information concerns someone's life or liberty (48-hour reply)",
+    "type": "checkbox",
+    "group": "Fee and delivery"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Fee and delivery"
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "to": [
+    "To,",
+    "The Public Information Officer,",
+    "{public_authority},",
+    "{pio_address}."
+   ],
+   "subject": "Application under Section 6(1) of the Right to Information Act, 2005 regarding {subject_matter}",
+   "salutation": "Sir/Madam,",
+   "intro": [
+    "I, {applicant_name}, a citizen of India, request the following information under the Right to Information Act, 2005:"
+   ],
+   "facts_heading": "Particulars of information sought",
+   "facts_field": "facts",
+   "paragraphs": [
+    {
+     "if": "period",
+     "text": "Period to which the information relates: {period}."
+    },
+    "Application fee: {fee_mode}[[ (Ref. No. {fee_details})]].",
+    "I request that the information be provided {delivery}. If any information is held by or more closely connected with another public authority, kindly transfer this application or the relevant part of it to that authority under Section 6(3) and inform me.",
+    {
+     "if": "life_liberty",
+     "text": "The information sought concerns the life or liberty of a person, and is therefore required to be provided within 48 hours under the proviso to Section 7(1) of the Act."
+    },
+    "As required by Section 7(1), kindly provide the information within 30 days of receipt of this application. If the information is refused, kindly state the reasons, the provision relied upon, and the particulars of the First Appellate Authority, as required by Section 7(8)."
+   ],
+   "closing": [
+    "I state that the information sought does not fall within the exemptions under Sections 8 and 9 of the Act, to the best of my knowledge."
+   ],
+   "signoff": [
+    "Yours faithfully,",
+    "",
+    "",
+    "(Signature)",
+    "{applicant_name}",
+    "{applicant_address}",
+    "Phone: {applicant_phone}",
+    "[[Email: {applicant_email}]]"
+   ]
+  }
+ },
+ {
+  "id": "sp_complaint",
+  "title": "Complaint to SP when Police Refuse to Register FIR",
+  "description": "A written complaint to the Superintendent of Police (or DCP) under Section 173(4) BNSS when the local police station refuses to register your FIR.",
+  "forum": "Superintendent of Police / Deputy Commissioner of Police",
+  "law": "Section 173(4), Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "categories": [
+   "police_rights",
+   "criminal",
+   "caste_atrocities",
+   "women_safety"
+  ],
+  "fields": [
+   {
+    "name": "complainant_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "complainant_email",
+    "label": "Email (optional)",
+    "type": "email",
+    "group": "Your details"
+   },
+   {
+    "name": "sp_office",
+    "label": "Addressed to",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. Senior Superintendent of Police, Ludhiana",
+    "group": "Where to send"
+   },
+   {
+    "name": "district",
+    "label": "District / City",
+    "type": "text",
+    "required": true,
+    "group": "Where to send"
+   },
+   {
+    "name": "police_station",
+    "label": "Police station that refused",
+    "type": "text",
+    "required": true,
+    "group": "Refusal"
+   },
+   {
+    "name": "date_approached",
+    "label": "Date you approached the police station",
+    "type": "date",
+    "required": true,
+    "group": "Refusal"
+   },
+   {
+    "name": "officer_name",
+    "label": "Officer you met (optional)",
+    "type": "text",
+    "placeholder": "Name and rank, if known",
+    "group": "Refusal"
+   },
+   {
+    "name": "refusal_details",
+    "label": "What did the police say or do?",
+    "type": "textarea",
+    "required": true,
+    "rows": 3,
+    "group": "Refusal"
+   },
+   {
+    "name": "incident_type",
+    "label": "What kind of incident?",
+    "type": "text",
+    "required": true,
+    "group": "Incident"
+   },
+   {
+    "name": "incident_date",
+    "label": "Date of incident",
+    "type": "date",
+    "required": true,
+    "group": "Incident"
+   },
+   {
+    "name": "incident_place",
+    "label": "Place of incident",
+    "type": "text",
+    "required": true,
+    "group": "Incident"
+   },
+   {
+    "name": "facts",
+    "label": "What happened? (one point per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 6,
+    "group": "Incident"
+   },
+   {
+    "name": "legal_provisions",
+    "label": "Relevant provisions (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Law"
+   },
+   {
+    "name": "enclosures",
+    "label": "Documents attached (one per line, optional)",
+    "type": "textarea",
+    "rows": 3,
+    "placeholder": "Copy of complaint submitted at police station\nPostal receipt",
+    "group": "Attachments"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Attachments"
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "mode_of_delivery": "By Registered Post A.D.",
+   "to": [
+    "To,",
+    "The {sp_office},",
+    "District {district}."
+   ],
+   "subject": "Complaint under Section 173(4) of the Bharatiya Nagarik Suraksha Sanhita, 2023 against refusal by Police Station {police_station} to register an FIR regarding {incident_type}",
+   "salutation": "Respected Sir/Madam,",
+   "intro": [
+    "I, {complainant_name}, residing at {complainant_address}, respectfully submit as follows:"
+   ],
+   "facts_heading": "Facts of the incident",
+   "facts_field": "facts",
+   "paragraphs": [
+    "The above incident took place on {incident_date} at {incident_place}, within the jurisdiction of Police Station {police_station}.",
+    "On {date_approached}, I approached Police Station {police_station}[[ and met {officer_name}]] with a written complaint and requested registration of an FIR. However, the officer in charge did not register the FIR. {refusal_details}"
+   ],
+   "legal_basis_heading": "Legal basis",
+   "legal_basis": [
+    "The information disclosed by me relates to cognizable offence(s). Registration of an FIR in such cases is mandatory under Section 173 of the BNSS, 2023, as held by the Supreme Court in Lalita Kumari v. Government of Uttar Pradesh, (2014) 2 SCC 1.",
+    "Under Section 173(4) of the BNSS, 2023, a person aggrieved by such refusal may send the substance of the information in writing and by post to the Superintendent of Police, who shall, if satisfied that it discloses a cognizable offence, investigate the case or direct an investigation.",
+    {
+     "if": "legal_provisions",
+     "text": "The relevant provisions of law include: {legal_provisions}."
+    }
+   ],
+   "prayer_intro": "I therefore request you to kindly:",
+   "prayer": [
+    "direct the registration of an FIR on my complaint and a fair investigation, or investigate the case yourself;",
+    "take appropriate action against the officer(s) responsible for refusing to register the FIR; and",
+    "provide me a copy of the FIR and keep me informed of the progress of the investigation."
+   ],
+   "closing": [
+    "I declare that the information given above is true and correct to the best of my knowledge and belief."
+   ],
+   "signoff": [
+    "Yours faithfully,",
+    "",
+    "",
+    "(Signature)",
+    "{complainant_name}",
+    "Phone: {complainant_phone}",
+    "[[Email: {complainant_email}]]"
+   ],
+   "enclosures_field": "enclosures"
+  }
+ },
+ {
+  "id": "wage_claim",
+  "title": "Claim for Unpaid Wages (Labour Commissioner)",
+  "description": "An application to the Labour Commissioner / authority under the Code on Wages, 2019 for recovery of unpaid or delayed salary and final dues.",
+  "forum": "Labour Commissioner / Authority under the Code on Wages, 2019",
+  "law": "Sections 17 and 45, Code on Wages, 2019",
+  "categories": [
+   "employment"
+  ],
+  "fields": [
+   {
+    "name": "employee_name",
+    "label": "Your full name",
+    "type": "text",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "employee_address",
+    "label": "Your address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Your details"
+   },
+   {
+    "name": "employee_phone",
+    "label": "Phone number",
+    "type": "tel",
+    "required": true,
+    "group": "Your details"
+   },
+   {
+    "name": "employee_email",
+    "label": "Email (optional)",
+    "type": "email",
+    "group": "Your details"
+   },
+   {
+    "name": "labour_office",
+    "label": "Labour office",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. Office of the Deputy Labour Commissioner, Ludhiana",
+    "group": "Where to file"
+   },
+   {
+    "name": "employer_name",
+    "label": "Employer / company name",
+    "type": "text",
+    "required": true,
+    "group": "Employer"
+   },
+   {
+    "name": "employer_address",
+    "label": "Employer address",
+    "type": "textarea",
+    "required": true,
+    "rows": 2,
+    "group": "Employer"
+   },
+   {
+    "name": "designation",
+    "label": "Your designation",
+    "type": "text",
+    "required": true,
+    "group": "Employment"
+   },
+   {
+    "name": "joining_date",
+    "label": "Date of joining",
+    "type": "date",
+    "required": true,
+    "group": "Employment"
+   },
+   {
+    "name": "leaving_date",
+    "label": "Date of leaving (if left, optional)",
+    "type": "date",
+    "group": "Employment"
+   },
+   {
+    "name": "monthly_salary",
+    "label": "Monthly salary (Rs.)",
+    "type": "number",
+    "required": true,
+    "group": "Employment"
+   },
+   {
+    "name": "unpaid_period",
+    "label": "Unpaid period",
+    "type": "text",
+    "required": true,
+    "placeholder": "e.g. June 2026 to August 2026",
+    "group": "Claim"
+   },
+   {
+    "name": "amount_due",
+    "label": "Total amount due (Rs.)",
+    "type": "number",
+    "required": true,
+    "group": "Claim"
+   },
+   {
+    "name": "facts",
+    "label": "Other facts (one point per line)",
+    "type": "textarea",
+    "required": true,
+    "rows": 5,
+    "group": "Claim",
+    "placeholder": "I requested payment by email on ...\nThe HR manager promised payment but did not pay..."
+   },
+   {
+    "name": "legal_provisions",
+    "label": "Relevant provisions (optional)",
+    "type": "textarea",
+    "rows": 2,
+    "group": "Claim"
+   },
+   {
+    "name": "enclosures",
+    "label": "Documents attached (one per line)",
+    "type": "textarea",
+    "rows": 3,
+    "placeholder": "Appointment letter\nSalary slips\nBank statements\nEmails requesting payment",
+    "group": "Attachments"
+   },
+   {
+    "name": "place",
+    "label": "Place of signing",
+    "type": "text",
+    "required": true,
+    "group": "Attachments"
+   }
+  ],
+  "document": {
+   "date_place": "top",
+   "to": [
+    "To,",
+    "The {labour_office},",
+    "(Authority under the Code on Wages, 2019)"
+   ],
+   "subject": "Claim for unpaid wages of Rs. {amount_due} against {employer_name}",
+   "salutation": "Respected Sir/Madam,",
+   "intro": [
+    "I, {employee_name}, residing at {employee_address}, respectfully submit this claim against my employer, {employer_name}, {employer_address}, as follows:"
+   ],
+   "pre_facts": [
+    "I was employed with {employer_name} as {designation} from {joining_date}[[ to {leaving_date}]] at a monthly salary of Rs. {monthly_salary}.",
+    "The employer has failed to pay my wages for the period {unpaid_period}, amounting to a total of Rs. {amount_due} ({amount_due_words})."
+   ],
+   "facts_field": "facts",
+   "legal_basis_heading": "Legal basis",
+   "legal_basis": [
+    "Under Section 17 of the Code on Wages, 2019, monthly wages must be paid before the expiry of the seventh day of the succeeding month, and where an employee has been removed, dismissed, retrenched or has resigned, the wages payable must be paid within two working days.",
+    "Under Section 18 of the Code, no deductions other than those authorised may be made from wages. Under Section 45, an employee may file a claim before the authority for unpaid or delayed wages.",
+    {
+     "if": "legal_provisions",
+     "text": "The relevant provisions of law also include: {legal_provisions}."
+    }
+   ],
+   "prayer_intro": "I therefore request you to kindly:",
+   "prayer": [
+    "direct the employer to pay the unpaid wages of Rs. {amount_due};",
+    "award compensation for the delayed payment as permissible under the Code;",
+    {
+     "if": "leaving_date",
+     "text": "direct the employer to settle all final dues, including leave encashment, gratuity (if applicable) and the experience / relieving letter; and"
+    },
+    "pass any other order that you deem fit in the interest of justice."
+   ],
+   "closing": [
+    "I declare that the information given above is true and correct to the best of my knowledge and belief."
+   ],
+   "signoff": [
+    "Yours faithfully,",
+    "",
+    "",
+    "(Signature)",
+    "{employee_name}",
+    "Phone: {employee_phone}",
+    "[[Email: {employee_email}]]"
+   ],
+   "enclosures_field": "enclosures"
+  }
+ }
+]

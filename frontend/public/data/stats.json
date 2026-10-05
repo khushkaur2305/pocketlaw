@@ -1,0 +1,278 @@
+{
+ "counts": {
+  "provisions": 161,
+  "acts": 33,
+  "judgments": 49,
+  "guides": 14,
+  "templates": 9,
+  "chunks": 210,
+  "features": 9425,
+  "pdf_files": 0
+ },
+ "index": {
+  "num_chunks": 210,
+  "num_features": 9425,
+  "chunks_by_type": {
+   "law": 161,
+   "judgment": 49
+  },
+  "pdf_files": 0
+ },
+ "by_category": [
+  {
+   "key": "police_rights",
+   "label": "Police, FIR & Arrest Rights",
+   "count": 17
+  },
+  {
+   "key": "criminal",
+   "label": "Criminal Offences",
+   "count": 16
+  },
+  {
+   "key": "domestic_violence",
+   "label": "Domestic Violence & Dowry",
+   "count": 16
+  },
+  {
+   "key": "consumer",
+   "label": "Consumer Rights",
+   "count": 12
+  },
+  {
+   "key": "child_protection",
+   "label": "Child Protection",
+   "count": 10
+  },
+  {
+   "key": "employment",
+   "label": "Employment & Wages",
+   "count": 10
+  },
+  {
+   "key": "road_accident",
+   "label": "Road Accidents",
+   "count": 9
+  },
+  {
+   "key": "family",
+   "label": "Marriage, Divorce & Family",
+   "count": 9
+  },
+  {
+   "key": "women_safety",
+   "label": "Women's Safety",
+   "count": 8
+  },
+  {
+   "key": "cyber",
+   "label": "Cyber Crime & Online Fraud",
+   "count": 7
+  },
+  {
+   "key": "workplace_harassment",
+   "label": "Sexual Harassment at Work",
+   "count": 7
+  },
+  {
+   "key": "constitutional",
+   "label": "Fundamental Rights",
+   "count": 7
+  },
+  {
+   "key": "cheque_bounce",
+   "label": "Cheque Bounce & Money Recovery",
+   "count": 6
+  },
+  {
+   "key": "tenancy",
+   "label": "Property & Tenancy",
+   "count": 6
+  },
+  {
+   "key": "rti",
+   "label": "Right to Information",
+   "count": 6
+  },
+  {
+   "key": "legal_aid",
+   "label": "Free Legal Aid",
+   "count": 5
+  },
+  {
+   "key": "caste_atrocities",
+   "label": "Caste Atrocities",
+   "count": 4
+  },
+  {
+   "key": "senior_citizens",
+   "label": "Senior Citizens",
+   "count": 4
+  },
+  {
+   "key": "banking",
+   "label": "Banking & Digital Payments",
+   "count": 2
+  }
+ ],
+ "by_act": [
+  {
+   "act": "BNS",
+   "count": 34
+  },
+  {
+   "act": "BNSS",
+   "count": 18
+  },
+  {
+   "act": "Constitution",
+   "count": 13
+  },
+  {
+   "act": "CPA",
+   "count": 12
+  },
+  {
+   "act": "PWDVA",
+   "count": 11
+  },
+  {
+   "act": "POSH Act",
+   "count": 7
+  },
+  {
+   "act": "IT Act",
+   "count": 7
+  },
+  {
+   "act": "MV Act",
+   "count": 7
+  },
+  {
+   "act": "RTI Act",
+   "count": 6
+  },
+  {
+   "act": "Code on Wages",
+   "count": 4
+  },
+  {
+   "act": "NI Act",
+   "count": 4
+  },
+  {
+   "act": "Senior Citizens Act",
+   "count": 4
+  },
+  {
+   "act": "POCSO",
+   "count": 4
+  },
+  {
+   "act": "DPA",
+   "count": 3
+  },
+  {
+   "act": "HMA",
+   "count": 3
+  },
+  {
+   "act": "LSA Act",
+   "count": 3
+  },
+  {
+   "act": "SC/ST Act",
+   "count": 3
+  },
+  {
+   "act": "TPA",
+   "count": 2
+  },
+  {
+   "act": "HSA",
+   "count": 2
+  },
+  {
+   "act": "RBI",
+   "count": 1
+  },
+  {
+   "act": "RB-IOS",
+   "count": 1
+  },
+  {
+   "act": "ID Act",
+   "count": 1
+  },
+  {
+   "act": "Gratuity Act",
+   "count": 1
+  },
+  {
+   "act": "Maternity Benefit Act",
+   "count": 1
+  },
+  {
+   "act": "Bonded Labour Act",
+   "count": 1
+  },
+  {
+   "act": "CPC",
+   "count": 1
+  },
+  {
+   "act": "SRA",
+   "count": 1
+  },
+  {
+   "act": "Model Tenancy Act",
+   "count": 1
+  },
+  {
+   "act": "MWPRMA",
+   "count": 1
+  },
+  {
+   "act": "SMA",
+   "count": 1
+  },
+  {
+   "act": "JJ Act",
+   "count": 1
+  },
+  {
+   "act": "Child Labour Act",
+   "count": 1
+  },
+  {
+   "act": "PCMA",
+   "count": 1
+  }
+ ],
+ "judgments_by_decade": [
+  {
+   "decade": "1970s",
+   "count": 2
+  },
+  {
+   "decade": "1980s",
+   "count": 5
+  },
+  {
+   "decade": "1990s",
+   "count": 5
+  },
+  {
+   "decade": "2000s",
+   "count": 6
+  },
+  {
+   "decade": "2010s",
+   "count": 21
+  },
+  {
+   "decade": "2020s",
+   "count": 10
+  }
+ ]
+}
